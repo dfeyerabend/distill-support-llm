@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.idea
+
+# Claude
+.claude/
+
+# Not published files
+hidden/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# wandb
+wandb/
+
+# Ignore certificates
+*.pem
+*.cert
+*.key
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
