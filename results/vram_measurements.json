@@ -1,0 +1,14 @@
+[
+  {
+    "model_label": "base",
+    "vram_peak_gb": 1.63
+  },
+  {
+    "model_label": "teacher",
+    "vram_peak_gb": 2.36
+  },
+  {
+    "model_label": "student",
+    "vram_peak_gb": 1.24
+  }
+]
