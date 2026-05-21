@@ -1,0 +1,1622 @@
+[
+  {
+    "query_id": "q01",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q02",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q03",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q04",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q05",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q06",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q07",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q08",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q09",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q10",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q11",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q12",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q13",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q14",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q15",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q16",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q17",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q18",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q19",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q20",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q21",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q22",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q23",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q24",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q25",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q26",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q27",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q28",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q29",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q30",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q31",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q32",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q33",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q34",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q35",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q36",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q37",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q38",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q39",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q40",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q41",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q42",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q43",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q44",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q45",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q46",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q47",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q48",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q49",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q50",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q51",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q52",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q53",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q54",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q55",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q56",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q57",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q58",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q59",
+    "model_label": "base",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q60",
+    "model_label": "base",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q01",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q02",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q03",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q04",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q05",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q06",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q07",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q08",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q09",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q10",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q11",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q12",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q13",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q14",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q15",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q16",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q17",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q18",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q19",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q20",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q21",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q22",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q23",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q24",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q25",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q26",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q27",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q28",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q29",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q30",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q31",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q32",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q33",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q34",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q35",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q36",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q37",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q38",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q39",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q40",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q41",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q42",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q43",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q44",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q45",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q46",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q47",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q48",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q49",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q50",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 4
+  },
+  {
+    "query_id": "q51",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q52",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q53",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q54",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q55",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q56",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q57",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q58",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q59",
+    "model_label": "teacher",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q60",
+    "model_label": "teacher",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q01",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q02",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q03",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q04",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q05",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q06",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q07",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q08",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q09",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q10",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q11",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q12",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q13",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q14",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q15",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q16",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q17",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q18",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q19",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q20",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q21",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q22",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q23",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q24",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q25",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q26",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q27",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q28",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q29",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q30",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q31",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q32",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q33",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q34",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q35",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q36",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q37",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q38",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q39",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q40",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q41",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q42",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q43",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q44",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q45",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q46",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q47",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q48",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q49",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 1,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q50",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q51",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q52",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q53",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q54",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q55",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 1
+  },
+  {
+    "query_id": "q56",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 1,
+    "closing": 1,
+    "tone": 0,
+    "judge_total": 3
+  },
+  {
+    "query_id": "q57",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 0,
+    "judge_total": 0
+  },
+  {
+    "query_id": "q58",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q59",
+    "model_label": "student",
+    "acknowledgement": 1,
+    "structured_steps": 0,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  },
+  {
+    "query_id": "q60",
+    "model_label": "student",
+    "acknowledgement": 0,
+    "structured_steps": 1,
+    "closing": 0,
+    "tone": 1,
+    "judge_total": 2
+  }
+]
