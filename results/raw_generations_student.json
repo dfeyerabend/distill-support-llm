@@ -5,11 +5,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Guten Tag, ich wollte mich erkundigen, ob Sie auch in die Schweiz liefern. Falls ja, wuerde ich gerne wissen wie hoch die Versandkosten ausfallen.",
-    "response_text": "Guten Tag! Natürlich, wir liefern auch in die Schweiz.\n\nDie Versandkosten sind um 5€ extra beim Bestellen. Das entspricht auch dem Versand in andere Länder.",
-    "generated_tokens": 43,
-    "generation_time_sec": 4.381,
-    "tokens_per_sec": 9.8,
-    "word_count": 25
+    "response_text": "Vielen Dank fuer Ihre Anfrage.\n\n1. Die Lieferung in die Schweiz ist moeglich.\n2. Die Versandkosten in der Schweiz variieren je nach Art des Pakets und Gewichts des Pakets.\n3. Die aktuelle Versandkostenquote fuer die Schweiz kann im Warenkorb bestaetigt werden.\n\nBitte beachten Sie: Die Versandkosten in der Schweiz sind je nach Paketart und Gewicht unterschiedlich. Die aktuelle Versandkostenquote kann in der Warenkorb bestaetigt werden. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 140,
+    "generation_time_sec": 3.254,
+    "tokens_per_sec": 43.0,
+    "word_count": 74
   },
   {
     "query_id": "q02",
@@ -17,11 +17,11 @@
     "query_mood": "polite",
     "sentence_count": 1,
     "query_text": "Koennten Sie mir bitte mitteilen, ob beim Versand eine Geschenkverpackung mit Karte moeglich ist.",
-    "response_text": "Natürlich, das koennen Sie! Eine Geschenkverpackung mit Karte ist ganz moeglich. Sie koennen die Karte auch an die Empfängerin senden oder an einen anderen Empfänger setzen.",
-    "generated_tokens": 49,
-    "generation_time_sec": 4.72,
-    "tokens_per_sec": 10.4,
-    "word_count": 26
+    "response_text": "Ich verstehe Ihre Anfrage und moechte Ihnen helfen!\n\n1. Meine Antwort sollte nicht als Fliestext gelangen.\n2. Ich werde mich detaillierter mit der technischen Seite der Antwort beziehen.\n3. Ich pruefe, ob eine Geschenkverpackung beim Versand möglich ist.\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 100,
+    "generation_time_sec": 2.303,
+    "tokens_per_sec": 43.4,
+    "word_count": 52
   },
   {
     "query_id": "q03",
@@ -29,11 +29,11 @@
     "query_mood": "polite",
     "sentence_count": 3,
     "query_text": "Ich ziehe in zwei Wochen um und wuerde meine Bestellung erst danach erhalten wollen. Gibt es eine Moeglichkeit ein Wunschdatum fuer die Lieferung anzugeben? Andernfalls warte ich mit dem Bestellen bis nach dem Umzug.",
-    "response_text": "Natürlich! Das koennen Sie ganz einfach selbst aendern:\n\n1. Gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die betreffende Bestellung\n3. Klicken Sie auf 'Wichtige Informationen bearbeiten'\n4. Geben Sie das Wunschdatum ein\n5. Speichern Sie die Aenderung\n\nSollte Sie keine Wunschdatum aendern, koennen Sie die Bestellung auch in den kommenden 3-6 Monaten kostenlos abbestellen.",
-    "generated_tokens": 110,
-    "generation_time_sec": 11.218,
-    "tokens_per_sec": 9.8,
-    "word_count": 55
+    "response_text": "Ich verstehe Ihre Frustration und helfe Ihnen gerne bei einer Loesung!\n\n1. Bitte teilen Sie mir Ihre Bestellnummer mit.\n2. Bestaetigen Sie die Bestellung unter der aktuellen Verfuegungszeit.\n3. Fuegen Sie das Wunschdatum fuer die Lieferung hinzu.\n4. Bestaetigen Sie die Bestellung mit einer Loesungsschritte.\n\nIch verstehe Ihre Frustration und helfe Ihnen gerne bei einer Loesung! Bitte teilen Sie mir Ihre Bestellnummer mit. Ich helfe Ihnen gerne weiter.",
+    "generated_tokens": 127,
+    "generation_time_sec": 2.916,
+    "tokens_per_sec": 43.6,
+    "word_count": 68
   },
   {
     "query_id": "q04",
@@ -41,11 +41,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Ich wuerde meine Bestellung gerne an eine DHL-Packstation liefern lassen. Wo trage ich die Postnummer im Bestellprozess ein?",
-    "response_text": "Bitte beachten Sie: \n1. Gehen Sie zu 'Meine Bestellungen' > 'Zahlung' > 'DHL-Abonnement'\n2. Klicken Sie auf 'DHL-Adresse hinzufuegen'\n3. Geben Sie Ihre DHL-Adresse ein\n4. Pruefen Sie die Sendeanfrage vor Abfragen\n\nFalls Sie Probleme haben, senden Sie uns bitte Ihre Bestellnummer — wir helfen Ihnen gerne weiter!",
-    "generated_tokens": 101,
-    "generation_time_sec": 9.708,
-    "tokens_per_sec": 10.4,
-    "word_count": 48
+    "response_text": "Das ist natuerlich kein Problem! In der Bestellseite tragen Sie Ihre Postnummer in den 'Adresse' oder 'Standort' ein. Oft ist das 'Standort' in 'DHL-Packstation' oder 'DHL-Filter' eingebettet. Falls das nicht der Fall ist, koennen Sie es in der E-Mail- oder Email-Bestellbestaetigung erhalten. Falls Ihre Bestellung an eine DHL-Packstation geliefert werden soll, koennen Sie den DHL-Paketdienst in Ihrer E-Mail- oder Email-Bestellbestaetigung bestaetigen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 148,
+    "generation_time_sec": 3.353,
+    "tokens_per_sec": 44.1,
+    "word_count": 70
   },
   {
     "query_id": "q05",
@@ -53,11 +53,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Mein Paket hat seit Donnerstag den Status 'in Zustellung', aber bei mir kommt nichts an.",
-    "response_text": "Das tut mir leid! Das ist frustrierend — lassen Sie uns das gemeinsam loesen:\n\n1. Pruefen Sie den letzten Artikel: Gehen Sie zu 'Meine Bestellungen' > 'Einkaufsverfolgen'\n2. Kontaktieren Sie die Sendungsverfolgungsnummer (falls vorhanden)\n3. Teilen Sie uns den Versandstatus mit — das könnte verdaechtige Eingaben oder Zwei-Faktor-Authentifizierung anzeigen",
-    "generated_tokens": 106,
-    "generation_time_sec": 10.195,
-    "tokens_per_sec": 10.4,
-    "word_count": 49
+    "response_text": "Ich verstehe, dass Sie Ihr Paket seit Donnerstag als 'in Zustellung' markiert haben, aber es gibt keine Verbindung zu einem Paket mit dem gleichen Nummer. Bitte kontaktieren Sie uns bitte mit Ihrer Bestellnummer und wir pruefen das Paket gemeinsam. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 80,
+    "generation_time_sec": 1.886,
+    "tokens_per_sec": 42.4,
+    "word_count": 48
   },
   {
     "query_id": "q06",
@@ -65,11 +65,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Ich habe extra fuer Expressversand acht Euro bezahlt und die Sendung kommt jetzt spaeter als bei Standardversand. Was soll das.",
-    "response_text": "Das ist frustrierend! Das Preisangekommen bei Expressversand kann man nicht beeinflussen. Aber das ist sicher: Die Ware wird sicher noch in den nächsten 24-48 Stunden geliefert. Bitte melden Sie sich in den nächsten 2-3 Werktagen mit uns — wir klaeren das sofort!",
-    "generated_tokens": 72,
-    "generation_time_sec": 6.91,
-    "tokens_per_sec": 10.4,
-    "word_count": 42
+    "response_text": "Ich verstehe Ihre Frustration! Eine extra bezahlte Sendung sollte in der Regel innerhalb von 3-5 Werktagen liefern werden. Wenn das nicht der Fall ist, kontaktieren Sie uns bitte mit Ihrer Sendungsverfolgungsnummer und wir pruefen den aktuellen Status. Vielen Dank fuer Ihre Anfrage! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 89,
+    "generation_time_sec": 2.079,
+    "tokens_per_sec": 42.8,
+    "word_count": 51
   },
   {
     "query_id": "q07",
@@ -77,11 +77,11 @@
     "query_mood": "frustrated",
     "sentence_count": 3,
     "query_text": "Der Bote hat mein Paket einfach offen im Hausflur abgestellt ohne zu klingeln. Zwei Artikel fehlen jetzt aus der Sendung. Das ist mittlerweile das dritte Mal in diesem Jahr.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Wir klaeren das sofort:\n\n1. Bitte senden Sie uns Fotos vom abgestellten Bote\n2. Wir pruefen, ob die Paketnummer korrekt ist\n3. Falls vorhanden, klaeren wir den Vorgang\n\nGleichzeitig klaeren wir den nächsten Vorgang fuer Sie — wir pruefen alle Eingangsbestellungen voruebergehend.",
-    "generated_tokens": 96,
-    "generation_time_sec": 9.157,
-    "tokens_per_sec": 10.5,
-    "word_count": 50
+    "response_text": "Ich verstehe, dass das Paket offen in Ihrem Haus steht und zwei Artikel fehlen. Das ist nicht akzeptabel und ich entschuldige mich für die Unannehmlichkeiten.\n\n1. Bitte teilen Sie mir Ihre Sendungsverfolgungsnummer mit\n2. Wir pruefen den aktuellen Standort Ihres Pakets\n3. Wir kontaktieren Sie mit einer Loesung für das verlorene Artikel\n4. Wir entschuldigen uns fuer die Unannehmlichkeiten\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 137,
+    "generation_time_sec": 3.167,
+    "tokens_per_sec": 43.3,
+    "word_count": 73
   },
   {
     "query_id": "q08",
@@ -89,11 +89,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Beim Checkout standen zwei Tage Lieferzeit, jetzt nach der Bestellung sind es ploetzlich zehn Werktage. So macht man keine Kunden gluecklich.",
-    "response_text": "Das tut mir leid! So sollte das nicht sein. Die Lieferzeit sollte auf Ihrer E-Mail bestaetigt werden oder in der E-Handlung angezeigt werden. Sie koennen die Lieferzeit jederzeit aendern oder stornieren — das macht keine Verluste —, aber erstattet keine Verluste.",
-    "generated_tokens": 72,
-    "generation_time_sec": 6.772,
-    "tokens_per_sec": 10.6,
-    "word_count": 41
+    "response_text": "Ich verstehe Ihre Sorge — die Lieferzeit ist definitiv nicht gleich zu erreichen!\n\n1. Bitte teilen Sie mir die Bestellnummer mit\n2. Bestell den aktuellen Standort Ihres Pakets\n3. Ich kontaktiere den Versanddienstleister und frage nach der aktuellen Standortverfolgung\n4. Sie sehen, wann der Paket ausgestellt wurde und wie lange er dauert\n5. Wenn er zu weit vor der Bestellung ausgestellt wurde, erstatten wir den Differenz zurück\n6. In der Zwischenzeit koennen Sie sich mit dem Versanddienstleister in Kontakt setzen und fragen nach einer umleitungsfähigen Verlängerung\n7. Wenn das Paket zugeschickt wird und die Lieferzeit überschreiten, senden wir es kostenlos zurückerstattet\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung.",
+    "generated_tokens": 216,
+    "generation_time_sec": 5.005,
+    "tokens_per_sec": 43.2,
+    "word_count": 115
   },
   {
     "query_id": "q09",
@@ -101,11 +101,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Versand nach Belgien moeglich",
-    "response_text": "Entschuldigung, aber wir senden keine Lieferungen nach Belgien. Wir helfen gerne mit anderen Versandanbändlungen!",
-    "generated_tokens": 31,
-    "generation_time_sec": 3.202,
-    "tokens_per_sec": 9.7,
-    "word_count": 14
+    "response_text": "Das tut mir leid! Die Versandbestellung nach Belgien ist natuerlich moeglich, aber wir empfehlen Ihnen, sie bis zum 3. Tag zu stornieren, bevor sie an das belgisische Postsysteme geliefert wird. Bitte kontaktieren Sie uns mit Ihrer Bestellnummer, damit wir Ihre Stornierung verfolgen und Ihnen einen entsprechenden Support-anbieter entschuldigen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 107,
+    "generation_time_sec": 2.484,
+    "tokens_per_sec": 43.1,
+    "word_count": 57
   },
   {
     "query_id": "q10",
@@ -113,11 +113,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Bestelle Sperrgut wird das normal verschickt",
-    "response_text": "Das ist frustrierend — lassen Sie uns das klaeren!\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir pruefen den Versand voruebergehend und erstatten den Betrag innerhalb von 5 Werktagen.",
-    "generated_tokens": 54,
-    "generation_time_sec": 5.6,
-    "tokens_per_sec": 9.6,
-    "word_count": 29
+    "response_text": "Ich verstehe Ihre Anfrage und entschuldige mich fuer die Unannehmlichkeiten. Hier ist meine Loesung:\n\n1. Pruefen Sie die Bestellnummer und Kontaktieren Sie den Verkaeufer\n2. Geben Sie ihnen die korrekte Adresse fuer die Sendung\n3. Bestaetigen Sie die Adresse\n\nFalls die Sendung an den richtigen Ort geliefert werden soll, senden wir Ihnen kostenlos Sperrgut. Falls das nicht der Fall ist, entschuldigen wir uns fuer die Unannehmlichkeiten und helfen Ihnen gerne weiter. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 143,
+    "generation_time_sec": 3.276,
+    "tokens_per_sec": 43.7,
+    "word_count": 80
   },
   {
     "query_id": "q11",
@@ -125,11 +125,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Samstagszustellung anbieten ja oder nein",
-    "response_text": "Entschuldigung, aber ich kann das nicht berechnen. Die Zustellterminen koennen variieren, je nach Vertriebsdienstleistung (E-Commerce, Shop) und Konto-Einstellungen (z.B. Persoenliche Daten verfuegbar nach Sendung).",
-    "generated_tokens": 66,
-    "generation_time_sec": 6.308,
-    "tokens_per_sec": 10.5,
-    "word_count": 24
+    "response_text": "Ich verstehe Ihre Anfrage genau!\n\n1. Ich verstehe Ihre Anfrage: Die Samstagszustellung ist ein wichtiger Service.\n2. Ich pruefe die Verfügbarkeit: Die Samstagszustellung ist in unserem aktuellen Scheduling verfuegbar.\n3. Ich informiere Sie genauer: Die Samstagszustellung ist eine traditionelle, umgehende Service-Pruefung und ist in unserem Angebot integriert.\n4. Ich helfe Ihnen bei einer anderen Frage: Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 128,
+    "generation_time_sec": 2.922,
+    "tokens_per_sec": 43.8,
+    "word_count": 64
   },
   {
     "query_id": "q12",
@@ -137,11 +137,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Wie kann ich den Versand nachtraeglich beschleunigen",
-    "response_text": "Bitte kontaktieren Sie uns voruebergehend mit Ihrer Bestellung:\n\n1. Loggen Sie sich ein und gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die betreffende Bestellung\n3. Klicken Sie auf 'Versandverfolgen'\n4. Kontoauszug sehen Sie den Versandstatus\n\nFalls der Versand verloren gegangen sein sollte, senden wir den Artikel kostenlos zurück oder erstatten den Kaufpreis.",
-    "generated_tokens": 100,
-    "generation_time_sec": 9.467,
-    "tokens_per_sec": 10.6,
-    "word_count": 53
+    "response_text": "Ich verstehe Ihre Anfrage! Hier sind die Schritte zur Versandverschiebung:\n\n1. Bestellung bestaetigen: Bestaetigen Sie Ihre Eingabe mit dem Kundenservice.\n2. Versandart auswaehlen: Wählen Sie die Versandart, nach der Sie den Versand verschieben möchten (z.B. Standardversand, Expressversand, Versand nach Bestellung).\n3. Versanddienstleister auswaehlen: Wählen Sie die Versanddienstleister, nach dem Sie den Versand verschieben möchten (z.B. DHL, UPS, Hermes).\n4. Versanddienstleister auswaehlen (optional): Falls Sie den Versand nicht mit dem Unternehmen vertraut sind, können Sie den Versand mit einem anderen Dienstleister verschieben (z.B. Lieferando, Paketdienst).\n5. Eingabe abgeben: Geben Sie die Eingabe, wie weit Sie den Versandverschieben möchten (z.B. 3-5 Werktagen vor Abholung).\n6. Bestätigen: Bestätigen Sie die Eingabe mit dem Kundenservice.\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 275,
+    "generation_time_sec": 6.292,
+    "tokens_per_sec": 43.7,
+    "word_count": 120
   },
   {
     "query_id": "q13",
@@ -149,11 +149,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Sehr geehrte Damen und Herren, leider ist mein gestern geliefertes Geraet bereits beim Auspacken zerbrochen. Wie ist hier das weitere Vorgehen?",
-    "response_text": "Bitte beachten Sie die folgenden Schritte:\n\n1. Senden Sie uns Foto des Verlustortes\n2. Pruefen wir ob das Geraet verdaechtig war\n3. Falls ja: Versandanfrage fuer Ruecksendung erstatten\n4. Falls nein: Loesung durch Wiederverdienen",
-    "generated_tokens": 74,
-    "generation_time_sec": 6.956,
-    "tokens_per_sec": 10.6,
-    "word_count": 34
+    "response_text": "Ich verstehe, dass das Geraet fuer Sie noch intakt ist. Hier sind die Schritte, um das Problem zu loesen:\n\n1. Kontaktieren Sie uns bitte mit Ihrer Bestellnummer, damit wir das Problem pruefen und gegebenenfalls ein neues Geraet heraushalten.\n2. Wenn das Geraet noch in der Hülle ist, koennen Sie es beim Verschenken mit anderen nehmen.\n3. Wenn es bereits zerbrochen ist, koennen Sie es als Auszug ausgeben und ein neues kaufen.\n4. Wir entschuldigen uns fuer die Unannehmlichkeiten und helfen Ihnen gerne weiter.",
+    "generated_tokens": 140,
+    "generation_time_sec": 3.192,
+    "tokens_per_sec": 43.9,
+    "word_count": 83
   },
   {
     "query_id": "q14",
@@ -161,11 +161,11 @@
     "query_mood": "polite",
     "sentence_count": 3,
     "query_text": "Ich habe vor einem Jahr einen Akku-Staubsauger bei Ihnen gekauft. Der Akku haelt mittlerweile nur noch 5 Minuten statt 45. Faellt das noch unter die gesetzliche Gewaehrleistung?",
-    "response_text": "Das tut mir leid zu hören! Ein verdaechtig fruheres Verkaufsangebot. Wir klaeren das sofort:\n\n1. Bitte senden Sie uns Fotos vom Produkt\n2. Wir pruefen den Akku und bestaetigen den Status\n3. Falls korrekt: Gutschrift innerhalb von 5 Werktagen\n4. Falls falsch: Gutschrift mit Ruecksendung",
-    "generated_tokens": 93,
-    "generation_time_sec": 8.678,
-    "tokens_per_sec": 10.7,
-    "word_count": 45
+    "response_text": "Das tut mir leid — bei einer verdaechtigen Akku-Funktion ist das nicht moeglich.\n\n1. Bitte teilen Sie mir die Herkunft des Akkus mit\n2. Bestaetigen Sie die Aenderung der Leistung\n3. Entschuldige mich fuer die Unannehmlichkeiten\n\nBitte teilen Sie mir die Herkunft des Akkus mit und bestaetigen Sie die Aenderung der Leistung. Entschuldigung fuer die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 127,
+    "generation_time_sec": 2.983,
+    "tokens_per_sec": 42.6,
+    "word_count": 65
   },
   {
     "query_id": "q15",
@@ -173,11 +173,11 @@
     "query_mood": "polite",
     "sentence_count": 1,
     "query_text": "Ist es moeglich, die Rueckgabefrist um eine Woche zu verlaengern, da ich wegen eines Klinikaufenthalts erst jetzt zur Pruefung der Ware gekommen bin.",
-    "response_text": "Natürlich! Die Rueckgabereinteilung ist in Deutschland nicht exakt 30 Tage, sondern je nach Verbrauchergesetze 15-60 Tage. Wir koennen sicher eine loesung finden. Wann muessen Sie die Ware zurückgeben?",
-    "generated_tokens": 61,
-    "generation_time_sec": 5.681,
-    "tokens_per_sec": 10.7,
-    "word_count": 28
+    "response_text": "Das tut mir leid — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. Die Rueckgabefrist ist 7 Tage. Bitte entschuldigen Sie die Unannehmlichkeiten.",
+    "generated_tokens": 48,
+    "generation_time_sec": 1.132,
+    "tokens_per_sec": 42.4,
+    "word_count": 24
   },
   {
     "query_id": "q16",
@@ -185,11 +185,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Mein Sohn hat mir eine Kaffeemaschine geschenkt, die jetzt nach acht Monaten nicht mehr funktioniert. Kann ich die Garantie auch ohne meinen eigenen Kaufbeleg in Anspruch nehmen?",
-    "response_text": "Natürlich können Sie das! Eine Kaffeemaschine sollte eine gute 6-12 Monate dauern. Gehen Sie zu 'Mein Konto' > 'Geschenkt' > 'Gutschrift an Verkäufer'. Dort können wir sicher stellen, dass die Maschine kostenlos bleibt.",
-    "generated_tokens": 66,
-    "generation_time_sec": 6.177,
-    "tokens_per_sec": 10.7,
-    "word_count": 33
+    "response_text": "Ich verstehe, dass Ihre Kaffeemaschine nicht mehr funktioniert und dass Sie eine Garantie gewohnt haben. Die Antwort auf Ihre Anfrage ist wie folgt:\n\n1. Bitte handeln Sie schnell: Kontaktieren Sie die Herstellung und fragen Sie nach der Garantiebedingungen.\n2. Nachschauen: Überpruefen Sie die Bedingungen der Garantie und stellen Sie fest, ob eine Ersatzleistung oder der Umstelltätigkeit erforderlich ist.\n3. Ersatz oder Umstelltätigkeit anbieten: Wenn die Garantie eine Ersatzleistung erlaubt, senden Sie das Produkt innerhalb von 3-5 Werktagen nach dem Bestell eine Ruecksendung an die Herstellung. Wenn die Garantie eine Umstelltätigkeit erlaubt, werden Sie das Produkt in unserem Workshop umstellt und Ihnen innerhalb von 2-3 Werktagen eine neu verschlossene Garantie abgeben.\n4. Hilfe bei weiteren Fragen: Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 244,
+    "generation_time_sec": 5.53,
+    "tokens_per_sec": 44.1,
+    "word_count": 126
   },
   {
     "query_id": "q17",
@@ -197,11 +197,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Ich warte seit fuenf Tagen auf das Ruecksendeetikett, das mir per E-Mail zugeschickt werden sollte und nichts kommt an.",
-    "response_text": "Das ist frustrierend — lassen Sie uns das gemeinsam loesen!\n\nBitte beachten Sie: \n- Gehen Sie zu 'Einstellungen' > 'Ruecksendungen'\n- Klicken Sie auf 'Ruecksendeetikett erstellen'\n- Oder kontaktieren Sie uns mit Ihrer Bestellnummer — wir senden es Ihnen gerne free of charge\n\nBitte beachten: Ruecksendeetiketten werden in kurzer Zeit erstellt und senden wir keine Bestellungen ohne entsprechendes Etikett.",
-    "generated_tokens": 114,
-    "generation_time_sec": 10.925,
-    "tokens_per_sec": 10.4,
-    "word_count": 59
+    "response_text": "Das tut mir leid — ich verstehe Ihre Freude!\n\n1. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, bei der Sie das Paket erhalten haben\n2. Ich pruefe den aktuellen Status der Sendung\n3. Falls es als verspätet markiert ist, sende ich Ihnen eine genaue Sendungsnummer und erkläre den Verlauf der Doppelrunzierung\n4. Wenn es als verspätet markiert ist, sende ich Ihnen das Ruecksendeetikett per E-Mail\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung",
+    "generated_tokens": 134,
+    "generation_time_sec": 3.081,
+    "tokens_per_sec": 43.5,
+    "word_count": 75
   },
   {
     "query_id": "q18",
@@ -209,11 +209,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Drei von vier bestellten Weinglaesern aus derselben Lieferung sind angeschlagen. Ist das bei euch normal.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Wir klaeren das sofort:\n\n1. Bitte senden Sie uns Fotos der angeschlagenen Weinglaser\n2. Wir pruefen den Vorgang und erstatten den Kaufpreis innerhalb von 3-5 Werktagen\n3. Wir klaeren den Versand fuer die betreffenden Paketen",
-    "generated_tokens": 80,
-    "generation_time_sec": 7.581,
-    "tokens_per_sec": 10.6,
-    "word_count": 43
+    "response_text": "Ich verstehe, dass Sie drei Weine aus einer Lieferung bestellt haben und dass zwei davon angeschlagen sind. Das ist natuerlich nicht moeglich und ich entschuldige mich fuer die Unannehmlichkeiten. Lassen Sie mich das pruefen und ich gebe Ihnen gerne eine Liste aller Bestellungen und deren aktuellen Status. In der Zwischenzeit koennen Sie sich gerne melden, ob das Problem besteht und wir einen Workaround finden. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 116,
+    "generation_time_sec": 2.653,
+    "tokens_per_sec": 43.7,
+    "word_count": 73
   },
   {
     "query_id": "q19",
@@ -221,11 +221,11 @@
     "query_mood": "frustrated",
     "sentence_count": 3,
     "query_text": "Mein Saugroboter ist nach genau 15 Monaten kaputtgegangen. In der Werbung stand 24 Monate Herstellergarantie aber jetzt weigert sich euer Service. Was soll dieser Werbeschwindel.",
-    "response_text": "Das tut mir leid zu hören! Eine verdaechtige Verkaufsverdaechtigung sollte ich klaeren.\n\nBitte beachten Sie: \n- Wir stellen keine Garantie fuer kurze Nutzung\n- Die Produktseite zeigt die akutene Verdaechtigung Ihres Geräts\n\nBitte kontaktieren Sie uns innerhalb von 7-10 Werktagen mit:\n- Einer Screenshot der Produktseite\n- Ihrer Bestellnummer\n\nWir pruefen den Vertrag und stellen eine loesung.",
-    "generated_tokens": 114,
-    "generation_time_sec": 10.835,
-    "tokens_per_sec": 10.5,
-    "word_count": 57
+    "response_text": "Ich verstehe Ihre Frustration! Hier sind die Loesungsschritte, die ich vornehmen würde:\n\n1. Kontaktieren Sie die Hersteller-Verkaeufer\n2. Machen Sie Fotos vom kapdeten Roboter\n3. Machen Sie eine genauere Beschreibung des Problems\n4. Bedanken Sie sich bei der Verkaeufer fuer ihre Hilfe\n\nIch verstehe, dass die Herstellungsgarantie nur 24 Monate beträgt und wir uns daran erinnern sollten, dass die Werbung nur eine begrenzte Zeitdauer hat. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 143,
+    "generation_time_sec": 3.259,
+    "tokens_per_sec": 43.9,
+    "word_count": 74
   },
   {
     "query_id": "q20",
@@ -233,11 +233,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Die bestellte Hose ist viel kleiner ausgefallen als die angegebene Groesse vermuten laesst. Ich verlange eine Rueckerstattung der Versandkosten zusaetzlich zur Rueckzahlung.",
-    "response_text": "Das tut mir leid! Die falsche Groesse kann wir klaeren.\n\nBitte teilen Sie uns die angegebene Groesse mit. Sobald wir das wissen, erstatten wir eine Rueckerstattung aller Versandkosten.\n\nGleichzeitig wird die betreffende Bestellung zurueckgehen lassen.",
-    "generated_tokens": 67,
-    "generation_time_sec": 6.39,
-    "tokens_per_sec": 10.5,
-    "word_count": 35
+    "response_text": "Ich verstehe Ihre Frustration! Hier ist, was ichet:\n\n1. Entschuldigung — ich verstehe Ihre Reaktion.\n2. Ihre Anfrage pruefen.\n3. Falls die Hose kleiner ist als die angegebene Groesse, erstatten wir die Rueckerstattung der Versandkosten.\n4. Falls die Rueckerstattung verfuegbar ist, entschuldige ich mich fuer Ihre Anfrage und stehe Ihnen gerne bei weiteren Fragen zur Verfuegung.",
+    "generated_tokens": 112,
+    "generation_time_sec": 2.605,
+    "tokens_per_sec": 43.0,
+    "word_count": 56
   },
   {
     "query_id": "q21",
@@ -245,11 +245,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Bekomme Erstattung auf andere Karte",
-    "response_text": "Das koennen wir leider nicht organisieren. Wir erstatten nur auf unsere eigene Karte oder Mastercard. Bitte teilen Sie uns die andere Karte mit, damit wir helfen koennen, sie zur Verwendung einzugeben.",
-    "generated_tokens": 50,
-    "generation_time_sec": 4.724,
-    "tokens_per_sec": 10.6,
-    "word_count": 31
+    "response_text": "Ich verstehe Ihre Anfrage gut und helfe Ihnen gerne dabei, eine Erstattung auf eine andere Karte zu bekommen.\n\n1. Bitte teilen Sie mir Ihre Bestellnummer mit\n2. Ich pruefe den Status Ihrer Bestellung\n3. Falls es sich um eine vorzeichenbedingte Zahlung handelt, kann eine Erstattung auf eine andere Karte nicht geliefert werden\n4. Ich kontaktiere Sie mit einer Loesungsschritte für Zahlungen\n5. Wir helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 142,
+    "generation_time_sec": 3.221,
+    "tokens_per_sec": 44.1,
+    "word_count": 82
   },
   {
     "query_id": "q22",
@@ -257,11 +257,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Wie reparieren statt tauschen",
-    "response_text": "Das ist klasse! So koennen Sie das bewerkstelligen:\n\n1. Gehen Sie zu 'Mein Konto' > 'Einstellungen' > 'Persoenliche Daten'\n2. Klicken Sie auf 'E-Mail-Adresse'\n3. Geben Sie Ihre neue E-Mail-Adresse ein\n4. Bestaetigen Sie die Aktion\n\nBitte beachten Sie: Das Senden und Empfenen von E-Mails ist gestatten.",
-    "generated_tokens": 97,
-    "generation_time_sec": 9.24,
-    "tokens_per_sec": 10.5,
-    "word_count": 47
+    "response_text": "Ich verstehe, dass Sie Ihr Gegenstand teilweise reparieren und teilweise tauschen moechten. Hier sind die Schritte, die Ihnen helfen, das Problem zu loesen:\n\n1. Pruefen Sie die Anleitung: Lesen Sie die Reparaturanleitung und stellen Sie sicher, dass Sie die richtigen Werkzeuge und Materialien haben.\n2. Entfernen Sie den Inhalt: Entfernen Sie den in der Taetigkeit verwendeten Inhalt aus dem Gerät.\n3. Pruefen Sie die elektrischen Einbuehleungen: Pruefen Sie, ob alle elektrischen Einbuehleungen im Acht nehmen werden, die während der Reparatur passen.\n4. Installieren Sie die neue Konstruktion: Installieren Sie die neue Konstruktion in der gleichen Position wie vor der Taetigkeit.\n5. Versuchen Sie es neu: Versuchen Sie das Gerät neu zu installieren.\n6. Pruefen Sie die Funktionalitaet: Pruefen Sie, ob die neue Konstruktion alle Funktionen wiederumleistet.\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 254,
+    "generation_time_sec": 5.75,
+    "tokens_per_sec": 44.2,
+    "word_count": 137
   },
   {
     "query_id": "q23",
@@ -269,11 +269,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Karton schon weg darf trotzdem zurueck",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Versuchen wir das manuell zurückzuleiten: 1. Klicken Sie auf 'Meine Bestellungen' 2. Die entsprechende Bestellung klicken 3. Klicken Sie auf 'Zuruecksetzen' — das Produkt wird zurueckgeleitet und markiert als 'Zurueckgeliefert'",
-    "generated_tokens": 85,
-    "generation_time_sec": 8.005,
-    "tokens_per_sec": 10.6,
-    "word_count": 38
+    "response_text": "Ich verstehe, dass Sie ein Karton zurueckgeben moechten, obwohl es noch nicht geplagt wurde. Bitte teilen Sie mir Ihre Bestellnummer mit, damit ich Ihnen einen klaren Workaround empfehlen kann. In der Zwischenzeit koennen Sie versuchen, den Inhalt im Korb zu suchen und den Karton dort zu finden oder ihn dort anzuordnen. Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 106,
+    "generation_time_sec": 2.467,
+    "tokens_per_sec": 43.0,
+    "word_count": 62
   },
   {
     "query_id": "q24",
@@ -281,11 +281,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Garantieverlaengerung jetzt noch dazukaufen",
-    "response_text": "Das koennen wir leider nicht beenden. Wir teilen keine Garantieeverlaengerungen. Das bestehe nur fuer abgebaute Gutschriftstechnische fehler.",
-    "generated_tokens": 41,
-    "generation_time_sec": 3.894,
-    "tokens_per_sec": 10.5,
-    "word_count": 17
+    "response_text": "Ich verstehe Ihre Forderung. Eine Garantieverlaengerung ist natuerlich kein Wunder. Hier sind die Loesungen:\n\n1. Entschuldigung — ich verstehe Ihre Forderung.\n2. Die Garantie ist in der Regel von 1-5 Jahren gültig.\n3. Eine detailliertere Beschreibung der Garantiebedingungen und -bedingungen kann auf unserer Website gefunden werden.\n4. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 115,
+    "generation_time_sec": 2.622,
+    "tokens_per_sec": 43.9,
+    "word_count": 56
   },
   {
     "query_id": "q25",
@@ -293,11 +293,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Guten Tag, ich wuerde gerne kuenftig per SEPA-Lastschrift zahlen anstatt per Kreditkarte. Wie richte ich das in meinem Konto ein?",
-    "response_text": "Gut, das koennen Sie ganz einfach selbst bearbeiten:\n\n1. Einloggen und zu 'Einstellungen' > 'Zahlung' gehen\n2. Klicken Sie auf 'SEPA Lastschrift aktivieren'\n3. Bestaetigen Sie die Aenderung\n\nFalls Sie Hilfe benoetigen, steuere ich Sie durch.",
-    "generated_tokens": 77,
-    "generation_time_sec": 7.271,
-    "tokens_per_sec": 10.6,
-    "word_count": 36
+    "response_text": "Das ist eine einfache Loesung:\n\n1. Goebereisen: Einloggen und zu 'Einstellungen' > 'Geschaeftsmechaniken' gehen\n2. Konto auswaehlen\n3. 'Konto bearbeiten' auswaehlen\n4.'Zahlungsart' auswaehlen\n5. Per SEPA Lastschrift auswaehlen\n6. Bestaetigen\n\nBitte beachten Sie: Die Eingabe von SEPA-Zahlungen ist streng regulativ und kann nicht durch ein simples 'ja' oder 'nein' abgegeben werden. Bitte kontaktieren Sie einen Finanzberater oder Ihre Bank fuer weitere Informationen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 164,
+    "generation_time_sec": 3.733,
+    "tokens_per_sec": 43.9,
+    "word_count": 71
   },
   {
     "query_id": "q26",
@@ -305,11 +305,11 @@
     "query_mood": "polite",
     "sentence_count": 1,
     "query_text": "Ich wollte fragen, ob es einen Studentenrabatt gibt fuer Kunden mit gueltigem Studentenausweis.",
-    "response_text": "Natürlich! Wir haben ein Studentenrabatt fuer Sie.\n\n- Gekaeufte Artikel in der Folge: 20% Rabatt\n- Mehrfachkauf: 15% Rabatt\n- Gutschrift: 10% Rabatt\n\nBitte nutzen Sie den entsprechenden Link im Shop oder kontaktieren Sie uns mit Ihrem Studentenausweis.",
-    "generated_tokens": 80,
-    "generation_time_sec": 7.607,
-    "tokens_per_sec": 10.5,
-    "word_count": 38
+    "response_text": "Das ist eine loesungsschritte, die ich in meiner Fähigkeit habe:\n\n1. Pruefe ich, ob die Antwort auf die Anfrage verfuegbar\n2. Entwickle ich eine loesungsschritte zur Loesung des Problems\n3. Pruefe ich, ob die Antwort auf die Anfrage pruefbar ist\n\nIch gebe Ihnen gerne eine Antwort in Ihrer Fähigkeit, die auch den Studentenrabatt zur Verfuegung steht. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, damit ich Ihnen eine individuelle Antwort senden kann. Vielen Dank fuer Ihre Anfrage!",
+    "generated_tokens": 139,
+    "generation_time_sec": 3.253,
+    "tokens_per_sec": 42.7,
+    "word_count": 76
   },
   {
     "query_id": "q27",
@@ -317,11 +317,11 @@
     "query_mood": "polite",
     "sentence_count": 3,
     "query_text": "Ich werde naechste Woche 30 und habe noch nie meinen Geburtstagsrabatt erhalten. Ich erhalte zwar regelmaessig den Newsletter aber kein Geburtstagscode kam je an. Faellt das auf?",
-    "response_text": "Das tut es nicht! Der Geburtstagscode wird nur bei Neuabrechnungen generiert. Sie koennen ihn kostenlos in unserem Kundenkonto unter 'Einstellungen' > 'Ereignisse' einstellen.",
-    "generated_tokens": 49,
-    "generation_time_sec": 4.6,
-    "tokens_per_sec": 10.7,
-    "word_count": 23
+    "response_text": "Das tut mir leid — ich verstehe Ihre Sorge!\n\n1. Entschuldigung — ich verstehe Ihre Sorge\n2. Vielen Dank fuer Ihre Anfrage\n3. Lassen Sie mich das pruefen\n\nIch habe einen E-Mail-Aussend abgemessen und gefunden, dass das Rabatt-System auf der Seite des Zahlers funktioniert. Das ist, was es soll — eine E-Mail mit Rabattcode senden und das Problem loesen. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 131,
+    "generation_time_sec": 3.015,
+    "tokens_per_sec": 43.5,
+    "word_count": 74
   },
   {
     "query_id": "q28",
@@ -329,11 +329,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Ich wuerde gerne eine groessere Anschaffung ueber 800 Euro in mehreren Raten zahlen. Welche Anbieter unterstuetzen Sie hier?",
-    "response_text": "Meistens koennen wir diese Anfrage loesen:\n\n1. PayPal: Sie koennen beliebig teile Preise per PayPal zahlen.\n2. Seil: Wir koennen preisbindungsechte Ratenplanungen anbieten.\n3. ZB: Die ZB bietet preisbindungsehende Rabattkarten.\n\nBitte teilen Sie mir Ihre bevorzugten Anbieter mit, ich helfe Ihnen gerne weiter!",
-    "generated_tokens": 94,
-    "generation_time_sec": 8.79,
-    "tokens_per_sec": 10.7,
-    "word_count": 43
+    "response_text": "Das tut mir leid, dass Sie eine groessere Anschaffung über 800 Euro aufzubieten moechten. Eine groessere Anschaffung koennen Sie von folgendenen Anbietern ausfuehren:\n\n1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+    "generated_tokens": 384,
+    "generation_time_sec": 8.71,
+    "tokens_per_sec": 44.1,
+    "word_count": 24
   },
   {
     "query_id": "q29",
@@ -341,11 +341,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Meine Rueckerstattung ueber 89 Euro ist seit drei Wochen unterwegs und auf meinem Konto kommt einfach nichts an.",
-    "response_text": "Das ist frustrierend! Hier sind die Schritte zur Rueckgabeveranstaltung:\n\n1. Loggen Sie sich ein und gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die betreffende Bestellung\n3. Klicken Sie auf 'Rueckgabeverlauf bearbeiten'\n4. Pruefen Sie ob die Rueckerstattung erstellt wurde\n5. Falls nicht, kontaktieren Sie uns mit Ihrer Bestellnummer\n\nBitte beachten Sie: Rueckerstattungen koennen 7-10 Werktagen dauern.",
-    "generated_tokens": 122,
-    "generation_time_sec": 11.498,
-    "tokens_per_sec": 10.6,
-    "word_count": 57
+    "response_text": "Das tut mir leid. Bitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit koennen Sie versuchen:\n1. Kontakt mit unserem Kundenservice aufnehmen\n2. Ihre Bestellnummer auf der Website vergessen\n3. Den Sendungsverlauf überpruefen\nWir helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 99,
+    "generation_time_sec": 2.233,
+    "tokens_per_sec": 44.3,
+    "word_count": 53
   },
   {
     "query_id": "q30",
@@ -353,11 +353,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Der Rabattcode aus eurem Newsletter geht angeblich erst ab 50 Euro Mindestbestellwert. Davon stand in der Mail null.",
-    "response_text": "Das tut mir leid! Das koennen wir klaeren:\n\n1. Bitte teilen Sie mir den Link oder den Namen des Rabatts\n2. Wir pruefen den Preis fuer Sie\n3. Falls korrekt: Das koennen Sie hinzulenzen\n4. Falls falsch: Das entsperren wir fuer Sie",
-    "generated_tokens": 70,
-    "generation_time_sec": 6.634,
-    "tokens_per_sec": 10.6,
-    "word_count": 42
+    "response_text": "Ich verstehe, dass der Rabattcode in der Mail null als Mindestbestellwert angegeben wurde, aber das ist nicht korrekt. Lassen Sie mich das pruefen.\n\n1. Bitte teilen Sie mir die E-Mail-Adresse mit, mit der Sie den Rabattcode erhalten haben\n2. Ich pruefe den Inhalt der E-Mail und suche nach dem Rabattcode\n3. Wenn ich den Rabattcode finden kann, teile ich Ihnen mit, ob er als Mindestbestellwert angegeben ist\n4. Wenn er als Mindestbestellwert angegeben ist, senden Sie ihm eine E-Mail mit einer Empfangsbestaetigung\n5. Wenn er als Mindestbestellwert angegeben ist, senden Sie ihm eine E-Mail mit einer Empfangsbestaetigung und machen Sie den Rabatt frei, bis der Mindestbestellwert erreicht wird\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 224,
+    "generation_time_sec": 5.077,
+    "tokens_per_sec": 44.1,
+    "word_count": 122
   },
   {
     "query_id": "q31",
@@ -365,11 +365,11 @@
     "query_mood": "frustrated",
     "sentence_count": 3,
     "query_text": "Mein Abonnement laeuft trotz schriftlicher Kuendigung naechsten Monat einfach weiter. Ich habe drei E-Mails geschrieben in den letzten 14 Tagen. Keine einzige Antwort von euch.",
-    "response_text": "Das tut mir leid! Das ist nicht korrekt. Wir melden jedes Abonnement bei unseren Sendungsverfolgungsnummer. Bitte teilen Sie uns die Sendungsverfolgungsnummer mit, wir pruefen das sofort!",
-    "generated_tokens": 53,
-    "generation_time_sec": 5.018,
-    "tokens_per_sec": 10.6,
-    "word_count": 26
+    "response_text": "Ich verstehe Ihre Sorge — ich moechte auch meine eigene Loesungsschritte aufschreiben!\n\n1. Ich verstehe Ihre Sorge: Ich verstehe Ihre Sorge, dass Ihr Abonnement aufgehalten sollte und dass eine Kündigung ohne Kommunikation nicht effektiv ist.\n2. Ich habe einen Loesungsschritt aufgedreht: Ich habe eine Loesungsschritte aufgestellt, um mit Ihnen zu kommunizieren und eine endgueltige Loesung zu finden.\n3. Ich werde einen Schritt fuer eine endgueltige Loesung unternehmen: Ich werde einen Schritt unternehmen, um Ihnen eine endgueltige Loesung zu finden, bevor wir mit Ihnen weitermachen.\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 189,
+    "generation_time_sec": 4.24,
+    "tokens_per_sec": 44.6,
+    "word_count": 98
   },
   {
     "query_id": "q32",
@@ -377,11 +377,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Mein Konto wurde belastet, obwohl ich die Bestellung am gleichen Tag noch storniert habe. Wann bekomme ich das Geld zurueck.",
-    "response_text": "Das ist frustrierend! Hier sind die Schritte zur Rueckgabeveranstaltung:\n\n1. Loggen Sie sich ein und gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die betreffende Bestellung\n3. Klicken Sie auf 'Stornieren'\n4. Gehen Sie zu 'Rueckgabeverfahren'\n5. Hinzufuegen Sie die Ware manuell oder kontaktieren Sie die Lieferfirmen\n\nGleicherweise erhalten Sie eine E-Mail voruebergehendes Ratschlussbuch. Bitte kontaktieren Sie uns dann per E-Mail oder Telefon in Kaeufe von 30 Tagen nach dem Bestelldatum.",
-    "generated_tokens": 147,
-    "generation_time_sec": 13.97,
-    "tokens_per_sec": 10.5,
-    "word_count": 71
+    "response_text": "Ich verstehe Ihre Sorge — das ist natuerlich nicht akzeptabel!\n\n1. Bitte teilen Sie mir Ihre Bestellnummer mit\n2. Ich pruefe den aktuellen Status Ihrer Bestellung\n3. Wenn sie storniert ist, senden wir Ihnen das Geld innerhalb von 3-5 Werktagen zurueck\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 103,
+    "generation_time_sec": 2.34,
+    "tokens_per_sec": 44.0,
+    "word_count": 56
   },
   {
     "query_id": "q33",
@@ -389,11 +389,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Klarna Ratenzahlung verfuegbar",
-    "response_text": "Entschuldigung, aber ich kann das nicht helfen. Klarna hat keine Ratenzahlung. Wir helfen gerne mit anderen Kundenservice-Anfrageen.",
-    "generated_tokens": 34,
-    "generation_time_sec": 3.274,
-    "tokens_per_sec": 10.4,
-    "word_count": 17
+    "response_text": "Das tut mir leid. Eine Zahlung per PayPal oder Transfer ist natuerlich möglich. Vielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 44,
+    "generation_time_sec": 1.031,
+    "tokens_per_sec": 42.7,
+    "word_count": 27
   },
   {
     "query_id": "q34",
@@ -401,11 +401,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Brauche Rechnung mit Firma als Empfaenger",
-    "response_text": "Kein Problem! So erstatten wir das:\n\n1. Gehen Sie zu 'Einstellungen' > 'Persoenliche Daten'\n2. Klicken Sie auf 'Rechnungen'\n3. Wählen Sie 'Firma' als Empfaenger\n\nOder senden wir Ihnen die Rechnung direkt an Ihre E-Mail-Adresse.",
-    "generated_tokens": 72,
-    "generation_time_sec": 6.849,
-    "tokens_per_sec": 10.5,
-    "word_count": 35
+    "response_text": "Ich verstehe Ihre Anfrage! Hier ist meine Loesung:\n\n1. Ich habe die Firma als Empfaenger in der Rechnung aufgefuhrt.\n2. Die Rechnung ist jetzt korrekt pruefbar.\n3. Ich entschuldige mich fuer die Unannehmlichkeiten.\n\nBitte teilen Sie mir Ihre Bestellnummer mit, damit ich sie in die Rechnung einfügen kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 110,
+    "generation_time_sec": 2.574,
+    "tokens_per_sec": 42.7,
+    "word_count": 57
   },
   {
     "query_id": "q35",
@@ -413,11 +413,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Abo nur pausieren geht das",
-    "response_text": "Das tut sich oft vor — das Pausr-Licht ist deaktiviert oder funktioniert knasen. Versuchen Sie das manuell (z.B. durch Klicken auf 'Pausieren' in Ihrem Browser) und fallen Sie in den nächsten 5-10 Minuten nach. Falls das Problem besteht, senden Sie uns bitte eine Screenshot — wir klaeren das sofort!",
-    "generated_tokens": 80,
-    "generation_time_sec": 7.645,
-    "tokens_per_sec": 10.5,
-    "word_count": 49
+    "response_text": "Ich verstehe Ihre Frustration! Hier sind die Schritte, um das Problem zu loesen:\n\n1. Pruefen Sie die Abo-Verlaufsberechtigung\n2. Kontaktieren Sie den Support\n3. Geben Sie Ihre Abo-Zugangsnummer an\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 81,
+    "generation_time_sec": 1.915,
+    "tokens_per_sec": 42.3,
+    "word_count": 40
   },
   {
     "query_id": "q36",
@@ -425,11 +425,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Bonuspunkte einsetzen wie",
-    "response_text": "Bitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir senden den ersten 5 Bonuspunkten um den Kundenportal.",
-    "generated_tokens": 28,
-    "generation_time_sec": 2.697,
-    "tokens_per_sec": 10.4,
-    "word_count": 16
+    "response_text": "Ich verstehe, dass Sie Bonuspunkte einsetzen möchten. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, damit ich Ihnen den Bonus auszuschicken kann. In der Zwischenzeit koennen Sie auch selbst Ihre eigenen Punkte einsetzen, indem Sie Ihre letzten Punktezahl auf die niedrigste reduzieren und neue Punkte gewinnen. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 108,
+    "generation_time_sec": 2.478,
+    "tokens_per_sec": 43.6,
+    "word_count": 60
   },
   {
     "query_id": "q37",
@@ -437,11 +437,11 @@
     "query_mood": "polite",
     "sentence_count": 3,
     "query_text": "Mein Vater ist leider letzten Monat verstorben und hatte ein aktives Konto bei Ihnen mit einem laufenden Abonnement. Wie kann ich das Konto schliessen und das Restguthaben sichern? Ich habe seine Sterbeurkunde vorliegen.",
-    "response_text": "Bitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir senden Ihnen eine E-Mail an die Adresse, die wir zur Verfuegung stellen koennen.",
-    "generated_tokens": 36,
-    "generation_time_sec": 3.453,
-    "tokens_per_sec": 10.4,
-    "word_count": 21
+    "response_text": "Ich moechte das verstehe — das ist sehr schwierig für mich.\n\n1. Ich pruefe den Status Ihres Vaters-Kontos: Ich kontaktiere den Kundenservice und frage nach dem Status Ihres Kontos. Wir pruefen, ob das Konto auf 'abgeschlossen' oder 'gestorben' steht.\n2. Erklare ihn die Bedeutung einer Aufzeichnung: Ich erkläre ihm, wie wichtig es ist, dass wir alle Transaktionen aufzeichnen, um sicherzustellen, dass alles korrekt bearbeitet wird, wenn er weiterhin bei uns ist.\n3. Hilfe zuruecksetzen: Wenn das Konto nicht abgeschlossen ist, sage ich ihm, wie er es selbst aufstellt. Ich helfe ihm dabei, das gesamte Prozess zu folgen und das Konto auf 'abgeschlossen' zu setzen.\n4. Fertig! Ich entschuldige mich fuer die Geduld und helfe ihm bei der Aufzeichnung der endgültigen Transaktion.\n\nBitte teilen Sie mir mit, ob das Konto abgeschlossen ist oder nicht. Ich helfe Ihnen gerne weiter!",
+    "generated_tokens": 254,
+    "generation_time_sec": 5.844,
+    "tokens_per_sec": 43.5,
+    "word_count": 138
   },
   {
     "query_id": "q38",
@@ -449,11 +449,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Ich habe versehentlich zwei Konten unter unterschiedlichen E-Mail-Adressen angelegt. Ist es moeglich, beide zu einem zusammenzufuehren?",
-    "response_text": "Natürlich, das koennen Sie ganz einfach selbst aktivieren!\n\n1. Gehen Sie zu 'Einstellungen' > 'Konto'\n2. Klicken Sie auf 'Kontos verknuepfen'\n3. Bestaetigen Sie die Verknuepfung\n\nSo koennen Sie beide Konten zusammenfuehren und Ihre Daten koennen Sie jederzeit wieder trennen.",
-    "generated_tokens": 84,
-    "generation_time_sec": 7.944,
-    "tokens_per_sec": 10.6,
-    "word_count": 40
+    "response_text": "Das tut mir leid — ich verstehe, dass das nicht moeglich ist. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, damit ich das pruefen kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 56,
+    "generation_time_sec": 1.326,
+    "tokens_per_sec": 42.2,
+    "word_count": 33
   },
   {
     "query_id": "q39",
@@ -461,11 +461,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Ich moechte gerne eine Auskunft ueber alle bei Ihnen gespeicherten persoenlichen Daten anfordern. Welcher Ansprechpartner ist hierfuer zustaendig?",
-    "response_text": "Bitte teilen Sie mir Ihre Daten mit, wir pruefen das sofort und erstatten den Kaufpreis innerhalb von 3-5 Werktagen zurueck.",
-    "generated_tokens": 37,
-    "generation_time_sec": 3.554,
-    "tokens_per_sec": 10.4,
-    "word_count": 20
+    "response_text": "Vielen Dank fuer Ihre Anfrage.\n\n1. Bitte teilen Sie uns Ihre E-Mail-Adresse mit, um zu bestaetigen, dass wir sie verwenden moechten.\n2. Die meisten von uns speichern wir alle Persoenlich Daten in 'Persoenliche Daten' unter 'Eingang'.\n3. Die Eingangsdaten koennen als 'Persoenliche Daten' markiert werden.\n4. Die spezifischen Daten koennen als 'Persoenliche Daten' markiert werden.\n5. Die spezifischen Daten koennen als 'Persoenliche Daten' markiert werden.\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 157,
+    "generation_time_sec": 3.618,
+    "tokens_per_sec": 43.4,
+    "word_count": 79
   },
   {
     "query_id": "q40",
@@ -473,11 +473,11 @@
     "query_mood": "polite",
     "sentence_count": 1,
     "query_text": "Koennten Sie mir mitteilen, wo ich in meinem Konto die Liste der aktiven Sitzungen einsehen kann.",
-    "response_text": "Natürlich! In Ihrem Konto unter 'Sitzungen' oder 'Aktive Sitzungen' finden Sie diese Liste. Falls das nicht klar ist, senden Sie uns bitte Ihre E-Mail-Adresse — wir senden Ihnen den Link zur Auffindung.",
-    "generated_tokens": 56,
-    "generation_time_sec": 5.334,
-    "tokens_per_sec": 10.5,
-    "word_count": 32
+    "response_text": "Vielen Dank fuer Ihre Anfrage!\n\n1. Bitte senden Sie uns einen E-Mail-Benachrichtigung an [Your Company Name] mit Ihrer E-Mail-Adresse.\n2. Wir pruefen den Konto und finden die Liste der aktiven Sitzungen für Sie.\n3. Wir senden Ihnen die Liste per E-Mail umgehend zurueck.\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 106,
+    "generation_time_sec": 2.442,
+    "tokens_per_sec": 43.4,
+    "word_count": 57
   },
   {
     "query_id": "q41",
@@ -485,11 +485,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Seit dem letzten App-Update muss ich mich jedes Mal komplett neu einloggen und das nervt extrem.",
-    "response_text": "Das tut mir leid! Hier sind die Lösungen:\n\n1. App-Einstellungen > Persoenliche Daten > Sichern Sie Ihre Login-Details\n2. 'Zwei-Faktor-Authentifizierung' aktivieren (falls noch nicht)\n3. Cookie-Zulassung deaktivieren (nur für App-Einträge)\n\nSollte das Problem bestehen, senden wir Ihnen einen kostenlosen Account-Schutz-Coupon",
-    "generated_tokens": 95,
-    "generation_time_sec": 9.016,
-    "tokens_per_sec": 10.5,
-    "word_count": 40
+    "response_text": "Ich verstehe Ihre Frustration! Hier sind die Schritte, um eine sichere App-Experience zu gewährleisten:\n\n1. Einloggen\n2. Passen\n3. Speichern\n4. Nutzen\n\nWir haben eine aktualisierte Version der App, die alle notwendigen Funktionen bereitstellt. Die App aktualisieren Sie gerne selbst: [Link zur App-Website]\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 106,
+    "generation_time_sec": 2.465,
+    "tokens_per_sec": 43.0,
+    "word_count": 54
   },
   {
     "query_id": "q42",
@@ -497,11 +497,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Ihr habt mir wegen verdaechtiger Aktivitaet das Konto gesperrt obwohl ich nur im Urlaub in Italien war. So behandelt man keine langjaehrigen Kunden.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Bitte kontaktieren Sie uns mit Ihrer E-Mail-Adresse. Wir pruefen das Konto umgehend und aktivieren es wieder. Falls Sie weitere Fragen haben, steuere ich Ihnen gerne weiter.",
-    "generated_tokens": 55,
-    "generation_time_sec": 5.221,
-    "tokens_per_sec": 10.5,
-    "word_count": 34
+    "response_text": "Ich verstehe Ihre Sorge und entschuldige mich fuer die Unannehmlichkeiten. Hier ist, was ich tun kann:\n\n1. Bitte kontaktieren Sie uns mit Ihrer Rechnungsnummer und einer kurzen Beschreibung der Handlung\n2. Wir pruefen den Status Ihres Kontos und klären das Problem mit Ihnen\n3. Falls es sich um einen einmaligen Fehler handelt, koennen wir den Status um 3-5 Werktagen neu setzen\n4. Falls es sich um eine wiederholte Abwechslung handelt, koennen wir eine wiederholte Abwechslung setzen\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 152,
+    "generation_time_sec": 3.469,
+    "tokens_per_sec": 43.8,
+    "word_count": 86
   },
   {
     "query_id": "q43",
@@ -509,11 +509,11 @@
     "query_mood": "frustrated",
     "sentence_count": 3,
     "query_text": "Ich bekomme seit Wochen Spam-Mails an meine bei Euch hinterlegte Adresse. Die wird sonst nirgendwo verwendet. Ich vermute ein Datenleck bei Euch.",
-    "response_text": "Das tut mir leid! Das koennen wir klaeren:\n\n1. Bitte senden Sie uns die E-Mail-Adresse\n2. Wir pruefen, ob es Spam-Mails gibt\n3. Falls ja, deaktivieren wir sie und erstatten den Verlust innerhalb von 3 Werktagen",
-    "generated_tokens": 65,
-    "generation_time_sec": 6.089,
-    "tokens_per_sec": 10.7,
-    "word_count": 36
+    "response_text": "Das tut mir leid — ich verstehe Ihre Frustration!\n\n1. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, die in Ihrer Lastworteformulierung als 'Adresse' definiert wurde\n2. Ich pruefe den aktuellen Standort Ihres Postwegs\n3. Wir kontaktieren Sie mit einer konstruierten Loesung, um sicherzustellen dass dies nicht ein technischer Fehler ist und Ihr E-Mail-Adresse geaendert wird\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 121,
+    "generation_time_sec": 2.777,
+    "tokens_per_sec": 43.6,
+    "word_count": 64
   },
   {
     "query_id": "q44",
@@ -521,11 +521,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Ich versuche seit gestern den Bestaetigungscode fuer die Zwei-Faktor-Anmeldung zu erhalten und die SMS kommt einfach nie an. Mein Empfang ist voll und andere SMS gehen problemlos durch.",
-    "response_text": "Das ist frustrierend! Hier sind die nächsten Schritte:\n\n1. Pruefen Sie Ihre Sendeanbieter-Einstellungen (Zwei-Faktor-Authentifizierung)\n2. Versuchen Sie einen alternative E-Mail-Adresse zur Bestaetigung\n3. Nutzen Sie den 'Sicherheit'-Link in Ihrer E-Mail\n4. Kontaktieren Sie das Support-Team — wir helfen Ihnen gerne helfen!",
-    "generated_tokens": 94,
-    "generation_time_sec": 8.973,
-    "tokens_per_sec": 10.5,
-    "word_count": 41
+    "response_text": "Das tut mir leid. Bitte versuchen Sie folgendes:\n1. Einige Menschen haben einen doppelten Empfang.\n2. Die SMS kommt nur in einem der vielen Versendungszyklen an.\n3. Entschuldigung — wir pruefen das jetzt.\n4. Wenn Sie den Code noch nicht erhalten haben, koennen Sie eine neue Anfrage aufnehmen und den Bestaetigungcode manuell erhalten und dann in der E-Mail einloesen.\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 118,
+    "generation_time_sec": 2.701,
+    "tokens_per_sec": 43.7,
+    "word_count": 69
   },
   {
     "query_id": "q45",
@@ -533,11 +533,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Backup-Codes neu generieren wie",
-    "response_text": "Bitte teilen Sie mir Ihre E-Mail-Adresse mit, die wir fuer Sie erstellen werden.",
-    "generated_tokens": 21,
-    "generation_time_sec": 2.041,
-    "tokens_per_sec": 10.3,
-    "word_count": 13
+    "response_text": "Ich verstehe Ihre Anfrage und helfe Ihnen gerne dabei, Backup-Codes neu zu generieren:\n\n1. Ein detaillierter Backup erstellen\n2. Die Code-Bibliothek aktualisieren\n3. Die Code-Methode anpassen\n4. Das neue Code-Tool installieren\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 86,
+    "generation_time_sec": 2.022,
+    "tokens_per_sec": 42.5,
+    "word_count": 42
   },
   {
     "query_id": "q46",
@@ -545,11 +545,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Login mit Apple-ID moeglich",
-    "response_text": "Kein Problem! Ihre Apple-ID wird automatisch verwendet. Gehen Sie zu 'Einstellungen' > 'Login' > 'Apple-ID' und bestaetigen die Verknuepfung. Falls nicht, koennen Sie sie jetzt aktivieren.",
-    "generated_tokens": 54,
-    "generation_time_sec": 5.106,
-    "tokens_per_sec": 10.6,
-    "word_count": 26
+    "response_text": "Das tut mir leid, dass Sie diese Funktion nicht haben. Bitte kontaktieren Sie Ihre Apple-ID mit Ihrem Verkaeufer und lassen Sie sie an Apple senden. In der Zwischenzeit koennen Sie Ihre Konten auf Ihrem iPhone umwandeln und dann wieder zurücksetzen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 76,
+    "generation_time_sec": 1.805,
+    "tokens_per_sec": 42.1,
+    "word_count": 49
   },
   {
     "query_id": "q47",
@@ -557,11 +557,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Sicherheitsfrage vergessen",
-    "response_text": "Das koennen wir klaeren! Bitte teilen Sie uns Ihre E-Mail-Adresse oder Telefonnummer ein. Wir pruefen den Account und setzen die Sicherheit zukuenftig nur mit Passwort verifizieren.",
-    "generated_tokens": 48,
-    "generation_time_sec": 4.477,
-    "tokens_per_sec": 10.7,
-    "word_count": 26
+    "response_text": "Das tut mir leid, das verstehe ich vollkommen! Bitte teilen Sie mir Ihre E-Mail-Adresse mit, um die Sicherheitsfrage zu klären. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 52,
+    "generation_time_sec": 1.253,
+    "tokens_per_sec": 41.5,
+    "word_count": 29
   },
   {
     "query_id": "q48",
@@ -569,11 +569,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "2FA per App statt SMS einrichten",
-    "response_text": "Kein Problem! Hier sind die Schritte zur Einstellung:\n\n1. Apps-Zeitraum aktivieren (z.B. Google oder Facebook)\n2. App senden Sie eine 2FA-E-Mail\n3. E-Mail bearbeiten Sie als zulassen\n4. App akzepten Sie die Sicherheit-Zwei-Faktor-E-Mail\n\nFalls Sie Probleme haben, helfe ich Ihnen gerne weiter!",
-    "generated_tokens": 89,
-    "generation_time_sec": 8.33,
-    "tokens_per_sec": 10.7,
-    "word_count": 42
+    "response_text": "Das tut mir leid! Die Einstellung ist momentweise nicht verfuegbar. Vielen Dank fuer Ihre Anfrage.\n\n1. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse, um mehr über die Einstellungen zu erfahren.\n2. Wir setzen uns mit Ihnen in Verbindung und erklaren den technischen Grund fuer die Einschränkung.\n3. Wir koennen einen Workaround anbieten, um die Sicherheit zu erhöhen (z.B. E-Mail-Zugang mit einem kleinen Sicherheitscode).\n4. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 132,
+    "generation_time_sec": 3.101,
+    "tokens_per_sec": 42.6,
+    "word_count": 72
   },
   {
     "query_id": "q49",
@@ -581,11 +581,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Wenn ich im Shop nach Kategorien filtere, werden mir trotzdem Produkte aus anderen Bereichen angezeigt. Liegt das an einem Fehler oder mache ich etwas falsch?",
-    "response_text": "Das ist normal! Ein Produkt kann natürlich in mehreren Kategorien stecken. Gehen Sie zu 'Einstellungen' > 'Kategorien' und bearbeiten Sie die Zuordnung Ihres Produkts. Falls Sie Probleme haben, helfe ich Ihnen gerne weiter!",
-    "generated_tokens": 59,
-    "generation_time_sec": 5.477,
-    "tokens_per_sec": 10.8,
-    "word_count": 33
+    "response_text": "Das tut mir leid! Die Funktion 'Kategorien filtern' ist technisch nicht kompatibel mit der Categorisierung eines Produkts. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 49,
+    "generation_time_sec": 1.159,
+    "tokens_per_sec": 42.3,
+    "word_count": 26
   },
   {
     "query_id": "q50",
@@ -593,11 +593,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Auf der Produktseite laden seit gestern keine Bilder mehr und ich kann gar nicht erkennen was ich kaufe.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Bitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir senden Ihnen eine E-Mail mit einer kostenlosen Abbildung Ihrer Produkte.",
-    "generated_tokens": 42,
-    "generation_time_sec": 3.809,
-    "tokens_per_sec": 11.0,
-    "word_count": 26
+    "response_text": "Das tut mir leid zu hoeren! Hier sind die Schritte zur Loesung:\n1. Leeren Sie Ihren Browser-Cache und Cookies und versuchen Sie es erneut.\n2. Kontaktieren Sie den Kundenservice mit Ihrer Bestellnummer.\n3. Senden Sie eine Beschwerde an die Kundenservice-Seite.\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 101,
+    "generation_time_sec": 2.376,
+    "tokens_per_sec": 42.5,
+    "word_count": 54
   },
   {
     "query_id": "q51",
@@ -605,11 +605,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "App auf Englisch umstellen geht das",
-    "response_text": "Das kann verschiedene Gründen haben:\n\n1. Pruefen Sie Ihre App-Setting in App > Einstellungen > Sprache\n2. Versuchen Sie einen Pfeffernuss (Cmd + Shift + P auf Mac, Ctrl + Shift + P auf Windows)\n3. Leeren Sie den Cache Ihrer Browser (Google Chrome: Strg + Shift + Del, Firefox: Strg + Option + Del)\n\nSollte das Problem besteht, senden Sie uns bitte eine Screenshot!",
-    "generated_tokens": 102,
-    "generation_time_sec": 9.47,
-    "tokens_per_sec": 10.8,
-    "word_count": 65
+    "response_text": "Das tut mir leid — Englisch ist nicht myzingig!\n1. Wie kann ich Ihnen bei Ihrer Anfrage helfen?\n2. Englisch lerne — das ist mein Ströngstiges Sprachschwierenspiel\n3. Vielen Dank fuer Ihre Anfrage\n4. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung",
+    "generated_tokens": 78,
+    "generation_time_sec": 1.833,
+    "tokens_per_sec": 42.6,
+    "word_count": 43
   },
   {
     "query_id": "q52",
@@ -617,11 +617,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Ich erhalte gefuehlt fuenf E-Mails pro Woche von Ihnen, was mir ehrlich gesagt zu viel ist. Gibt es eine Moeglichkeit, die Frequenz zu reduzieren ohne mich ganz abzumelden?",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren. Bitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir pruefen das sofort und verdaechtigen den E-Mail-Server voruebergehend deaktivieren.",
-    "generated_tokens": 51,
-    "generation_time_sec": 4.716,
-    "tokens_per_sec": 10.8,
-    "word_count": 25
+    "response_text": "Ich verstehe Ihre Frustration — eine zu hoefliche E-Mail-Quittung kann frustrierend sein. Die moegliche Loesung ist, dass wir Ihnen einen Abbruckungs- oder Abmeldung-Service anbieten koennen. So koennen Sie Ihre E-Mail-Quittung automatisch stornieren oder um eine reduzierte Quittung aufhalten. Bitte teilen Sie uns Ihre E-Mail-Adresse mit, damit wir den entsprechenden Service anbieten koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 125,
+    "generation_time_sec": 2.874,
+    "tokens_per_sec": 43.5,
+    "word_count": 61
   },
   {
     "query_id": "q53",
@@ -629,11 +629,11 @@
     "query_mood": "frustrated",
     "sentence_count": 1,
     "query_text": "Ich habe Euren Newsletter speziell fuer Kindermode abonniert und bekomme stattdessen seit Wochen nur Werbung fuer Herrenrasierer.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren.\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir pruefen den Vorgang umgehend und stellen sicher, dass alleue Newsletter verschickt werden koennen.",
-    "generated_tokens": 50,
-    "generation_time_sec": 4.576,
-    "tokens_per_sec": 10.9,
-    "word_count": 29
+    "response_text": "Das tut mir leid! Eine Seite im Newsletter habe ich doppelt abonniert und das Problem habe ich jetzt angehen lassen.\n\n1. Bitte teilen Sie mir mit, welchen Newsletter Sie abonniert haben\n2. Wir pruefen den Status Ihrer Abonnierung\n3. Wir entschuldigen uns fuer die Unannehmlichkeiten\n4. Wir klären das Problem und setzen uns an, um es zu vermeiden\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 115,
+    "generation_time_sec": 2.67,
+    "tokens_per_sec": 43.1,
+    "word_count": 68
   },
   {
     "query_id": "q54",
@@ -641,11 +641,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Newsletter nur auf Deutsch bitte",
-    "response_text": "Natürlich, entschuldige den Vorgang! Die Newsletter wird jetzt ausschliesslich in Deutsch senden. Ist das Ihre bevorzugte Sprache auch fuer den Rest des Sites?",
-    "generated_tokens": 42,
-    "generation_time_sec": 3.818,
-    "tokens_per_sec": 11.0,
-    "word_count": 23
+    "response_text": "Das tut mir leid. Hier sind die Newsletter-Optionen:\n1. Newsletter auf Deutsch\n2. Newsletter auf anderen Sprachen\nBitte teilen Sie mir mit, welchen Sprache Sie bevorzugen. Vielen Dank fuer Ihre Anfrage! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 69,
+    "generation_time_sec": 1.655,
+    "tokens_per_sec": 41.7,
+    "word_count": 40
   },
   {
     "query_id": "q55",
@@ -653,11 +653,11 @@
     "query_mood": "polite",
     "sentence_count": 3,
     "query_text": "Ich habe vor kurzem ein Hemd bei Ihnen gekauft und moechte gerne eine ausfuehrliche Bewertung schreiben. Dabei wuerde ich gerne ein Foto vom Produkt hinzufuegen, weiss aber nicht wie. Koennten Sie mir den Weg dahin beschreiben?",
-    "response_text": "Natürlich! Das kann schnell und einfach sein:\n\n1. Klicken Sie auf Ihre Karte oder Telefonnummer in der Linkfunktion (eine schlanme Befehlssymbold wird angezeigt)\n2. Scrollen Sie nach unten zu ' Bewertung schreiben'\n3. Klicken Sie auf 'Foto hinzufuegen'\n4. Gehen Sie zu Ihrem Foto-Hinzufuegung-Screen (das Foto sollte sich automatisch ansehen)\n5. Speichern Sie die Bewertung\n\nBitte beachten Sie: keine fremde Fotografie, klare Texte und keine Persoenlichen Daten anzeigen.",
-    "generated_tokens": 133,
-    "generation_time_sec": 12.336,
-    "tokens_per_sec": 10.8,
-    "word_count": 68
+    "response_text": "Danke fuer Ihre Anfrage!\n\n1. Ich verstehe, dass Sie ein Foto vom Produkt hinzufuegen moechten.\n2. Eine guter Weg, um das zu tun, ist, dass Sie das Produkt in einem Bilderrahmen darstellen lassen und dann ein Foto von einem Teammitglied oder von selbstnehmen lassen.\n3. Sie koennen das Foto kostenlos herunterladen und speichern oder verwenden, um es in Ihrer Bewertung zu verwenden.\n4. Ich entschuldige mich fuer die Unannehmlichkeiten und helfe Ihnen gerne bei Ihrer Bewertung weiter!\n\nBitte teilen Sie mir mit, ob Sie ein Foto hinzufügen moechten oder nicht. Ich helfe Ihnen gerne weiter!",
+    "generated_tokens": 153,
+    "generation_time_sec": 3.524,
+    "tokens_per_sec": 43.4,
+    "word_count": 95
   },
   {
     "query_id": "q56",
@@ -665,11 +665,11 @@
     "query_mood": "frustrated",
     "sentence_count": 2,
     "query_text": "Ich habe eine ehrliche 2-Sterne-Bewertung abgegeben und der Verkaeufer antwortet darunter mit persoenlichen Beleidigungen. Wieso wird so etwas nicht moderiert.",
-    "response_text": "Das ist ein verdaechtiges Verhalten! Ehrliche Bewertungen sind sehr wichtig für Kunden und Verkaeufer. Persoenliche Beleidigungen in Reaktion auf Bewertungen sollte jeder Kundenservice antworten:\n\n1. Gehen Sie zu 'Meine Bewertungen' > 'Bearbeiten oder loeschen'\n2. Klicken Sie auf 'Diese Bewertung kommentieren'\n3. Stellen Sie sicher, dass die Bewertung ehrlich ist\n4. Klicken Sie auf 'Bestätigen' und 'Speichern'\n\nSo können wir verdaechtige Beleidigungen beenden und das System voruebergehend deaktivieren. Bitte kontaktieren Sie uns mit Ihrer Bewertung, wir helfen gerne weiter!",
+    "response_text": "Das tut mir leid. Ich verstehe, dass Sie enttäuscht sind und die Beleidigungen nicht akzeptieren. Ich moechte Ihnen gerne helfen, eine andere Lösung zu finden.\n\n1. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, mit der Sie Ihre Bewertung gesendet haben\n2. Ich pruefe den Konto Ihres Bewertungsbeitrags\n3. Wir stellen sicher, dass die Beleidigungen nicht in der Bewertungsspalte sind\n4. Wir entfernen Ihre Bewertung fuer zukünftige Bewertungen\n5. Wir entschuldigen uns für die Unannehmlichkeiten\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
     "generated_tokens": 160,
-    "generation_time_sec": 15.698,
-    "tokens_per_sec": 10.2,
-    "word_count": 79
+    "generation_time_sec": 3.668,
+    "tokens_per_sec": 43.6,
+    "word_count": 83
   },
   {
     "query_id": "q57",
@@ -677,11 +677,11 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Bewertung anonym moeglich",
-    "response_text": "Kein Problem! anonyme Bewertungen sind immer noch possible. Bitte teilen Sie uns Ihre Meinung mit.",
-    "generated_tokens": 24,
-    "generation_time_sec": 2.385,
-    "tokens_per_sec": 10.1,
-    "word_count": 15
+    "response_text": "Ich verstehe Ihre Anfrage. Hier sind die Bewertungsmöglichkeiten:\n\n1. Kein Änderung\n2. Leider nicht moeglich\n3. Moeglich mit einer anderen Bewertung\nBetreff: Bewertung von 'Bewertung anonym moeglich'",
+    "generated_tokens": 64,
+    "generation_time_sec": 1.508,
+    "tokens_per_sec": 42.4,
+    "word_count": 27
   },
   {
     "query_id": "q58",
@@ -689,11 +689,11 @@
     "query_mood": "polite",
     "sentence_count": 2,
     "query_text": "Mich wuerde interessieren, ob man mehrere Freunde gleichzeitig ueber einen Sammel-Empfehlungslink einladen kann. Das waere praktisch fuer unseren Klassenchat.",
-    "response_text": "Natürlich! Das koennen Sie ganz einfach selbst aktivieren.\n\n1. Gehen Sie zu 'Einstellungen' > 'E-Mail-Empfehlungen'\n2. Klicken Sie auf 'Sammeln'\n3. Klicken Sie auf 'Sammel-Empfehlung erstellen'\n\nAlle anderen Kunden, die diesen Link sehen, werden automatisch hinzugefuegt. Das vereinte Konto-Sperren funktioniert auch bei diesem Weg!",
-    "generated_tokens": 98,
-    "generation_time_sec": 9.119,
-    "tokens_per_sec": 10.7,
-    "word_count": 44
+    "response_text": "Ich verstehe Ihre Anfrage und die Komplexität Ihres Problems.\n\n1. Entschuldigung — ich verstehe Ihre Anfrage\n2. Sammel-Empfehlungen koennen Sie ja auch mit anderen führen?\n3. Ja, ich kann Ihnen gerne dabei helfen, mehr über unsere Sammel-Empfehlungen zu erfahren\n4. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 93,
+    "generation_time_sec": 2.202,
+    "tokens_per_sec": 42.2,
+    "word_count": 49
   },
   {
     "query_id": "q59",
@@ -701,11 +701,11 @@
     "query_mood": "frustrated",
     "sentence_count": 3,
     "query_text": "Mein Bruder hat mit meinem Empfehlungslink bestellt. Er hat die fuenf Euro Willkommensrabatt bekommen, ich aber bis heute keine Gutschrift. Das fuehlt sich nach Bauernfaengerei an.",
-    "response_text": "Das tut mir leid! Das sollte nicht passieren.\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit. Wir senden eine Gutschrift oder erstatten den Willkommensbetrag innerhalb von 5 Werktagen per E-Mail.",
-    "generated_tokens": 54,
-    "generation_time_sec": 5.04,
-    "tokens_per_sec": 10.7,
-    "word_count": 29
+    "response_text": "Das tut mir leid zu hoeren, dass das Problem sich nicht geaendert hat. Hier sind die Schritte, die ich unternehmen wuerde, um das Problem zu loesen:\n\n1. Kontakt mit der Firma aufnehmen und fragen, ob sie die Gutschrift bestaetigen koennen\n2. Wenn die Gutschrift bestaetigt wird, senden Sie dem Paket an den entsprechenden Adresse\n3. Machen Sie Fotos vom Paket und senden Sie es zur Firma\n\nWenn das Paket verloren gegangen ist, melden Sie das mit der Firma und fordern Sie eine Gutschrift. Wir setzen uns mit der Firma in Verbindung und fordern eine Gutschrift vom Verbleibenden Betrag. Wenn das Verbleibende Geld nicht auszugeben ist, koennen wir das Paket an eine Paketladungsbüro abgeben und es dort abgeben. Wir senden dann den verlorenen Paket an die Firma zurück und fordern eine Gutschrift vom verbleibenden Betrag. Wenn das verbleibende Geld nicht auszugeben ist, koennen wir das Paket an eine Paketladungsbüro abgeben und es dort abgeben. Wir senden dann das verlorenen Paket zurück an den Absender und fordern eine Gutschrift vom verbleibenden Betrag. Wenn das verbleibende Geld nicht auszugeben ist, koennen wir das Paket an eine Paketladungsbüro abgeben und es dort abgeben. Wir senden dann das verlorenen Paket zurück an den Absender und fordern eine Gutschrift vom verbleibenden Betrag. Wenn das verbleibende Geld nicht auszugeben ist, koennen wir",
+    "generated_tokens": 384,
+    "generation_time_sec": 8.822,
+    "tokens_per_sec": 43.5,
+    "word_count": 215
   },
   {
     "query_id": "q60",
@@ -713,10 +713,10 @@
     "query_mood": "concise",
     "sentence_count": 1,
     "query_text": "Empfehlungslink wo finden in der App",
-    "response_text": "Bitte gehen Sie zu 'Meine Bestellungen' > 'Empfehlung senden'.",
-    "generated_tokens": 20,
-    "generation_time_sec": 1.869,
-    "tokens_per_sec": 10.7,
-    "word_count": 9
+    "response_text": "Ich verstehe Ihre Anfrage! Hier sind die Loesungsschritte:\n\n1. Öffnen Sie die App und gehen Sie zu 'Meine Empfehlungen'\n2. Nennen Sie das Empfehlungssystem (z.B. 'Mein Lieblingsprodukt')\n3. Klicken Sie auf 'Deaktivieren' (falls es aktiv ist)\n4. Speichern Sie die Loesung als Bild oder Video\n5. Einloggen und die Loesung teilen\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung.",
+    "generated_tokens": 125,
+    "generation_time_sec": 2.885,
+    "tokens_per_sec": 43.3,
+    "word_count": 62
   }
 ]

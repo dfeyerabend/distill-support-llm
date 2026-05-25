@@ -1,2 +1,6 @@
 anthropic==0.86.0
 python-dotenv==1.0.1
+gradio>=4.0
+transformers>=4.40
+accelerate>=0.27
+torch

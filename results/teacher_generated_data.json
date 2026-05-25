@@ -1,0 +1,930 @@
+[
+  {
+    "instruction": "Meine Lieferung sollte gestern ankommen, aber im Tracking steht immer noch 'in Bearbeitung'.",
+    "output": "Das verstehe ich — das ist aergerlich! Eine offizielle ETA ist oft nur eine Schätzung und kann sich aufgrund verschiedener Faktoren ändern. Bitte teilen Sie mir Ihre Sendungsnummer mit (falls verfügbar) und ich pruefe den aktuellen Standort Ihres Pakets. Falls es als 'in Bearbeitung' gemeldet ist, kann ich eine interne Untersuchung durchfuehren. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mich nicht mehr in mein Konto einloggen. Der Code per Email kommt nicht an.",
+    "output": "Das tut mir leid! Ein technisches Problem zu haben ist frustrierend — ich verstehe, dass Sie es so schnell wie moeglich geloesen haben moechten. Hier sind die Schritte:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie den Incognito-Modus (Strg + Shift + 'i')\n3. Verwenden Sie 'Passwort vergessen' um ein neues zu setzen\n4. Ein neuer Code wird in 30 Minuten an Ihre registrierte Email-Adresse gesendet\n\nFalls das Problem weiterhin besteht, senden wir Ihnen gerne einen neuen Code. Bitte teilen Sie uns Ihre registrierte Email-Adresse mit. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde meine Bestellung ohne Grund storniert?",
+    "output": "Das tut mir leid. Wir pruefen den Grund fuer die Stornierung Ihrer Bestellung intern und melden uns bald mit einer Antwort. Vielen Dank fuer Ihre Anfrage.\n\n1. Bestellungszahl: [Bestellnummer]\n2. E-Mail-Adresse: [E-Mail-Adresse]\n3. Vorgangsnummer: [Vorgangsnummer]\n\nWir entschuldigen uns fuer die Unannehmlichkeiten. Wir konnten leider keine Grundlage fuer die Stornierung Ihrer Bestellung finden. Die interne Pruefung ist abgeschlossen. Ihre Bestellung wird wiederhergestellt.\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Versandbestaetigung bekommen, aber keine Sendungsnummer.",
+    "output": "Das verstehe ich — eine Sendungsnummer ist eine wichtige Sache!\n\nBitte kontaktieren Sie uns mit Ihrer Sendungsnummer, falls Sie eine haben — dann koennen wir Ihr Paket bis zum aktuellen Standort verfolgen. Falls Sie keine Sendungsnummer haben, koennen wir das in vielen Fällen herausfinden. Bitte teilen Sie uns die Details Ihres Versands mit (z.B. Versanddatum, Versanddienstleister, Sendungsverlauf) — dann koennen wir Ihnen ein Update geben.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Kann ich meine Bestellung noch an eine andere Adresse schicken lassen?",
+    "output": "**Schritt 1:** Die meisten unserer Produkte koennen in begrenzter Zeit fuer Sie umgeleitet werden.\n**Schritt 2:** Einen Nachnahme-Service koennen wir leider nicht anbieten.\n**Schritt 3:** Eine genaue Lieferzeit bestaetigen Sie bitte direkt mit dem Versanddienstleister.\n**Angebot zur weiteren Hilfe:** Gerne helfe ich Ihnen bei weiteren Fragen zum Produkt oder zur Lieferung weiter. \n"
+  },
+  {
+    "instruction": "Ich habe aus Versehen zwei Mal bestellt. Koennen Sie eine Bestellung stornieren?",
+    "output": "Ich verstehe, dass Sie die Bestellungen stornieren moechten. Hier ist, was Sie tun müssen:\n\n1. Kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir pruefen den Status Ihrer Bestellung\n3. Falls die Bestellung noch nicht versandt wurde, stornieren wir sie fuer Sie\n4. Falls die Bestellung bereits versandt wurde, koennen Sie die Ware kostenlos zuruecksenden\n\nFalls Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Preis im Warenkorb ist hoeher als auf der Produktseite.",
+    "output": "Danke, dass Sie uns das melden — das pruefen wir gerne fuer Sie!\n\n1. Bitte teilen Sie uns die URL der Produktseite mit\n2. Wir pruefen den korrekten Preis\n3. In der Zwischenzeit koennen Sie gerne einen Screenshot senden\n4. Bei Unstimmigkeiten entschuldigen wir uns und korrigieren die Seite\n\nVielen Dank fuer Ihre Geduld! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde meine Zahlung abgelehnt obwohl genug Geld auf der Karte ist?",
+    "output": "Das tut mir leid! Eine abgelehnte Zahlung kann verschiedene Gründe haben:\n\n1. Die Karte ist möglicherweise für Online-Zahlungen nicht aktiviert\n2. Ein technisches Problem beim Zahlungsabwickler\n3. Ihre Bank kann die Zahlung nicht autorisieren (z.B. weil das Geld auf der Karte nicht ausreicht)\n\nBitte teilen Sie mir Ihre Zahlungs-ID mit. In der Zwischenzeit empfehle ich PayPal oder Kreditkarte als alternative Zahlungsmethoden. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich finde meine alte Bestellung in meinem Konto nicht mehr.",
+    "output": "Das tut mir leid zu hoeren! Eine verdaechtige Bestellung ist fuer mich keine Option. Ich helfe Ihnen gerne eine eingehende Untersuchung einzuleiten.\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit, mit der Sie bei uns bestellt haben. Wir kontaktieren Sie mit den naechsten Schritten. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie lange dauert der Versand normalerweise?",
+    "output": "Die Versanddauer hängt von verschiedenen Faktoren ab:\n\n1. Versandart: Die Versanddauer variiert je nach Versandart — Express, Standard- oder Economy-Versand.\n2. Zielland: Die Versanddauer hängt auch vom Zielland ab. Innerhalb Deutschlands beträgt die Versanddauer in der Regel 1-2 Werktage, während der Versand in das europäische Ausland in der Regel 3-7 Werktage dauert.\n3. Lieferdienst: Die Versanddauer hängt auch vom Lieferdienst ab. In der Regel beträgt die Versanddauer mit DHL 1-2 Werktage, mit Hermes 2-3 Werktage und mit DPD 1-2 Werktage.\n\nSollten Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich habe keine Bestaetigungsmail fuer meine Bestellung erhalten.",
+    "output": "Das verstehe ich — das ist aergerlich! Hier ist, was Sie tun koennen:\n\n1. Pruefen Sie, ob die Bestellungsbestaetigung in Ihrem Spam- oder Junk-Ordner ist\n2. Kontaktieren Sie uns mit Ihrer Bestellnummer und wir senden Ihnen eine neue Bestaetigung\n3. Wenn Sie nichts finden, koennen Sie Ihre Bestellung kostenlos stornieren und sich fuer eine volle Erstattung entscheiden\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Rabattcode aus dem Newsletter funktioniert nicht.",
+    "output": "Das tut mir leid — der Rabattcode aus dem Newsletter funktioniert nicht.\n\nBitte senden Sie uns eine E-Mail mit Ihrer Bestellnummer und einem Screenshot oder Foto des Newsletters mit dem Rabattcode. Wir pruefen den Status Ihrer Bestellung und helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Kann ich meine Bestellung auch an eine Packstation liefern lassen?",
+    "output": "1. Das ist leider nicht moeglich.\n2. Die Lieferadresse kann nur ein Haus oder eine abholstation sein.\n3. Eine Packstation ist keine abholstation.\n4. Die Lieferadresse muss ein Haus sein.\n5. Das ist nicht moeglich.\n6. Ich helfe Ihnen gerne weiter. \n"
+  },
+  {
+    "instruction": "Meine Bestellung ist laut Tracking zugestellt, aber ich habe nichts erhalten.",
+    "output": "Das verstehe ich — das ist frustrierend!\n\nBitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit koennen Sie selbst nachschauen:\n1. Öffnen Sie Ihr Paketverfolgungskonto\n2. Dort suchen Sie nach Ihrer Sendungsnummer\n3. Dort sehen Sie den aktuellen Standort Ihres Pakets\n\nSollte das Paket als 'zugestellt' markiert sein, aber nicht angekommen sein, melden wir einen Verlust beim Versanddienstleister und klaeren das fuer Sie! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie kann ich meine Zahlungsmethode aendern?",
+    "output": "1. Einloggen und zu 'Einstellungen' > 'Zahlungsmethode' gehen\n2. Klicken Sie auf 'Bearbeiten' oder 'Entfernen' neben Ihrer aktuellen Methode\n3. Waehlen Sie eine neue Methode aus der Liste oder bieten Sie eine alternative Methode an\n4. Speichern Sie die Aenderung\n5. Bestaetigen Sie die Aenderung auf der Seite\n6. Vielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Kopie meiner letzten Rechnung herunterladen.",
+    "output": "Kein Problem! So gehen Sie vor:\n\n1. Einloggen und zu 'Mein Konto' gehen\n2. Klicken Sie auf 'Letzte Rechnungen'\n3. Finden und markieren Sie die gewuenschte Rechnung\n4. Klicken Sie auf 'Herunterladen'\n\nFalls Sie weitere Hilfe benoetigen, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde meine Bestellung in zwei Paketen verschickt?",
+    "output": "Das tut mir leid! Die meisten Produkte werden aus verschiedenen Lagern verschickt, um den Versand zu beschleunigen.\n\n1. Bestellung pruefen:\nKlicken Sie auf 'Meine Bestellungen'\nSuchen Sie nach der Sendungsnummer\n\n2. Versanddienstleister kontaktieren:\nSie finden die Kontaktinformationen auf der Sendungsverfolgungsseite\nFragen Sie nach dem Standort des Pakets\n\n3. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Das Produkt sieht anders aus als auf der Website.",
+    "output": "Ich verstehe Ihre Sorge! Hier sind die Schritte zur Lösung:\n1. Kontaktieren Sie uns mit einer klaren Beschreibung des Problems\n2. Wir pruefen den Artikel\n3. Im Falle eines Fehlers senden wir Ihnen umgehend den richtigen Artikel kostenlos zu\n4. Oder wir erstatten den Kaufpreis\nIch hoffe, diese Schritte helfen weiter. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht abschliessen. Der Bezahlbutton reagiert nicht.",
+    "output": "Das tut mir leid!\n\nBitte versuchen Sie folgendes:\n1. Versuchen Sie die Seite zu aktualisieren\n2. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n3. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n\nWenn Sie immer noch Probleme haben, senden Sie uns bitte einen Screenshot der Fehlermeldung. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Warum sind die Versandkosten ploetzlich hoeher als vorher?",
+    "output": "Danke fuer Ihre Anfrage!\n\nWir pruefen regelmäßig unsere Versandkosten, um sicherzustellen, dass sie angemessen sind. Leider haben sich unsere Versandkosten aufgrund von Veränderungen bei unseren Versanddienstleistern und Steuern erhöht. Hier sind die Schritte, um Ihre Bestellung zu bestätigen:\n\n1. Pruefen Sie Ihre Versandadresse\n2. Bestätigen Sie die Versandart\n3. Bestätigen Sie die Zahlung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Mahnung bekommen, obwohl ich schon bezahlt habe.",
+    "output": "Das tut mir leid!\n\n1. Bitte teilen Sie mir mit, wann die Zahlung erfolgt ist\n2. Ich pruefe das in unserem System\n3. Falls nötig, stelle ich einen Nachweis aus\n4. Entschuldigung fuer die Unannehmlichkeiten\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie kann ich mein Passwort wiederherstellen wenn ich keinen Zugriff auf meine Email habe?",
+    "output": "Bitte senden Sie Ihre Frage noch einmal mit Ihrer E-Mail-Adresse an den technischen Support. Unser Team wird Ihnen helfen, Ihr Passwort sicher zurückzusetzen. Eine direkte öffentliche Antwort ist nicht erlaubt, aber ich stehe Ihnen zur Verfügung, um Ihnen bei weiteren Fragen zu helfen. \n"
+  },
+  {
+    "instruction": "Mein Warenkorb ist nach dem Einloggen leer.",
+    "output": "Das tut mir leid! Das sollte nicht passieren.\n\n1. Bitte loggen Sie sich aus und wieder ein\n2. Gehen Sie zu 'Meine Bestellungen'\n3. Dort sehen Sie Ihren Warenkorb\n\nIch helfe Ihnen gerne weiter, falls Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Kann ich mehrere Gutscheine gleichzeitig einloesen?",
+    "output": "1. Gutscheine einlösen\n2. Eine endgueltige Antwort wird angegeben\n\nDas ist eine gute Frage! Bei uns koennen Sie mehrere Gutscheine gleichzeitig einloesen.\n\n**Einschränkungen:**\n- Mindestbestellwert: 10 Euro\n- Gültig bis: 31.12.2021\n\nWir freuen uns, dass Ihnen die Antwort geholfen hat! Falls Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe versehentlich die falsche Farbe bestellt. Kann ich das noch aendern?",
+    "output": "Das tut mir leid! Eine solche Verwechslung kann passieren — natuerlich koennen Sie Ihre Farbauswahl aendern.\n\nHier ist wie:\n1. Kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Erklaeren Sie die Situation\n3. Waehlen Sie die richtige Farbe aus (siehe Website oder Katalog)\n4. Warten Sie auf unsere Bestaetigung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Kundenservice antwortet seit Tagen nicht auf meine Email.",
+    "output": "Das tut mir leid. Bitte teilen Sie mir Ihre Bestellnummer mit und geben Sie mir Bescheid, ob Sie eine Sendungsverfolgungsnummer haben. Wir kontaktieren den Kundenservice im Namen von Ihnen und fragen nach dem aktuellen Stand Ihrer Bestellung. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich moechte wissen wann meine Rueckerstattung bearbeitet wird.",
+    "output": "Ich verstehe Ihre Anfrage. Eine Rueckerstattung ist die Rückerstattung von Geld nach einer Retoure.\n\n1. Bitte teilen Sie mir mit, um welche Rueckerstattung es sich handelt\n2. Pruefen Sie den Status Ihrer Rueckerstattung auf Ihrer letzten Rechnung\n3. Kontaktieren Sie unsere Rueckabteilung mit Ihrer Auftragsnummer\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde als geliefert markiert, aber ich habe kein Paket bekommen.",
+    "output": "Das verstehe ich — das ist frustrierend!\n\nBitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit moechte ich Ihnen folgendes empfehlen:\n\n1. Kontaktieren Sie den Paketzusteller direkt\n2. Pruefen Sie, ob ein Nachbar das Paket fuer Sie angenommen hat\n3. Kontaktieren Sie uns mit Ihrer Bestellnummer erneut\n\nWir entschuldigen uns fuer die Unannehmlichkeiten und helfen Ihnen gerne weiter! \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Zahlung mit PayPal nicht?",
+    "output": "Das tut mir leid! Einige moegliche Gründe fuer Probleme mit der PayPal-Zahlung sind:\n\n1. Pruefen Sie, ob Ihr PayPal-Konto aktiv ist und Geld darauf vorhanden ist\n2. Pruefen Sie, ob Ihre PayPal-E-Mail-Adresse korrekt eingegeben ist\n3. Pruefen Sie, ob Ihre PayPal-Zahlung abgelehnt wurde\n4. Pruefen Sie, ob Ihre Karte ausreichend fuer den Kauf ist\n\nWenn Sie weiterhin Probleme haben, kontaktieren Sie den PayPal-Kundenservice direkt fuer Unterstuetzung! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte mein Lieferdatum verschieben.",
+    "output": "Kein Problem — so bearbeiten Sie Ihre Lieferadresse ganz einfach:\n\n1. Einloggen und zu 'Einstellungen' > 'Adressen' gehen\n2. Ihre aktuelle Adresse bearbeiten oder eine neue hinzufuegen\n3. Für verschiedene Aktionen klicken Sie auf 'Adresse bearbeiten', 'Adresse hinzufuegen' oder 'Adresse loeschen'\n\nBitte beachten: Die Adresse wird erst nach 48 Stunden wirksam. Bis dahin ist Ihre aktuelle Adresse noch aktiv. Soll ich Ihre Adresse vorher aendern? \n"
+  },
+  {
+    "instruction": "Kann ich meine Bestellung auch selbst im Laden abholen?",
+    "output": "Selbstverstaendlich! Vielen Dank fuer Ihre Anfrage.\n\n1. Oeffnen Sie die Website des Ladens\n2. Finden Sie Ihre Bestellnummer\n3. Klicken Sie auf 'Abholung im Laden'\n4. Waehlen Sie einen Store in Ihrer Naehe\n5. Drucken Sie Ihre Bestellnummer aus\n6. Bringen Sie Ihren Personalausweis mit\n\nFalls Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Das Paket ist beschaedigt angekommen und der Inhalt fehlt teilweise.",
+    "output": "Das tut mir leid. So handeln Sie richtig:\n\n1. Kontaktieren Sie den Verkaeufer und machen Sie Fotos vom Schaden\n2. Sendeten Sie das Paket eingeschrieben mit Kaeuferverfolgung zurück\n3. Beantragen Sie eine Erstattung oder einen Austausch\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe ein Abo abgeschlossen, aber finde die Einstellungen nicht.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Auffindung der Einstellungen:\n\n1. Einloggen und zu 'Einstellungen' gehen\n2. Klicken Sie auf 'Abonnement'\n3. Die Einstellungen werden angezeigt\n\nWenn Sie weiterhin Schwierigkeiten haben, stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Warum wird meine Kreditkarte nicht akzeptiert?",
+    "output": "Das tut mir leid — das ist aergerlich! Hier sind einige Schritte, die Ihnen helfen sollten:\n\n1. Pruefen Sie, ob Ihre Karte fuer Online-Zahlungen freigeschaltet ist\n2. Überpruefen Sie, ob Ihre Kartenangaben korrekt sind (insbesondere die Kartennummer und das Ablaufdatum)\n3. Versuchen Sie eine alternative Zahlungsmethode (PayPal, Lastschrift)\n\nWenn Sie weiterhin Schwierigkeiten haben, senden Sie uns bitte einen Screenshot oder Kontoauszug Ihrer Karte und wir helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Rechnung bekommen.",
+    "output": "Das tut mir leid. Bitte senden Sie uns eine E-Mail mit Ihrer Bestellnummer und einem Screenshot der falschen Rechnung. Wir pruefen den Vorgang umgehend und erstatten den betragigen Betrag innerhalb von 3-5 Werktagen zurueck. Vielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Artikel im Paket entspricht nicht meiner Bestellung.",
+    "output": "Das tut mir leid!\n\n1. Bitte senden Sie ein Foto oder eine Beschreibung der erhaltenen Sendung\n2. Wir pruefen den Artikel im Lager\n3. Bei fehlerhaftem Artikel erstatten wir den Kaufpreis oder senden Ersatz\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich mein Konto nicht verifizieren?",
+    "output": "Das tut mir leid! Die Verifizierung Ihres Kontos ist ein einfacher, 5-Schritte-Prozess:\n\n1. Einloggen und zur 'Einstellungen'-Seite navigieren\n2. Auf 'Konto verifizieren' klicken\n3. Geben Sie Ihre Telefonnummer ein und klicken Sie auf 'Senden'\n4. Sie erhalten einen SMS-Code zur Bestätigung\n5. Klicken Sie auf 'Verifizieren'\n\nFalls es Probleme gibt, kontaktieren Sie uns bitte mit Ihrer E-Mail-Adresse oder Ihrem Benutzernamen. Wir helfen Ihnen gerne weiter! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte mein Passwort aendern, finde aber die Option nicht.",
+    "output": "Das verstehe ich! Die Option 'Passwort aendern' kann sich auf der Website an verschiedenen Orten befinden:\n\n1. Einloggen und zu 'Einstellungen' > 'Sicherheit' gehen\n2. Auf der Startseite nach 'Passwort aendern' suchen\n3. Einloggen und auf 'Support' > 'Passwort vergessen' klicken\n\nIch hoffe, das hilft! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung ist seit Tagen im Status 'wird vorbereitet'.",
+    "output": "Das verstehe ich — das ist aergerlich!\n\nBitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit koennen Sie selbst nachschauen:\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Dort sehen Sie den aktuellen Standort Ihrer Bestellung\n3. Wenn es noch nicht verschickt wurde, koennen Sie es stornieren und eine Erstattung bekommen\n4. Wenn es bereits verschickt wurde, koennen Sie den Verbleib des Pakets verfolgen\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe einen Artikel zurueckgeschickt, aber noch keine Rueckerstattung erhalten.",
+    "output": "Das verstehe ich — Ruecksendungen und Rueckerstattungen koennen kompliziert sein. Hier sind die Schritte, die Sie unternehmen sollten:\n\n1. Kontaktieren Sie den Verkaeufer: Gehen Sie zur Website des Verkaeufers und suchen Sie nach ihrer Kontakt- oder Support-Sektion. Rufen Sie sie an oder senden Sie eine E-Mail und teilen Sie ihnen Ihre Ruecksendungsnummer mit.\n\n2. Verfolgen Sie die Ruecksendung: Die meisten Verkaeufer bieten eine Sendungsverfolgungsnummer an, damit Sie den aktuellen Standort Ihrer Ruecksendung sehen koennen.\n\n3. Legen Sie einen Rueckerstattungsantrag fest: Einige Verkaeufer erstatten den Betrag automatisch, wenn der Artikel empfangen und geprueft wurde. Andere koennen einen Rueckerstattungsantrag erfordern — stellen Sie sicher, dass Sie den Antrag innerhalb der Ruecksendefrist stellen."
+  },
+  {
+    "instruction": "Warum kann ich keine Bewertung fuer ein Produkt abgeben?",
+    "output": "Vielen Dank fuer Ihre Anfrage!\n\nWir freuen uns, dass Sie eine Bewertung fuer ein Produkt abgeben moechten. Die entsprechenden Instruktionen sind wie folgt:\n\n1. Oeffnen Sie die Produktseite des Artikels\n2. Scrollen Sie nach unten zu 'Kundenbewertungen'\n3. Klicken Sie auf 'Bewertung schreiben'\n4. Vergeben Sie 1-5 Sterne und schreiben Sie optional einen Kommentar\n5. Klicken Sie auf 'Senden'\n\nWir helfen Ihnen gerne weiter, bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Email ueber eine Bestellung erhalten die ich nicht gemacht habe.",
+    "output": "Das tut mir leid! Bitte teilen Sie mir Ihre Bestellnummer mit — ich pruefe das fuer Sie.\n\n1. Waehlen Sie Ihre Bestellnummer aus der E-Mail-Konversation aus\n2. Klicken Sie auf 'Meine Bestellungen'\n3. Die Bestellnummer wird als 'untersucht' angezeigt\n4. Ein Screenshot der E-Mail-Konversation wird als Beweis angehängt\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Support Chat laedt nicht in meinem Browser.",
+    "output": "Das tut mir leid! Hier sind ein paar schnelle Loesungen:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie Ihre Internetverbindung\n\nWenn es weiterhin nicht laedt, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir gezielter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Profilbild nicht hochladen.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob die Datei zu groß ist (zu groesse Dateien werden abgelehnt)\n2. Versuchen Sie ein anderes Format (akzeptierte Formate sind: jpg, jpeg, png, gif)\n3. Loeschen Sie die Datei und versuchen Sie es erneut (manchmal ist die Datei nur voruebergehend zu groß)\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte mit, um welches Format es sich handelt und welches spezifische Problem Sie erhalten (z.B. 'Die Datei ist zu groß' oder 'Die Datei wird nicht akzeptiert'). Wir helfen Ihnen dann gerne weiter! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde mein Konto ohne Vorwarnung gesperrt?",
+    "output": "Das tut mir leid fuer Ihre Anfrage! Die Sperrung eines Kontos ohne Vorwarnung kann verschiedene Gruende haben:\n\n1. Verstoß gegen Nutzungsbedingungen\n2. Verdacht auf betruegereische Aktivitaeten\n3. Wartungsarbeiten\n\nBitte kontaktieren Sie uns mit Ihrer E-Mail-Adresse, die mit dem Konto verknuepft ist, und wir klaeren das Verfahren zur Entsperrung. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich finde die Option zum Abbestellen des Newsletters nicht.",
+    "output": "Das tut mir leid! Hier ist, wie Sie es schnell finden koennen:\n\n1. Einloggen und zu 'Einstellungen' > 'Benachrichtigungen' gehen\n2. Scrollen Sie bis zum Ende der Seite und klicken Sie auf 'Alle abbestellen'\n3. Bestaetigen Sie die Abmeldung\n\nWenn Sie weiterhin Hilfe benoetigen, stehe ich Ihnen gerne zur Verfuegung! \n"
+  },
+  {
+    "instruction": "Die Website zeigt eine Fehlermeldung beim Checkout.",
+    "output": "Das tut mir leid. Bitte versuchen Sie folgendes:\n\n1. Pruefen Sie, ob ein Browser- oder Ausfuehrungsfehler vorliegt: Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete) und versuchen Sie es erneut\n2. Versuchen Sie einen anderen Browser: Einige Browser koennen Fehlermeldungen besser handhaben als andere\n3. Pruefen Sie, ob die Website-Wartungsdauer endet: Manchmal wird eine Fehlermeldung angezeigt, wenn die Website Wartungsarbeiten durchfuehrt\n\nWenn das Problem besteht, teilen Sie uns bitte die Fehlermeldung mit (normalerweise eine 404-Fehlermeldung). Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Gutschein wurde als benutzt markiert obwohl ich ihn nicht verwendet habe.",
+    "output": "Das tut mir leid — das sollte nicht passieren!\n\nBitte teilen Sie uns Ihre Bestellnummer mit, damit wir den Vorgang untersuchen und klären können.\n\n1. Waren Sie eingeloggt als registrierter Kunde?\n2. Wurde der Gutscheincode korrekt eingegeben?\n3. War der Gutschein noch gültig?\n\nWir entschuldigen uns für die Unannehmlichkeiten und helfen Ihnen gerne weiter! Bitte teilen Sie uns weitere Details mit, damit wir Ihnen eine Lösung anbieten können. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Lieferadresse dauerhaft aendern.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n\n1. Einloggen und zu 'Einstellungen' > 'Adressen' gehen\n2. Klicken Sie auf 'Adresse bearbeiten' oder 'Neue Adresse hinzufuegen'\n3. Speichern Sie die Aenderung\n\nFalls das Problem weiterhin besteht, helfe ich Ihnen gerne weiter! \n"
+  },
+  {
+    "instruction": "Warum sind manche Produkte in meinem Land nicht lieferbar?",
+    "output": "Das tut mir leid! Unsere Produkte sind in verschiedenen Regionen der Welt erhältlich und wir arbeiten daran, unsere Produktlinie zu erweitern. Gerne setzen wir Sie auf die Warteliste für das gewünschte Produkt! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich habe den falschen Artikel erhalten.",
+    "output": "Das tut mir leid — das ist natuerlich nicht akzeptabel!\n\n1. Bitte machen Sie Fotos vom Artikel und teilen Sie uns diese per E-Mail mit\n2. Wir erstatten den Betrag innerhalb von 3-5 Werktagen nach Erhalt der Fotos\n3. Entschuldigung fuer die Unannehmlichkeiten\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde teilweise geliefert. Wann kommt der Rest?",
+    "output": "Das tut mir leid. So gehen Sie vor:\n\n1. Pruefen Sie, ob ein Teil der Bestellung beschaedigt ist — in diesem Fall kontaktieren Sie uns bitte mit Fotos\n2. Pruefen Sie, ob ein Teil verloren gegangen ist — in diesem Fall kontaktieren Sie den Paketzusteller\n3. Pruefen Sie, ob die falsche Sache geliefert wurde — in diesem Fall koennen Sie die Ware selbstverstaendlich behalten oder wir koennen sie fuer Sie umtauschen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde meine Ruecksendung abgelehnt?",
+    "output": "Das tut mir leid. Eine Ruecksendung kann aus verschiedenen Gruenden abgelehnt werden:\n\n1. Nicht akzeptable Artikel: Die Ruecksendungsrichtlinien akzeptieren nur Artikel in gutem Zustand, die nicht verwendet oder getragen wurden, mit allen Original-Etiketten und in der Originalverpackung.\n2. Verspaetete Ruecksendung: Die Ruecksendungsfrist ist 30 Tage ab dem Datum des Versands.\n3. Fehlende oder nicht lesbare Dokumente: Bitte stellen Sie sicher, dass Ihre Ruecksendung den beigefuegten Dokumenten beigefuegt ist, einschließlich des ausgefuellten Rueckgabeforms und einer Kopie Ihrer Rechnung.\n\nSollte Ihre Ruecksendung in Ordnung sein, aber abgelehnt wurde, kontaktieren Sie uns bitte mit Ihrer Bestellnummer und einer Beschreibung des Problems. W"
+  },
+  {
+    "instruction": "Ich kann die App nicht auf meinem Handy installieren.",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung des Problems:\n\n1. Stellen Sie sicher, dass Ihr Handy mit der App kompatibel ist.\n2. Überpruefen Sie, ob Ihre Handy-Version veraltet ist\n3. Loeschen Sie die App-Installationsdatei vollstaendig und installieren Sie sie erneut\n4. Deaktivieren und aktivieren Sie die App-Installation wieder\n\nWenn das Problem weiterhin besteht, stehe ich Ihnen gerne zur weiteren Hilfe zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Die App zeigt nur einen weissen Bildschirm beim Start.",
+    "output": "Das tut mir leid. Bitte versuchen Sie folgendes:\n\n1. Überprüfen Sie, ob die App auf dem neuesten Stand ist\n2. Löschen Sie die App und installieren Sie sie erneut\n3. Starten Sie Ihr Gerät neu\n\nWenn Sie weiterhin Probleme haben, stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich bekomme staendig Fehlermeldungen beim Einloggen.",
+    "output": "Das tut mir leid. Bitte versuchen Sie folgendes:\n\n1. Pruefen Sie, ob die Festplatte voll ist\n2. Loeschen Sie den Browser-Cache\n3. Versuchen Sie einen anderen Browser\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie kann ich mein Kundenkonto komplett loeschen?",
+    "output": "1. Einloggen und zu 'Einstellungen' > 'Konto' gehen\n2. Auf 'Konto loeschen' klicken\n3. Sicherheitsfrage beantworten\n4. Bestaetigungsmeldung abwarten\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung \n"
+  },
+  {
+    "instruction": "Ich moechte meine Emailadresse im Konto aendern.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n\n1. Einloggen und zu 'Einstellungen' > 'Persoenliche Daten' gehen\n2. Klicken Sie auf 'Emailadresse aendern'\n3. Geben Sie Ihre neue Adresse ein\n4. Bestaetigen Sie die Aenderung ueber den Link, den wir an Ihre neue Adresse senden\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Zwei Faktor Anmeldung nicht?",
+    "output": "Das tut mir leid, das zu hoeren. Hier sind die Schritte zur Problemloesung:\n\n1. Pruefen Sie, ob beide Faktoren korrekt eingegeben wurden\n2. Versuchen Sie eine erneute Verifizierung des zweiten Faktors\n3. Versuchen Sie einen anderen Browser oder Gerät zur Anmeldung\n4. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse und beschreiben Sie das Problem\n\nBitte teilen Sie uns Ihre E-Mail-Adresse mit. Wir helfen Ihnen gerne weiter! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe meine Bestellung an die falsche Adresse geschickt.",
+    "output": "Das tut mir leid — das passiert häufig!\n\nBitte kontaktieren Sie uns so schnell wie möglich mit Ihrer Bestellnummer, damit wir die Adresse für Sie ändern können.\n\nWir helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Wie kann ich einen Artikel umtauschen?",
+    "output": "1. Bitte machen Sie Fotos vom Artikel und allen Labels\n2. Kontaktieren Sie uns mit Ihrer Artikelnummer und den Fotos\n3. Wir pruefen den Artikel und erstatten den Betrag innerhalb von 3-5 Werktagen\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket ist im Versand verloren gegangen.",
+    "output": "Das tut mir leid! Ein Paket, das verloren geht, ist natuerlich nicht akzeptabel — ich verstehe Ihre Sorge!\n\nBitte teilen Sie mir Ihre Sendungsverfolgungsnummer mit. In der Zwischenzeit koennen Sie selbst nachschauen:\n1. Oeffnen Sie 'Meine Sendungen'\n2. Klicken Sie auf 'Sendungsverfolgung'\n3. Dort sehen Sie den aktuellen Standort Ihres Pakets\n\nSollte das Paket als 'verloren' markiert sein, melden wir einen Verlust beim Versanddienstleister und klaeren das fuer Sie! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich sehe eine unbekannte Belastung auf meiner Rechnung.",
+    "output": "Das verstehe ich — das ist nicht angenehm! Lassen Sie uns das gemeinsam pruefen.\n\n1. Machen Sie sich keine Sorgen! Wir pruefen das gemeinsam.\n2. Kann ich Ihnen helfen, Ihre Rechnung zu pruefen?\n3. Einen weiteren Schritt in diese Angelegenheit werde ich unternehmen.\n\nBitte teilen Sie mir Ihre endgueltige E-Mail-Adresse mit, damit ich Ihnen in Zukunft alle aktualisierten Informationen senden kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Kann ich eine Bestellung pausieren bevor sie verschickt wird?",
+    "output": "**1. Einleitung:** Vielen Dank fuer Ihre Anfrage.\n\n**2. Anleitung:** \n- Einen Mitarbeiter erreichen Sie unter 0800 / 555 5555\n- Dort nach 'Bestellung pausieren' fragen\n- Ihre Bestellnummer angeben\n\n**3. Hilfeangebot:** Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen helfe ich Ihnen gerne weiter. \n"
+  },
+  {
+    "instruction": "Warum ist mein Konto ploetzlich deaktiviert?",
+    "output": "Das tut mir leid — das koennen wir nur schlecht verstehen.\n\nBitte teilen Sie uns Ihre E-Mail-Adresse mit, mit der Sie bei uns registriert sind — wir pruefen das in unserem System und geben Ihnen eine kurze Antwort.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann keine neuen Produkte in den Warenkorb legen.",
+    "output": "Das verstehe ich — das ist manchmal frustrierend! Hier sind ein paar Schritte, die Ihnen helfen sollten, Ihr Problem zu lösen:\n\n1. Warenkorb überprüfen: Bestimmen Sie, ob ein Artikel in Ihrem Warenkorb das Problem verursacht\n2. Browser-Cache leeren: Versuchen Sie, den Cache Ihres Browsers zu leeren und die Seite neu zu laden\n3. Versuchen Sie eine andere Zahlungsmethode: Wenn Sie mit einer Drittanbieter-App bezahlen, versuchen Sie die Zahlung über Ihre Kreditkarte\n4. Kontaktieren Sie uns: Wenn Sie weiterhin Schwierigkeiten haben, helfe ich Ihnen gerne eine alternative Lösung zu finden\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Der Warenkorb aktualisiert die Menge nicht richtig.",
+    "output": "Das tut mir leid — ich verstehe, dass Ihr Warenkorb nicht aktualisiert wird.\n\nBitte versuchen Sie folgendes:\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren und dann aktivieren Sie 'Erweiterte Einstellungen'\n4. Pruefen Sie, ob eine Menge 'ausverkauft' oder 'nicht vorrätig' ist\n\nWenn Sie weiterhin Probleme haben, stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich habe einen Gutschein geschenkt bekommen, aber er wird nicht akzeptiert.",
+    "output": "Das tut mir leid! Hier sind die Schritte, die Ihnen helfen sollten:\n\n1. Pruefen Sie, ob der Gutschein fuer den Laden/die Marke ist\n2. Pruefen Sie, ob der Gutschein abgelaufen ist\n3. Pruefen Sie, ob der Gutschein eingeloeist ist\n4. Pruefen Sie, ob der Gutschein fuer den Artikel ist\n\nBitte teilen Sie mir die Details des Gutscheins mit (z.B. Code, Marke, Ablaufdatum). Vielleicht gibt es eine Loesung! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Kann ich eine Ruecksendung ohne Originalverpackung machen?",
+    "output": "Keine Originalverpackung ist ein Problem fuer eine Ruecksendung.\n\n1. Kontaktieren Sie uns mit Ihrer Ruecksendungsanfrage\n2. Drucken Sie das kostenlose Ruecksendungslabel aus\n3. Geben Sie das Paket bei einem Paketshop ab\n\nFalls das Paket angekommen ist, erhalten Sie eine E-Mail-Bestätigung. In der Zwischenzeit koennen Sie den Status Ihrer Ruecksendung in Ihrem Kundenkonto unter 'Meine Bestellungen' einsehen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket wurde an den Absender zurueckgeschickt.",
+    "output": "Das tut mir leid. Bitte kontaktieren Sie den Absender direkt, um das weitere Vorgehen zu besprechen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich finde die Rechnung fuer meine letzte Bestellung nicht.",
+    "output": "Das tut mir leid! Hier sind die Schritte, die Ihnen helfen sollen, es zu finden:\n\n1. Pruefen Sie Ihre E-Mails auf eine Benachrichtigung von uns bezueglich Ihrer Rechnung\n2. Überpruefen Sie Ihren Bestellverlauf im E-Commerce-Bereich\n3. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse oder Ihrer Bestellnummer fuer weitere Unterstuetzung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum ist meine Bestellung teurer als erwartet?",
+    "output": "Vielen Dank fuer Ihre Anfrage — wir verstehen, dass Sie eine Bestellung aufgeben moechten, die Ihrer Erwartung entspricht.\n\nBitte beachten Sie, dass zusaetzliche Kosten entstehen koennen:\n1. Versandkosten: Moeglicherweise haben Sie einen teureren Versandtarif gewaehlt\n2. Steuern und Gebuehren: Einzelne Artikel koennen unterschiedliche Steuersaetze haben\n3. Rabattbedingungen: Einige Produkte koennen einen Mindestkaufpreis oder spezifische Rabattbedingungen haben\n\nWenn Ihre Bestellung einen unerwarteten zusaetzlichen Kosten hat, senden wir Ihnen eine aktualisierte Aufschlüsselung der Kosten und eine vergleichbare alternative Lösung. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie lange dauert eine Rueckerstattung normalerweise?",
+    "output": "Die Dauer einer Rueckerstattung hängt von verschiedenen Faktoren ab, wie z.B. der Art des Produkts, dem Grund für die Rueckerstattung und der Ruecksendepolitik des Verkaeufers. Die meisten Ruecksendungen dauern jedoch ca. 5-7 Werktage ab dem Datum der Ruecksendung. Wir empfehlen, sich für eine genauere Antwort an den Verkaeufer zu wenden. \n"
+  },
+  {
+    "instruction": "Ich moechte wissen ob ein Produkt wieder auf Lager kommt.",
+    "output": "Das verstehe ich vollkommen! Die meisten unserer Produkte laufen automatisch auf 'Ausverkauft' nach einer gewissen Zeit, während wir auf eine Nachlieferung warten. Eine kurze Abfrage in unserer Datenbank zeigt, dass die Nachlieferung für [Produktname] am [Datum] geplant ist. Wenn Sie spezielle Anfragen oder Anforderungen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Login ueber Google nicht?",
+    "output": "Das tut mir leid, das zu hoeren! Hier sind die Schritte zur Problemloesung:\n\n1. Pruefen Sie, ob die E-Mail-Adresse korrekt eingegeben wurde\n2. Versuchen Sie einen anderen Browser\n3. Loeschen Sie Cookies und Cache Ihres Browsers\n4. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n5. Kontaktieren Sie uns mit einer genaueren Beschreibung des Problems\n\nBitte beachten Sie, dass Problemloesungschritte je nach Browser variieren koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich bekomme keine SMS fuer die Anmeldung.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob die SMS-Benachrichtigung im Spam- oder Junk-Ordner ist\n2. Überpruefen Sie, ob die SMS-Benachrichtigung fuer eine abgehende oder eingehende Nachricht ist\n3. Kontaktieren Sie den Kundenservice und teilen Sie Ihre Bestellnummer mit, um den Status zu ueberpruefen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Konto zeigt eine falsche Bestellhistorie.",
+    "output": "Das tut mir leid. Bitte senden Sie Ihre Bestellhistorie an unsere E-Mail-Adresse mit dem Betreff 'Konto-Bestellhistorie'. Dort wird das Problem geprueft und die falsche Bestellhistorie geloescht. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht verfolgen.",
+    "output": "Das verstehe ich — das ist aergerlich!\n\nBitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit koennen Sie selbst nachschauen:\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Finden Sie Ihre Bestellnummer in der Liste und klicken Sie auf 'Verfolgen'\n3. Die Sendungsverfolgungsnummer wird angezeigt\n\nSollte das Problem bestehen bleiben, helfe ich Ihnen gerne eine alternative Methode zur Verfolgung zu finden. \n"
+  },
+  {
+    "instruction": "Warum wird mein Gutschein nicht auf reduzierte Artikel angewendet?",
+    "output": "Das tut mir leid — das ist aergerlich! Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob der Gutscheincode noch gueltig ist\n2. Kontaktieren Sie den Shop-Support mit einer Beschreibung des Problems\n3. Versuchen Sie einen anderen Gutscheincode\n\nFalls das Problem weiterhin besteht, teilen Sie uns bitte mit, welcher Gutscheincode das ist — dann koennen wir weiter untersuchen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Emailadresse im Konto gespeichert.",
+    "output": "Das tut mir leid. Bitte senden Sie Ihre E-Mail erneut an die korrekte Adresse. Hier ist eine Liste der gängigen falsch geschriebenen E-Mail-Adressen, um zu vermeiden, dass in Zukunft falsche E-Mails gesendet werden:\n\n1. Gmail.com\n2. Outlook.com\n3. Yahoo.com\n4. Protonmail.com\n5. Gmx.com\n\nBitte lassen Sie mich wissen, ob Ihre E-Mail-Adresse hier aufgeführt ist, damit ich Ihnen weiterhelfen kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Wie kann ich meine Bestellung komplett stornieren?",
+    "output": "1. Gehen Sie zu 'Meine Bestellungen'\n2. Finden Sie die betreffende Bestellung\n3. Klicken Sie auf 'Stornieren'\n4. Bestaetigen Sie die Stornierung\n5. Beenden Sie den Vorgang\n\nFalls Sie Ihre Meinung aendern, koennen Sie die Bestellung in 'Meine Bestellungen' wiederherstellen. Vielen Dank fuer Ihre Anfrage — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Warenkorb auf dem Handy nicht?",
+    "output": "Das tut mir leid zu hoeren! Hier sind die Schritte zur Loesung des Problems:\n\n1. Handy neu starten: Ausschalten, 30 Sekunden warten und wieder einschalten\n2. App komplett schliessen und neu starten\n3. Handy nach Möglichkeit mit WLAN oder mobilen Daten verbinden\n4. Versuchen, den Warenkorb mit einer anderen Zahlungsmethode zu verwenden\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte die Marke und das Modell Ihres Handys sowie die verwendete App mit. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich sehe doppelte Bestellungen in meinem Konto.",
+    "output": "Das tut mir leid. Das pruefen wir gerne fuer Sie!\n\n1. Einloggen und zu 'Einstellungen' > 'Bestellverlauf' gehen\n2. Nach 'Doppelte Bestellung' suchen\n3. Die entsprechende Bestellung aufrufen\n4. 'Stornieren' auswaehlen und Bestellung bestaetigen\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Support Bot versteht meine Anfrage nicht.",
+    "output": "Das tut mir leid — ich verstehe, dass Sie Hilfe benoetigen!\n\n1. Bitte teilen Sie mir Ihr Anliegen mit\n2. Ich helfe Ihnen gerne weiter\n3. Oder senden Sie mich an einen Kollegen weiter\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde zweimal berechnet.",
+    "output": "Das tut mir leid. So sollte es nicht sein!\n\n1. Bitte teilen Sie uns die Bestellnummer mit\n2. Wir pruefen den Vorgang\n3. Gegebenenfalls erstatten wir das doppelte Berechnungsgeld zurueck\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich kein neues Passwort setzen?",
+    "output": "Das ist frustrierend — lassen Sie mich das pruefen!\n\n1. Bitte teilen Sie mir Ihre E-Mail-Adresse mit, mit der Sie Ihr Konto verknuepfen\n2. Ich pruefe den Status Ihres Kontos\n3. Wenn es keine Einschraenkungen gibt, setzen Sie Ihr neues Passwort einfach nuetzt Ihr Konto\n4. Wenn es Einschraenkungen gibt, entfernen wir diese in unserem System\n5. Wir setzen die Einschraenkungen zurück — Ihr Konto ist jetzt vollstaendig nutzbar\n6. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung \n"
+  },
+  {
+    "instruction": "Ich habe eine Lieferung an eine alte Adresse bekommen.",
+    "output": "Das tut mir leid — das passiert oft mit Paketen. Bitte kontaktieren Sie den Verkäufer und machen Sie eine Rücksendung oder einen Umtausch. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich moechte mein Abo vorzeitig beenden.",
+    "output": "Das verstehe ich vollkommen! Hier ist wie:\n\n1. Gehen Sie zu 'Einstellungen' > 'Abonnement'\n2. Klicken Sie auf 'Abo kuendigen'\n3. Bestaetigen Sie die Kuendigung\n4. Ihre Kuendigung wird zum Ende des aktuellen Abrechnungszeitraums wirksam\n\nVielen Dank fuer Ihre Anfrage! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde mein Gutschein deaktiviert?",
+    "output": "Das tut mir leid, das pruefen wir gerne fuer Sie!\n\n1. Bitte teilen Sie uns die Gutscheinnummer mit\n2. Waehlen Sie den Gutschein in Ihrem Warenkorb aus\n3. Pruefen wir, ob der Gutschein gültig ist\n4. Bestätigen wir den Eingang der Zahlung\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Ruecksendung im Portal nicht anmelden.",
+    "output": "Das tut mir leid. Bitte versuchen Sie es noch einmal:\n\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Ruecksendung auswaehlen\n3. Adresse drucken und auf das Paket kleben\n4. Innerhalb von 14 Tagen abgeben\n\nFalls das Problem weiterhin besteht, teilen Sie mir bitte Ihre Bestellnummer mit. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Artikel fehlt in meiner Lieferung.",
+    "output": "Das tut mir leid! Das pruefen wir gerne fuer Sie.\n\n1. Bitte kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir pruefen den Verbleib Ihres Artikels\n3. Wir setzen Sie darueber in Kenntnis, sobald wir mehr wissen\n\nVielen Dank fuer Ihre Geduld. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde automatisch storniert.",
+    "output": "Das tut mir leid. Das verstehe ich — unser System storniert automatisch alle Bestellungen, die nicht innerhalb von 10 Minuten bestaetigt werden.\n\nBitte teilen Sie mir Ihre Bestellnummer mit. Ihnen wird keine Bestellnummer gegeben? Kein Problem, ich suche das fuer Sie heraus.\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Hier finden Sie unsere Rueckerstattungsrichtlinie. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Rechnung mit ausgewiesener Mehrwertsteuer.",
+    "output": "Vielen Dank fuer Ihre Anfrage!\n\n1. Rechnungsdokument aufrufen\n2. Mausklick in der Menueleiste auf 'Mehrwertsteuer hinzufuegen'\n3. Fertig stellen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Zahlungsseite nicht?",
+    "output": "Das tut mir leid — die Zahlungsseite funktioniert nicht?\n\nHier sind die Schritte zur Loesung des Problems:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie Ihre Internetverbindung\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir gezielter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Telefonnummer im Konto hinterlegt.",
+    "output": "Das tut mir leid. So bearbeiten Sie es:\n\n1. Einloggen und zu 'Einstellungen' > 'Persönliche Daten' gehen\n2. Klicken Sie auf 'Telefonnummer bearbeiten'\n3. Geben Sie Ihre korrekte Nummer ein\n4. Speichern Sie die Änderungen\n\nVielen Dank für Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Kann ich eine Rueckerstattung auf eine andere Zahlungsmethode bekommen?",
+    "output": "1. Keine Rueckerstattung ist im Einkyp bevorzugt\n2. Eine andere Zahlungsmethode ist nicht moeglich\n3. Rueckabwicklung erfolgt innerhalb von 3-5 Werktagen\n4. Das Geld sollte innerhalb von 5-7 Werktagen gutgeschrieben sein\n5. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket wurde beim Nachbarn abgegeben ohne Info.",
+    "output": "Das tut mir leid! Ein Paket sollte einen Einzelnen direkt erreichen:\n\n1. Kontaktieren Sie den Absender: Eine schnelle Lösung\n2. Verfolgen Sie das Paket mit der Sendungsnummer\n3. Machen Sie einen Termin zur Paketabholung\n4. Kontaktieren Sie den Zusteller mit Fragen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum bekomme ich keine Versandbestaetigung?",
+    "output": "Das verstehe ich — eine Versandbestätigung ist eine E-Mail, die wir Ihnen senden, sobald Ihre Bestellung versandt wurde. Die meisten Kunden erhalten sie innerhalb von 2-4 Stunden nach der Bestellung.\n\nBitken Sie:\n1. Überprüfen Sie Ihren Spam- oder Junk-E-Mail-Ordner\n2. Kontaktieren Sie uns mit Ihrer Bestellnummer — wir senden Ihnen gerne eine neue\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich habe einen falschen Namen auf der Rechnung.",
+    "output": "Das tut mir leid. Bitte senden Sie uns die korrekte Rechnungsadresse.\n\n1. Rufen Sie Ihre Rechnungsadresse ab\n2. Notieren Sie den korrekten Namen\n3. Aktualisieren Sie die Adresse online\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Kann ich meine Bestellung beschleunigen?",
+    "output": "Vielen Dank fuer Ihre Anfrage!\n\n1. Bestellungen werden in der Reihenfolge bearbeitet, wie sie eingegangen sind.\n2. Eine Beschleunigung ist nur möglich, wenn die Bestellung noch nicht bearbeitet wurde.\n3. Bitte teilen Sie uns Ihre Bestellnummer mit, damit wir den aktuellen Bearbeitungsstatus überprüfen können.\n\nFalls Ihre Bestellung bereits versandt ist, ist eine Beschleunigung nicht mehr möglich. Wir entschuldigen uns für die Unannehmlichkeiten und stehen Ihnen bei weiteren Fragen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Der Artikel ist defekt angekommen.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Reklamation:\n1. Machen Sie Fotos vom Schaden\n2. Kontaktieren Sie uns mit Ihrer Bestellnummer\n3. Beschreiben Sie den Schaden\n4. Sendes Sie uns die Fotos\n5. Wir erstatten den Kaufpreis oder senden Ersatz\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum ist mein Konto ploetzlich leer?",
+    "output": "Das tut mir leid zu hoeren! Ein leeres Konto kann verschiedene Gruende haben:\n\n1. Pruefen Sie, ob Ihre Artikel in den Pending- oder Abgelehnt-Ordner umgeleitet wurden\n2. Kontaktieren Sie Ihre Bank — oft wird das Geld nach ein paar Tagen zurueckgebucht\n3. Pruefen Sie, ob Ihre Zahlung abgelehnt wurde — in diesem Fall kontaktieren Sie uns bitte mit Ihrer Bestellnummer fuer weitere Unterstuetzung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Lieferadresse nicht speichern.",
+    "output": "Das verstehe ich — das ist in der Tat frustrierend!\n\nBitte versuchen Sie folgendes:\n1. Versuchen Sie die Adresse zu löschen und neu einzugeben\n2. Überprüfen Sie, ob die Adresse korrekt ist\n3. Versuchen Sie die Adresse zu ändern\n\nWenn Sie weitere Probleme haben, helfe ich Ihnen gerne weiter. \n"
+  },
+  {
+    "instruction": "Die Website ist sehr langsam beim Bestellen.",
+    "output": "Das tut mir leid! Hier sind ein paar schnelle Loesungen, die helfen koennen:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie Ihre Internetverbindung\n\nWenn es immer noch langsam ist, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir weiter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Rabattcode ist angeblich abgelaufen.",
+    "output": "Das tut mir leid! Ein abgelaufener Rabattcode bedeutet oft, dass er nicht mehr gültig ist. Mein Vorschlag: Versuchen Sie einen anderen Code oder kontaktieren Sie den Händler direkt, um zu sehen, ob der Rabatt noch verfügbar ist. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich moechte mein Abo auf monatliche Zahlung umstellen.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n\n1. Einloggen und zu 'Einstellungen' > 'Abonnement' gehen\n2. Auf 'Abo aendern' klicken\n3. Waehlen Sie 'Monatliche Zahlung' aus\n4. Bestaetigen Sie die Aenderung\n\nGibt es noch etwas, bei dem ich helfen kann? \n"
+  },
+  {
+    "instruction": "Warum wird meine Bestellung immer wieder abgelehnt?",
+    "output": "Das tut mir leid — das muss frustrierend sein! Meine Instruktionen zur Loesung dieses Problems sind wie folgt:\n\n1. Pruefen Sie, ob Ihre Adresse und Kontaktinformationen korrekt eingegeben wurden\n2. Versuchen Sie eine alternative Zahlungsmethode\n3. Kontaktieren Sie uns direkt mit Ihrer Bestellnummer und den erforderlichen Dokumenten zur Verifizierung\n\nWenn Ihre Bestellung immer noch abgelehnt wird, stehe ich Ihnen gerne zur weiteren Hilfe zur Verfuegung. Bitte teilen Sie mir die Bestellnummer mit, damit ich den Status pruefen kann. Vielen Dank fuer Ihre Anfrage! \n"
+  },
+  {
+    "instruction": "Ich kann meine Zahlungsart nicht entfernen.",
+    "output": "Das tut mir leid. So gehen Sie vor:\n\n1. Einloggen und zu 'Einstellungen' > 'Zahlung' gehen\n2. Die Zahlungsart auswählen und 'Entfernen' klicken\n3. Bestätigen\n\nFalls das Problem besteht, helfe ich Ihnen gerne weiter. \n"
+  },
+  {
+    "instruction": "Mein Paket steckt seit Tagen im Versandzentrum fest.",
+    "output": "Das verstehe ich — das ist aergerlich! Hier ist, was Sie tun koennen:\n\n1. Kontaktieren Sie den Versender direkt — die Tracking-Nummer finden Sie in Ihrer Versandbestaetigung\n2. Fragen Sie den Versender nach dem Standort des Pakets\n3. Notieren Sie sich alle relevanten Informationen ggf. machen Sie Fotos\n4. Kontaktieren Sie uns erneut, falls sich das Paket nicht innerhalb von 5 Werktagen bewegt hat\n\nWir entschuldigen uns fuer die Unannehmlichkeiten und helfen Ihnen gerne weiter, falls Sie weitere Fragen haben! \n"
+  },
+  {
+    "instruction": "Ich habe ein Produkt bestellt das jetzt ausverkauft ist.",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung dieses Problems:\n1. Ihre Bestellung wurde storniert\n2. Sie erhalten eine volle Erstattung innerhalb von 3-5 Werktagen\n3. Ihre Bestellung war abholbereit\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum bekomme ich staendig Fehlermeldungen im Konto?",
+    "output": "Bitte versuchen Sie folgendes:\n\n1. Konto-Cache leeren\n2. Cookies loeschen\n3. Browser-Version pruefen\n4. Fehlermeldungen senden\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte die Fehlermeldung mit. Wir helfen sofort weiter! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Daten im Profil nicht bearbeiten.",
+    "output": "Das tut mir leid — bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung.\n\n1. Wichtige Information: Ihre Profil-Daten koennen Sie jederzeit selbst bearbeiten.\n2. Gehen Sie dazu in Ihr Profil und suchen Sie nach 'Profil bearbeiten'\n3. Dort koennen Sie Ihre Daten aktualisieren\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Warenkorb verschwindet nach dem Aktualisieren.",
+    "output": "Das tut mir leid — das sollte nicht passieren!\n\nBitte versuchen Sie folgendes:\n1. Leeren Sie den Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie, ob eine Website-Sperre (AdBlocker, etc.) aktiv ist\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir gezielter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Sendung umleiten.",
+    "output": "Das verstehe ich. So leiten Sie eine Sendung um:\n\n1. Finden Sie Ihre Sendungsnummer\n2. Gehen Sie zu 'Meine Sendungen'\n3. Klicken Sie auf 'Umleiten'\n4. Waehlen Sie den neuen Zustellort aus\n5. Bestaetigen Sie die Umleitung\n\nIch stehe Ihnen fuer weitere Fragen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum sehe ich unterschiedliche Preise fuer das gleiche Produkt?",
+    "output": "Vielen Dank fuer Ihre Anfrage!\n\nDas kann mehrere Gruende haben:\n\n1. Unterschiedliche Verkaufskanale (z.B. eBay, Amazon, Walmart) haben unterschiedliche Preisstufen.\n2. Einzelhaendler koennen ihre eigene Preispolitik haben und Preise von den Herstellern aushandeln.\n3. Preise aendern sich oft im Laufe der Saison, abhaengig von Angebot und Nachfrage.\n\nWenn Sie den genauen Preis fuer ein Produkt wissen moechten, senden Sie mir bitte die Marke und den Produktnamen. Ich helfe Ihnen gerne weiter! \n"
+  },
+  {
+    "instruction": "Ich habe meine Bestellung aus Versehen bestaetigt.",
+    "output": "Das tut mir leid. Bitte ignorieren Sie die Bestellung.\n\n1. Gehen Sie zu 'Meine Bestellungen'\n2. Finden Sie die betreffende Bestellung\n3. Klicken Sie auf 'Stornieren'\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Kann ich meine Bestellung nach dem Versand noch stornieren?",
+    "output": "Danke fuer Ihre Anfrage!\n\n1. Einleitung\n2. Frage: Kann ich meine Bestellung stornieren?\n3. Antwort: Leider ist eine Stornierung nach dem Versand nicht moeglich.\n4. Abschluss: Gerne helfe ich Ihnen in anderen Angelegenheiten weiter. \n"
+  },
+  {
+    "instruction": "Mein Gutschein funktioniert nur teilweise.",
+    "output": "Das tut mir leid — das sollte nicht passieren!\n\n1. Bitte pruefen Sie, ob der Gutscheincode korrekt eingegeben wurde\n2. Stellen Sie sicher, dass die Gültigkeitsfrist noch nicht abgelaufen ist\n3. Versuchen Sie (falls moeglich) einen anderen Browser oder Gerät\n\nBitte teilen Sie mir Ihre Ergebnisse mit! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich bekomme staendig Werbung obwohl ich mich abgemeldet habe.",
+    "output": "Das tut mir leid! Bitte senden Sie uns Ihre E-Mail-Adresse und die Bestätigung, dass Sie sich abgemeldet haben, damit wir das pruefen koennen. In der Zwischenzeit koennen Sie Werbung ignorieren oder sich abmelden, indem Sie den Abmeldelink in jeder E-Mail klicken. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Wie kann ich mein Konto voruebergehend deaktivieren?",
+    "output": "Bitte senden Sie uns eine E-Mail an [E-Mail-Adresse] mit dem Betreff 'Konto voruebergehend deaktivieren'.\n\nWichtig: Ihre E-Mail muss Ihre E-Mail-Adresse und Ihren Konto-Namen enthalten, damit wir Ihr Konto identifizieren und voruebergehend deaktivieren koennen. Wir pruefen den Status Ihres Kontos und senden Ihnen eine Bestaetigung per E-Mail.\n\nBitte beachten: Die Deaktivierung ist eine endgueltige Entscheidung und Ihr Konto kann nicht wiederhergestellt werden. Wenn Sie Ihr Konto spaeter wieder nutzen moechten, muessen Sie es neu erstellen. Wir entschuldigen uns fuer die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Rueckerstattung ist noch nicht auf dem Konto.",
+    "output": "Das verstehe ich — das ist aergerlich!\n\nBitte teilen Sie mir mit:\n1. Ihre Bestellnummer\n2. Das Datum der Bestellung\n3. Die E-Mail-Adresse, die bei der Bestellung verwendet wurde\n\nManchmal wird eine Rueckerstattung als verdaechtigt markiert und wird in einigen Faellen vom System blockiert. Eine schnelle Ueberpruefung wird dies klarstellen und die Rueckerstattung wird verarbeitet.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht herunterladen.",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob Ihre Bestellung bereits heruntergeladen wurde\n2. Falls nicht, kontaktieren Sie uns mit Ihrer E-Mail-Bestellnummer\n3. Wir senden Ihnen einen Download-Link\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Filterfunktion im Shop nicht?",
+    "output": "Das tut mir leid zu hoeren! Hier sind die Schritte zur Problemloesung:\n\n1. Filter reinigen: Klicken Sie auf das 'Waeschesprengel'-Symbol und dann auf 'Filter reinigen'\n2. Artikel sortieren: Klicken Sie auf 'Sortieren nach' und waehlen Sie eine Option aus (z.B. Preis, Bewertung, etc.)\n3. Anzeigen pro Seite aendern: Klicken Sie auf 'Anzeigen pro Seite' und waehlen Sie eine Option aus (z.B. 12, 24, 36, 48, 60)\n4. Filter wiederherstellen: Klicken Sie auf 'Zuruecksetzen'\n\nWenn das Problem besteht, senden Sie uns bitte einen Screenshot der Filterseite. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Groesse geliefert bekommen.",
+    "output": "Das tut mir leid. Hier ist, was Sie tun koennen:\n\n1. Machen Sie Fotos von der falschen Gruesse und der Gruesse, die Sie erwarten\n2. Kontaktieren Sie uns mit Ihrer Bestellnummer\n3. Wir erstatten den Betrag innerhalb von 3-5 Werktagen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket wurde geoeffnet geliefert.",
+    "output": "Das tut mir leid zu hoeren. Bitte kontaktieren Sie uns mit Ihrer Bestellnummer,assistenz@amazon.de, und teilen Sie uns den Sendungsstatus mit. Wir helfen Ihnen sofort weiter!\n\n1. Klicken Sie auf 'Bestellung verfolgen'\n2. Geben Sie Ihre Sendungsnummer ein (falls vorhanden)\n3. Bewertung des aktuellen Standorts\n4. Kontaktieren Sie uns mit Ihrer Bestellnummer\n5. Anhang senden (falls vorhanden)\n\nBitte handeln Sie schnell, damit wir helfen koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Zahlungsart auf Rechnung aendern.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n\n1. Einloggen und zu 'Einstellungen' > 'Zahlung' gehen\n2. Klicken Sie auf 'Zahlungsart aendern'\n3. Waehlen Sie Ihre neue Zahlungsart aus (z.B. Rechnung)\n4. Speichern Sie die Aenderung\n\nFalls das Problem besteht, nachdem Sie es selbst aendern konnten, stehe ich Ihnen gerne zur weiteren Hilfe zur Verfuegung. Vielen Dank fuer Ihre Anfrage! \n"
+  },
+  {
+    "instruction": "Warum kann ich keine Artikel bewerten?",
+    "output": "Ihre Bewertung wurde gespeichert, wird jedoch erst nach Pruefung durch ein Moderator freigeschaltet. Die Moderation kann bis zu 2 Tage dauern. Vielen Dank fuer Ihre Geduld! Bitte kontaktieren Sie uns, wenn Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Ich sehe eine unbekannte Bestellung in meinem Konto.",
+    "output": "Das verstehe ich — ich pruefe das gerne fuer Sie!\n\n1. Bitte teilen Sie mir Ihre Bestellnummer mit\n2. Ich pruefe den aktuellen Status Ihrer Bestellung\n3. Falls es Unstimmigkeiten gibt, klare ich das mit Ihnen\n4. Bis zur Loesung enthalten Sie alle relevanten Informationen bitte bereit\n\nKeine Sorge, das klären wir! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung ist verschwunden.",
+    "output": "Das tut mir leid! Eine verschwundene Bestellung ist natuerlich nicht akzeptabel — wir klaeren das sofort!\n\nBitte teilen Sie uns Ihre Bestellnummer mit. Inzwischen haben wir Kontakt mit unserem Versandzentrum aufgenommen und eine offizielle Verlaufsnummer erhalten. Die einzige Möglichkeit, das Problem zu lösen, ist eine offizielle Verlaufsnummer von ihrem Versanddienstleister zu haben.\n\n1. Bitte teilen Sie uns die offizielle Verlaufsnummer mit\n2. Wir pruefen den aktuellen Verfassungssatz\n3. Wir kontaktieren den Versanddienstleister mit allen notwendigen Informationen\n4. Wir lösen das Problem schnellstmöglich\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Telefonnummer nicht bestaetigen.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Loesung dieses Problems:\n\n1. Pruefen Sie, ob die Telefonnummer korrekt eingegeben wurde\n2. Versuchen Sie eine andere Methode zur Bestaetigung (E-Mail, SMS)\n3. Starten Sie Ihr Gerät neu\n4. Kontaktieren Sie das Support-Team mit Ihrer vermuteten Telefonnummer\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Preis im Checkout ist falsch berechnet.",
+    "output": "Das tut mir leid — #1: Das pruefen wir gerade!\n\nWir setzen das korrekte Preisniveau umgehend um — #2: Bitte senden Sie uns einen Screenshot oder Bestellnummer\n\nVielen Dank fuer Ihre Geduld — #3: Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Bestellung zusammenlegen.",
+    "output": "Das verstehe ich. Hier sind die Schritte, um Ihre Bestellung zusammenzulegen:\n\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Die Sendung mit der gewuenschten Bestellung suchen\n3. Die Artikel in der Sendung durchsuchen und die gewuenschten Artikel in den Warenkorb legen\n4. Zur Kasse gehen und die Zahlung abschließen\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Warenkorb nicht im Browser?",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung des Problems:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie Ihre Browser-Version und aktualisieren Sie sie gegebenenfalls\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden. Wir helfen Ihnen gerne weiter. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Ruecksendung nicht ausdrucken.",
+    "output": "Das tut mir leid. Bitte teilen Sie mir Ihre Situation mit, damit ich Ihnen helfen kann.\n\n1. Ruecksendungslabel suchen\n2. Druckerprobleme pruefen\n3. Ruecksendungslabel neu erstellen\n4. Versanddienstleister kontaktieren\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Lieferung kam viel spaeter als angekuendigt.",
+    "output": "Das verstehe ich — das ist aergerlich! Hier ist, was Sie tun koennen:\n\n1. Kontaktieren Sie den Verkaeufer oder Dienstleister mit Fotos oder Videos des Problems\n2. Machen Sie sich auf die offizielle Beschwerdeabteilung des Unternehmens\n3. Halten Sie die Kopie Ihrer Dokumentation bereit, um Ihre Anfrage zu beschleunigen\n4. Notieren Sie sich den Namen und die Kontaktinformationen des Mitarbeiters\n5. Beachten Sie die Reklamationsrichtlinien des Unternehmens\n\nBitte teilen Sie mir Ihre Erfahrung mit, damit ich Sie besser unterstuetzen kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich keinen neuen Gutschein einloesen?",
+    "output": "Das tut mir leid, das ist nicht moeglich.\n\n1. Gutscheine sind nur fuer begrenzte Zeit gueltig.\n2. Jeder Gutschein kann pro Bestellung nur einmal eingeloest sein.\n3. Ihr Gutschein ist moeglicherweise abgelaufen.\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe keine Rechnung per Email erhalten.",
+    "output": "Das tut mir leid #1\n\nBitte teilen Sie uns Ihre Bestellnummer mit #2\n\nWir pruefen den Verbleib Ihrer Rechnung #3\n\nIn der Zwischenzeit koennen Sie diese selbst in Ihrem Kontobereich einsehen #4\n\nFalls nicht gefunden, senden wir Ihnen eine neue #5\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung #6 \n"
+  },
+  {
+    "instruction": "Der Trackinglink funktioniert nicht.",
+    "output": "Das tut mir leid — das ist aergerlich! Hier sind die Schritte zur Loesung des Problems:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie, ob die URL richtig eingegeben ist\n\nWenn der Link weiterhin nicht funktioniert, teilen Sie uns bitte mit, um welchen spezifischen Link es sich handelt. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht bearbeiten.",
+    "output": "Das verstehe ich — das kann ich nachvollziehen.\n\nBitte teilen Sie mir Ihre Bestellnummer mit.\n\n1. Wir pruefen den aktuellen Status Ihrer Bestellung.\n2. Wir setzen Sie über die geschätzte Lieferzeit in Kenntnis.\n3. Wir koordinieren die Uebertragung der Datei direkt an Ihren Desktop.\n\nBitte entschuldigen Sie die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wurde mein Konto aus Sicherheitsgruenden gesperrt?",
+    "output": "Das tut mir leid fuer die Unannehmlichkeiten! Ein gesperrtes Konto ist eine Massnahme, die wir ergreifen, um die Sicherheit Ihres Kontos und Ihrer Daten zu gewaehrleisten. Die Sicherheit Ihres Kontos ist uns wichtig, daher koennen wir Ihnen leider keine detaillierte Antwort geben. Wir entschuldigen uns fuer die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Daten exportieren.",
+    "output": "Das ist natuerlich moeglich! Die Schritte hierfuer sind wie folgt:\n\n1. Einloggen und zu 'Einstellungen' > 'Persoenliche Daten' gehen\n2. 'Exportieren' auswaehlen und den Vorgang bestaetigen\n3. Die Datei auf dem Computer speichern\n\nFalls Sie weitere Hilfe benoetigen, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Artikel kam ohne Zubehoer.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Loesung dieses Problems:\n\n1. Kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir entschuldigen uns fuer die Unannehmlichkeiten\n3. Wir senden Ihnen umgehend kostenlosen Ersatz\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum ist mein Konto ploetzlich ausgeloggt?",
+    "output": "Das tut mir leid! Einige koennen ablaufen oder auf ungültigem Server stehen.\n\n**Schritt 1:** Pruefen Sie Ihre Sitzung ('Sitzung'-Knopf in Browser-Leiste)\n**Schritt 2:** Sitzung loeschen (Strg + Shift + Delete)\n**Schritt 3:** Konto einloggen\n\nWenn Sie weiterhin Probleme haben, stehe ich Ihnen gerne zur Verfuegung. Bitte entschuldigen Sie die Unannehmlichkeiten! \n"
+  },
+  {
+    "instruction": "Ich kann die App nicht aktualisieren.",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob ein App-Update verfuegbar ist:\n   * Oeffnen Sie den App-Store\n   * Klicken Sie auf 'Updates'\n   * Suchen Sie nach App-Updates\n\n2. Installieren Sie das App-Update (oder setzen Sie die App-Einstellungen zurueck):\n   * Oeffnen Sie Einstellungen\n   * Scrollen Sie nach unten zu 'Apps'\n   * Waehlen Sie die App aus\n   * Klicken Sie auf 'Update' oder 'Einstellungen zuruecksetzen'\n\nWenn das Problem weiterhin besteht, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde aufgeteilt ohne Info.",
+    "output": "Das tut mir leid! Eine Aufteilung ohne Information ist nicht akzeptabel.\n\n1. Bitte teilen Sie uns die Sendungsnummern mit.\n2. Wir pruefen den Verbleib der Sendungen.\n3. Entschuldigung fuer die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Teilerstattung fuer einen Artikel.",
+    "output": "Das verstehe ich vollkommen! Hier sind die Schritte dazu:\n\n1. Kontaktieren Sie uns mit Ihrer Ruecksendungsanfrage.\n2. Packen Sie den Artikel und seine Originalverpackung.\n3. Bringen Sie den Artikel zu Ihrem naechsten Paketshop oder Postamt.\n4. Wir erstatten den Betrag innerhalb von 5-7 Werktagen nach Erhalt des Artikels.\n\nGerne helfe ich Ihnen weiter! \n"
+  },
+  {
+    "instruction": "Warum wurde meine Ruecksendung noch nicht bestaetigt?",
+    "output": "Das verstehe ich — eine Ruecksendung ist eine wichtige Angelegenheit! Eine Ruecksendung muss dokumentiert und verfolgt werden, damit wir sicherstellen koennen, dass sie prompt bearbeitet wird. Bitte teilen Sie uns Ihre Sendungsverfolgungsnummer mit. In der Zwischenzeit koennen wir Ihre Ruecksendung intern ermitteln und fuer Sie kontaktieren, sobald wir den Verbleib feststellen koennen. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich sehe eine falsche Adresse im Konto.",
+    "output": "Das verstehe ich — Adressen sind wichtige Details!\n\nBitte teilen Sie mir Ihre Adresse mit, damit wir das pruefen und ggf. aktualisieren koennen. Hier ist, was Sie tun sollten:\n\n1. Ein Screenshot oder eine E-Mail der falschen Adresse\n2. Ihre eigene Adresse\n3. Den Tab 'Adresse bearbeiten' auf der Konto-Seite\n\nFalls Ihre Adresse veraltet ist, aktualisieren wir sie gerne fuer Sie! Bitte teilen Sie uns Ihre aktuelle Adresse mit. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket wurde beim Transport beschaedigt.",
+    "output": "Das tut mir leid. So gehen wir vor:\n\n1. Kontaktieren Sie den Verkaeufer und teilen Sie ihm die Sendungsverfolgungsnummer mit.\n2. Machen Sie Fotos vom Schaden.\n3. Warten Sie auf die Eintreffbenachrichtigung vom Verkaeufer.\n4. Senden Sie eine Rücknahme-Anfrage an den Verkaeufer.\n5. Verfolgen Sie den Umtausch in Ihrem Konto.\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte den Versand auf Express aendern.",
+    "output": "Ich verstehe, dass Sie eine Versandänderung auf Express wünschen. Hier sind die Schritte zur Durchführung:\n1. Öffnen Sie Ihre Bestellübersicht\n2. Klicken Sie auf 'Versand bearbeiten'\n3. Wählen Sie 'Expressversand' aus\n4. Speichern Sie die Änderung\nBitte beachten Sie: Die Änderung des Versands auf Express ist bis zu 3 Tage vor dem geplanten Versand möglich. Für dringendere Änderungen kontaktieren Sie uns bitte über unsere Hilfe-Seite. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Warum kann ich kein neues Konto erstellen?",
+    "output": "Das tut mir leid, aber meine Instruktionen als Kundenservice-Assistent sind eingeschränkt und ich kann keine Konten für Sie erstellen. Die gute Nachricht ist, dass ich Ihnen helfe, Ihr bestehendes Konto wiederherzustellen.\n\nBitte versuchen Sie folgendes:\n1. Pruefen Sie, ob die E-Mail-Adresse, die Sie verwenden, nicht bereits für ein Konto registriert ist\n2. Versuchen Sie, Ihr Passwort zurückzusetzen, indem Sie auf 'Passwort vergessen' klicken\n3. Pruefen Sie, ob Ihr Browser Cookies akzeptiert und diese gelöscht werden müssen\n4. Versuchen Sie einen anderen Browser\n\nWenn Sie weitere Probleme haben, stehe ich Ihnen gerne zur Verfuegung, um Ihnen weiter zu helfen. Vielen Dank fuer Ihre Anfrage. \n"
+  },
+  {
+    "instruction": "Ich bekomme keine Aktivierungsmail.",
+    "output": "Das tut mir leid! Eine kurze Begruessungsformel: Vielen Dank fuer Ihre Anfrage.\n\nBitte teilen Sie mir Ihre Verdachtsmomente mit:\n1. Wann haben Sie die Aktivierungsmail erwartet?\n2. Haben Sie sie in Ihrem Spam- oder Junk-Ordner gefunden?\n\nViele Gruesse! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Login Button funktioniert nicht.",
+    "output": "Das verstehe ich — das ist frustrierend! Hier ist, was Sie versuchen können:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie, ob die Website-Wartung 'Login' erlaubt\n\nWenn Sie immer noch Probleme haben, teilen Sie uns bitte mit, auf welche Website Sie sich beziehen und welchen Browser / Betriebssystem Sie verwenden — dann koennen wir weiter helfen! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Lieferung fuer jemand anderen erhalten.",
+    "output": "Das tut mir leid — das ist natuerlich nicht die beste Situation!\n\nBitte kontaktieren Sie uns so schnell wie moeglich mit:\n1. Ihrer Bestellnummer\n2. E-Mail-Adresse\n3. Ihrem Telefonnummer (fuer den schnellsten Kontakt)\n\nWir helfen Ihnen gerne weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wird mein Gutschein nur teilweise angewendet?",
+    "output": "Das tut mir leid — das ist frustrierend! Lassen Sie mich das pruefen.\n\n1. Bitte teilen Sie mir die Nutzungsbedingungen des Gutscheins mit\n2. Oft ist es hilfreich, den Gutscheincode auf der Website zu suchen\n3. Möglicherweise ist der Gutschein nur fuer bestimmte Produkte gültig\n4. Kontaktieren Sie uns bei weiteren Fragen gerne\n\nIch hoffe, das hilft! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Bestellung fuer meine Firma machen.",
+    "output": "Das ist selbstverstaendlich moeglich. Gerne helfe ich Ihnen dabei!\n\n1. Rufen Sie Ihre Firma an oder senden Sie eine E-Mail\n2. Bestellnummer und Lieferadresse angeben\n3. Zahlungsmethode auswaehlen\n4. Bestellung bestaetigen\n\nGibt es noch etwas, bei dem ich helfen kann? Gerne stehe ich Ihnen bei weiteren Fragen zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde ohne Grund zurueckgesendet.",
+    "output": "Das tut mir leid. Hier ist, was Sie tun koennen:\n\n1. Kontaktieren Sie uns direkt mit Ihrer Sendungsverfolgungsnummer.\n2. Machen Sie einen Screenshot und teilen Sie ihn in den sozialen Medien.\n3. Kontaktieren Sie uns per E-Mail mit Ihrer Sendungsverfolgungsnummer.\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Passwort nicht zuruecksetzen.",
+    "output": "Das verstehe ich — passwortzaehlung-zuruecksetzen ist manchmal schwierig. Hier sind die Schritte zur Loesung dieses Problems:\n\n1. Klicken Sie auf der Login-Seite auf 'Passwort vergessen'\n2. Geben Sie Ihre E-Mail-Adresse ein\n3. Folgen Sie den angegebenen Schritten um das Passwort zurueckzusetzen\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Suche im Shop nicht?",
+    "output": "Das tut mir leid! Hier sind ein paar schnelle Loesungen, die Sie ausprobieren koennen:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie eine andere Suchbegriff\n3. Pruefen Sie, ob die Site-Suche eingeschaltet ist\n4. Setzen Sie Cookies und den Cache Ihres Browsers zurueck\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich sehe einen anderen Preis in der App.",
+    "output": "Das tut mir leid — ich verstehe Ihre Verwirrung!\n\nUnsere App zeigt oft den aktuellsten Preis an. Bitte versuchen Sie es später erneut oder kontaktieren uns mit Ihrer eigentlichen Preisfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde doppelt verschickt.",
+    "output": "Das tut mir leid — das ist natuerlich nicht akzeptabel!\n\nBitte kontaktieren Sie uns mit Ihrer Bestellnummer, um eine Erstattung oder eine Ruecksendung zu veranlassen. Eine Aufzahlung ist in diesem Fall nicht noetig. Die meisten Sendungen werden innerhalb von 3-5 Werktagen abgeschlossen.\n\nFalls Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Bestellung splitten.",
+    "output": "Das ist natuerlich moeglich! Hier sind die Schritte dazu:\n\n1. Loggen Sie sich in Ihr Konto ein\n2. Gehen Sie zu 'Meine Bestellungen'\n3. Waehlen Sie die betreffende Bestellung\n4. Klicken Sie auf 'Splitte Bestellung'\n5. Bestaetigen Sie die Aufspaltung\n\nGibt es noch etwas, bei dem ich helfen kann? \n"
+  },
+  {
+    "instruction": "Warum ist mein Konto eingeschraenkt?",
+    "output": "Das tut mir leid — ein eingeschränktes Konto ist eine gängige Massnahme zur Wahrung der Sicherheit unserer Nutzer und ihrer Vermögenswerte. Die Einschränkung ist wahrscheinlich eine Massnahme zur Verhinderung von Missbrauch oder einen technischen Fehler.\n\nBitte handeln Sie nach folgendem Verfahren:\n1. Prüfen Sie, ob Ihr Konto tatsächlich eingeschränkt ist\n2. Kontaktieren Sie uns mit Ihrer Bestätigung, dass Ihr Konto eingeschränkt ist\n3. Wir prüfen den Status Ihres Kontos und geben Ihnen eine klares Verständnis über die nächsten Schritte\n\nBitte beachten Sie, dass ein eingeschränktes Konto keine sofortige Löschung bedeutet. Wir prüfen jedes Konto individuell und handeln entsprechend. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich bekomme keine Updates zum Versand.",
+    "output": "Das verstehe ich — das ist frustrierend! Hier sind die Schritte zur Lösung:\n1. Kontaktieren Sie den Verkäufer direkt\n2. Fordern Sie eine Sendungsverfolgungsnummer an\n3. Notieren Sie die Fakten: Datum, Uhrzeit, Versanddienstleister\n4. Kontaktieren Sie den Versanddienstleister direkt mit der Sendungsnummer\n5. Prüfen Sie, ob die Sendung in einem Paketverlust feststeckt\n6. Sperren Sie die Sendung beim Versanddienstleister\n7. Organisieren Sie gegebenenfalls eine kostenlose Nachverfolgung\n\nWichtig: Eine offizielle Sendungsverfolgungsnummer wird in der Regel erst nach dem Einliefern des Pakets aktiv. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Ruecksendung wurde noch nicht bearbeitet.",
+    "output": "Ich verstehe, dass Ihre Ruecksendung noch nicht bearbeitet wurde. Bitte handeln Sie schnell und senden Sie uns:\n\n1. Ihre Ruecksendungsnummer\n2. Ein Foto des Artikels\n3. Den Grund fuer die Ruecksendung\n\nAn unsere Ruecksendungsabteilung. Danke. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Profil nicht speichern.",
+    "output": "Das verstehe ich — das ist frustrierend! Hier sind die Schritte zur Loesung dieses Problems:\n\n1. Versuchen Sie den Support zu kontaktieren\n2. Pruefen Sie, ob Ihre E-Mail-Adresse korrekt eingegeben ist\n3. Versuchen Sie, Ihr Passwort zu aendern\n4. Versuchen Sie, Ihr Konto zu loeschen und neu zu erstellen\n\nWenn Sie weiterhin Probleme haben,er Kontakt den Support um weitere Unterstuetzung zu erhalten. Beachten Sie, dass ich bei weiteren Fragen gerne zur Verfuegung stehe. \n"
+  },
+  {
+    "instruction": "Warum funktioniert die Zahlungsbestaetigung nicht?",
+    "output": "Das tut mir leid. Bitte senden Sie uns einen Screenshot oder Kontoauszug vor, um das Problem zu untersuchen. In der Zwischenzeit koennen Sie versuchen, die Zahlungsbestaetigung erneut zu senden. Vielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Paket ist leer angekommen.",
+    "output": "Das tut mir leid! Ein leeres Paket ist natuerlich nicht akzeptabel. Wir klaeren das sofort!\n\n1. Bitte kontaktieren Sie uns mit Ihrer Sendungsverfolgungsnummer\n2. Wir pruefen den aktuellen Standort Ihres Pakets\n3. Im Falle eines Verlustes erstatten wir den Wert des Pakets innerhalb von 2-3 Werktagen\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Bestellung an einen anderen Empfaenger schicken.",
+    "output": "Das ist natuerlich kein Problem! So bearbeiten Sie das:\n\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Finden Sie die entsprechende Bestellung\n3. Klicken Sie auf 'Ändern'\n4. Wählen Sie den neuen Empfänger aus der Adressliste aus oder geben Sie die Adresse manuell ein\n5. Klicken Sie auf 'Bestellung speichern'\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Gutscheincode nicht im Warenkorb?",
+    "output": "Das tut mir leid — das ist frustrierend! Hier sind die Schritte zur Lösung des Problems:\n\n1. Pruefen Sie, ob die Gültigkeitsdauer des Gutscheins abgelaufen ist\n2. Überpruefen Sie, ob die Bedingungen für die Verwendung des Gutscheincodes erfüllt sind\n3. Versuchen Sie, den Code neu zu generieren\n4. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse und der Bestellnummer für weitere Unterstützung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Adresse nicht bestaetigen.",
+    "output": "Das verstehe ich — ich helfe Ihnen gerne weiter!\n\n1. Bitte teilen Sie mir Ihre Adresse mit\n2. Ich pruefe die Richtigkeit in unserem System\n3. Wenn alles korrekt ist, sende ich Ihnen einen Bestaetigungscode per E-Mail\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde ohne Info geaendert.",
+    "output": "Das tut mir leid. So gehen wir vor:\n\n1. Pruefen Sie, ob die Änderung der Bestellung für Sie akzeptabel ist\n2. Kontaktieren Sie uns mit weiteren Fragen\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum sehe ich falsche Preise im Warenkorb?",
+    "output": "Vielen Dank fuer Ihre Anfrage!\n\n1. Leider sehen wir die gleichen falschen Preise im Warenkorb\n2. Die Preise werden in unserem System hinterlegt\n3. Wir koennen das Problem nicht selbst beheben\n4. Bitte teilen Sie uns die Nummer der Artikel mit, die falsche Preise haben\n5. Wir pruefen die Preise manuell und teilen Ihnen die richtigen Preise mit\n6. Wir entschuldigen uns fuer die Unannehmlichkeiten\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Bestellung verschenken.",
+    "output": "Das ist eine tolle Idee! Hier sind die Schritte, um eine Bestellung zu verschenken:\n\n1. Gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die entsprechende Bestellung\n3. Klicken Sie auf 'Verschenken'\n4. Geben Sie die Versandadresse ein\n5. Fuegen Sie eine persoenliche Notiz hinzu (optional)\n6. Klicken Sie auf 'Verschenken'\n\nWenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Rechnung zeigt falsche Positionen.",
+    "output": "Das tut mir leid. Bitte senden Sie uns einen Screenshot oder ein Foto Ihrer Rechnung per E-Mail. Wir pruefen den Vorgang umgehend und erstatten den betragenden Betrag innerhalb von 3-5 Werktagen zurueck. Vielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich mein Konto nicht loeschen?",
+    "output": "Das tut mir leid, ich verstehe Ihre Frustration!\n\nBitte handeln Sie wie folgt:\n1. Einloggen und zu 'Einstellungen' > 'Konto' gehen\n2. Auf 'Konto loeschen' klicken\n3. Bestaetigungscode eingeben\n4. Aendern Sie Ihre Einstellungen entsprechend\n\nGibt es noch etwas, bei dem ich helfen kann? Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Bestellung ohne Konto gemacht und finde sie nicht.",
+    "output": "Das verstehe ich — das ist frustrierend!\n\nBitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit suchen Sie bitte auch in Ihrer Bestellbestätigungs-E-Mail nach. Oft ist die Sendungsverfolgungsnummer dort bereits enthalten.\n\nSollte das Problem weiterhin bestehen, pruefen Sie bitte:\n1. Ob die Sendungsverfolgungsnummer eine Zustellung an ein Paketverteilzentrum zeigt\n2. Ob die Sendung als 'verzögert' angezeigt wird\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Der Artikel ist ploetzlich nicht mehr verfuegbar.",
+    "output": "Das tut mir leid. Der Artikel ist leider nicht mehr verfuegbar. Hier sind die Schritte, um Ihr Geld zurueckzuerstatten:\n\n1. Gehen Sie zu 'Meine Bestellungen'\n2. Waehlen Sie die betreffende Bestellung\n3. Klicken Sie auf 'Geld zurueckfordern'\n4. Folgen Sie den Anweisungen zurueck zum Startbildschirm\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Ruecksendung nicht verfolgen.",
+    "output": "Das verstehe ich — Ruecksendungen sind oft ein komplizierter Prozess.\n\nBitte teilen Sie mir mit:\n1. Wann haben Sie das Paket zur Post gebracht?\n2. Welchen Dienstleister haben Sie verwendet?\n3. Haben Sie eine Sendungsnummer erhalten?\n\nManchmal verschwinden Pakete im Verteilzentrum. Mit dieser Information koennen wir den aktuellen Standort Ihres Pakets herausfinden. Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Login in der App nicht?",
+    "output": "Das tut mir leid — das ist frustrierend! Hier sind die Schritte zur Problemloesung:\n\n1. App komplett schliessen und neu starten\n2. Handy neustarten\n3. App-Cache leeren (Einstellungen > Apps > [App] > Cache leeren)\n4. App aktualisieren (Update herunterladen)\n\nWenn das Problem weiterhin besteht, versuchen Sie bitte die folgenden Schritte:\n\n1. App deinstallieren und neu installieren\n2. Handy mit einem anderen Netzwerk verbinden (WLAN, Mobilfunknetzwerk)\n3. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse oder Ihrer Telefonnummer für weitere Unterstützung\n\nVielen Dank fuer Ihre Geduld! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Bestellung fuer spaeter planen.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Die Sendung suchen und auf 'Später planen' klicken\n3. Neuen Zeitpunkt waehlen und aendern\n4. Fertig! Die Sendung wird entsprechend Ihrer Wahl aktualisiert\n\nBitte beachten: Aendern Sie Ihre Sendungsdaten nicht gleichzeitig mit einer anderen Aktion, da dies zu Konflikten führen kann. Sollten Probleme auftreten, helfe ich Ihnen gerne weiter! \n"
+  },
+  {
+    "instruction": "Mein Paket wurde im Regen abgestellt.",
+    "output": "Das tut mir leid. So sollten Pakete nicht behandelt werden.\n\n1. Kontaktieren Sie den Verkäufer\n2. Machen Sie Fotos\n3. Erstellen Sie einen Rücksendeschein\n4. Bringen Sie es zu einem Paketshop\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert mein Gutscheincode nur einmal?",
+    "output": "1. Das ist verstaendlich, dass Sie den Gutscheincode nur einmal verwenden koennen.\n2. Gerne helfe ich Ihnen weiter, falls Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Ich sehe eine fremde Adresse im Konto.",
+    "output": "Das tut mir leid. Bitte teilen Sie mir Ihre Adresse mit, damit ich das klären kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde ohne Zustimmung storniert.",
+    "output": "Das tut mir leid. So sollte es nicht sein!\n\n1. Bitte teilen Sie uns mit, dass die Stornierung ohne Ihre Zustimmung erfolgte\n2. Wir pruefen den Vorgang intern\n3. Entschuldigung fuer die Unannehmlichkeiten\n\nWir helfen Ihnen gerne weiter, falls Sie weitere Fragen haben. Vielen Dank fuer Ihre Geduld! \n"
+  },
+  {
+    "instruction": "Ich kann mein Konto nicht wieder aktivieren.",
+    "output": "Das tut mir leid. Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob Ihr Konto fuer eine Inaktivitaets-Periode gesperrt ist\n2. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse oder Ihrem Benutzernamen\n3. Wir helfen Ihnen gerne weiter! \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Support Chat nicht?",
+    "output": "Das tut mir leid zu hoeren! Hier sind die Schritte zur Problemloesung:\n\n1. Chat-Widget loeschen und neu einbetten\n2. CDN-Cache leeren (Strg + F5 druecken)\n3. Browser wechseln (Chrome, Firefox, Edge)\n4. Begrenzung des Datenverkehrs ueberpruefen\n5. Sicherheits-Plugin deaktivieren\n\nWenn das Problem weiterhin besteht, setzen Sie sich bitte mit Ihrem IT-Support in Verbindung. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Lieferung wurde an die falsche Adresse geschickt.",
+    "output": "Das tut mir leid — das ist natuerlich nicht gut. So gehen wir vor, um das zu loesen:\n\n1. Kontaktieren Sie den Verkaeufer oder Dienstleister direkt\n2. Machen Sie Screenshots oder Fotos vom Problem\n3. Reichen Sie eine Ruecksendung oder Umleitung ein\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte meine Bestellung neu berechnen lassen.",
+    "output": "Das verstehe ich gut! Hier sind die Schritte, um das zu tun:\n\n1. Machen Sie eine Kopie Ihrer Bestellung\n2. Notieren Sie alle Änderungen, die Sie vornehmen möchten\n3. Fügen Sie die Änderungen in die Kopie ein\n4. Senden Sie uns die aktualisierte Version\n\nIch helfe Ihnen gerne weiter, wenn Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Warum kann ich keinen Rabatt anwenden?",
+    "output": "Das tut mir leid, aber Rabatte sind in der Regel nur fuer bestimmte Kundenaktionen oder Sonderangebote verfuegbar. Ich empfehle Ihnen, den Support zu kontaktieren, um Ihre Bestellung zu stornieren und eine volle Erstattung zu erhalten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich sehe keine Trackinginformationen.",
+    "output": "Das tut mir leid, das verstehe ich — Trackinginformationen werden in der Regel automatisch erfasst und sollten in Ihrem Konto verfuegbar sein. Bitte kontaktieren Sie uns mit Ihrer Bestellnummer, damit wir dies pruefen und gegebenenfalls manuell eintragen koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Ruecksendung wurde verloren.",
+    "output": "Das tut mir leid. Bitte kontaktieren Sie uns so schnell wie moeglich mit Ihrer Sendungsverfolgungsnummer. Wir senden Ihnen umgehend kostenlosen Ersatz oder erstatten den Warenwert. Entschuldigung fuer die Unannehmlichkeiten. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht herunterladen.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob Ihre Bestellung bereits heruntergeladen wurde\n2. Falls nicht, kontaktieren Sie uns mit Ihrer E-Mail-Bestellnummer\n3. Wir senden Ihnen einen Download-Link per E-Mail\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum wird mein Warenkorb nicht gespeichert?",
+    "output": "Das tut mir leid — das scheint ein technisches Problem zu sein. Bitte versuchen Sie folgendes:\n1. Leeren Sie Ihren Browser-Cache und Cookies\n2. Versuchen Sie einen anderen Browser\n3. Kontaktieren Sie uns mit Ihrer E-Mail-Adresse und einer kurzen Beschreibung des Problems\nFalls das Problem weiterhin besteht, helfe ich Ihnen gerne eine individuelle Lösung zu finden. Vielen Dank für Ihre Geduld! \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Bestellbestaetigung erhalten.",
+    "output": "Das tut mir leid. Bitte senden Sie mir die richtigen Bestellinformationen zu. Vielen Dank fuer Ihre Anfrage.\n\n1. Bestellnummer\n2. Lieferadresse\n3. Bestelldatum\n\nIch stehe Ihnen gerne zur Verfuegung, falls Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Mein Paket wurde im Treppenhaus abgestellt.",
+    "output": "Das tut mir leid. So gehen wir vor:\n\n1. Kontaktieren Sie den Verkäufer\n2. Machen Sie ein Foto\n3. Reklamieren Sie das Paket bei dem Paketdienst\n4. Lassen Sie die Sendung verfolgen\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert mein Login Code nicht?",
+    "output": "Das tut mir leid — das ist frustrierend! Hier sind die Schritte zur Problemloesung:\n\n1. Pruefen Sie, ob die Feststelltaste aktiv ist\n2. Loeschen Sie Cookies und Cache Ihres Browsers\n3. Versuchen Sie den Incognito-Modus\n4. Nutzen Sie 'Passwort vergessen' um ein neues zu setzen\n\nWenn Sie sich danach immer noch nicht einloggen koennen, sperren wir Ihr Konto voruebergehend und entsperren es sicher fuer Sie. Bitte melden Sie sich in diesem Fall mit Ihrer registrierten E-Mail-Adresse bei uns. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich moechte eine Bestellung fuer jemand anderen bezahlen.",
+    "output": "Das koennen Sie ganz einfach selbst aendern:\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Die Bestellung finden und auf 'Bestellung aendern' klicken\n3. Neuen Termin bestaetigen\n\nFalls das Problem besteht, obwohl die Bestellung geliefert wurde, koennen Sie eine eigene Sendungsverfolgungsnummer verwenden, um den aktuellen Standort zu sehen. Bitte teilen Sie uns die Sendungsverfolgungsnummer mit. Wir helfen weiter bei weiteren Fragen. Vielen Dank fuer Ihre Anfrage! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Rechnung zeigt eine doppelte Belastung.",
+    "output": "Das tut mir leid. Eine doppelte Belastung ist nicht akzeptabel — wir klaeren das sofort!\n\n1. Bitte senden Sie uns einen Screenshot oder Kontoauszug der beiden Belastungen\n2. Wir pruefen den Vorgang intern und erstatten den doppelt abgebuchten Betrag innerhalb von 3-5 Werktagen zurück\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich kein neues Passwort erstellen?",
+    "output": "Das ist frustrierend — lassen Sie uns das gemeinsam loesen!\n\nBitte teilen Sie mir Ihre aktuelle E-Mail-Adresse und den Lizenzschlüssel mit, mit denen Sie versuchen, auf das Konto zuzugreifen. In der Zwischenzeit moechte ich Sie gerne an unseren technischen Support weiterleiten, um den Vorgang zu beschleunigen.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine Bestellung bekommen die ich nicht bestellt habe.",
+    "output": "Das tut mir leid! Hier ist, was Sie tun koennen:\n\n1. Kontaktieren Sie den Verkaeufer mit einer klaren Beschreibung des Problems\n2. Machen Sie Screenshots oder Fotos als Beweis\n3. Erstatten Sie Anzeige bei der Polizei\n\nFalls Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Mein Gutschein wurde abgelehnt.",
+    "output": "Das tut mir leid. Das sollte nicht passieren!\n\n1. Pruefen Sie, ob der Gutscheincode richtig eingegeben wurde.\n2. Versuchen Sie einige Male den Code neu zu generieren (F5 druecken)\n3. Versuchen Sie den Gutschein auf eine andere Art zu verwenden (kopieren und einfuegen)\n4. Kontaktieren Sie den Shop-Support um Hilfe zu erhalten\n\nVielen Dank fuer Ihre Anfrage. Wenn weiterhin Probleme bestehen, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Checkout nicht?",
+    "output": "Das tut mir leid — das ist frustrierend! Hier sind die Schritte zur Problemloesung:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Deaktivieren Sie Browser-Erweiterungen voruebergehend\n4. Pruefen Sie Ihre Kreditkartendetails und Verfuegbarkeit\n\nWenn Sie weiterhin Probleme haben, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir gezielter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht sehen.",
+    "output": "Das verstehe ich — das ist fuer mich auch nicht moeglich. Bitte teilen Sie mir Ihre Bestellnummer mit. In der Zwischenzeit koennen Sie selbst nachschauen:\n1. Einloggen und zu 'Meine Bestellungen' gehen\n2. Die Details der Bestellung anzeigen\n3. Auf 'Bestellung abschließen' klicken\nIch stehe Ihnen gerne zur Verfuegung, falls Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Meine Ruecksendung wurde nicht akzeptiert.",
+    "output": "Das tut mir leid — das sollte nicht passieren!\n\n1. Pruefen Sie, ob die Ruecksendungsrichtlinien eingehalten wurden\n2. Kontaktieren Sie den Verkaeufer und erklären Sie Ihre Situation\n3. Machen Sie Fotos als Beweis\n4. Reichen Sie eine Beschwerde beim Verkaufsservice ein\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit, damit ich Ihnen eine Bestaetigung der Ruecksendung senden kann. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich meine Adresse nicht aktualisieren?",
+    "output": "Das tut mir leid, aber Ihre Adresse kann nur über das 'Einstellungen'-Menue Ihres Kontos aktualisiert werden — nicht direkt in Ihrem Profil.\n\n1. Einloggen und zu 'Einstellungen' > 'Persoenliche Daten' gehen\n2. Klicken Sie auf 'Adresse aktualisieren'\n3. Waehlen Sie Ihre neue Adresse aus der Liste der vorgeschlagenen Adressen (oder klicken Sie auf 'Neue Adresse hinzufuegen')\n4. Klicken Sie auf 'Adresse aktualisieren'\n\nBitte beachten: Die Adresse wird nach 48 Stunden auf die neue Adresse aktualisiert. Bis dahin laucht die alte Adresse noch auf. Sollte Ihre alte Adresse nach 48 Stunden noch aktiv sein, kontaktieren Sie uns bitte direkt — wir helfen Ihnen gerne weiter.\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe einen Artikel doppelt bekommen.",
+    "output": "Das tut mir leid — bitte akzeptieren Sie meine Entschuldigung!\n\n1. Bitte kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir erstatten den doppelt gelieferten Artikel\n3. Eine Rücksendung ist nicht notwendig\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde ohne Grund verzzoegert.",
+    "output": "Das tut mir leid. Hier ist, was wir tun koennen:\n1. Kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir entschuldigen uns fuer die Unannehmlichkeiten\n3. Wir pruefen den Grund fuer die Verzoegerung\n4. Wir halten Sie auf dem Laufenden\n\nBitte teilen Sie uns Ihre E-Mail-Adresse mit, damit wir Ihnen Updates senden koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum bekomme ich keine Email bestaetigung?",
+    "output": "Das tut mir leid! Eine kurze Untersuchung der Situation zeigt, dass dieses Problem in der Regel auftritt, wenn:\n\n1. Die Email-Adresse des Empfängers ist falsch\n2. Die Email wurde in den Spam-Ordner geleitet\n3. Die Email wurde vom Empfänger gelöscht\n\nBitte pruefen Sie, ob dieses Problem weiterhin besteht, indem Sie Ihren Spam-Ordner und die Adresse des Empfängers überpruefen. Wenn das Problem weiterhin besteht, helfe ich Ihnen gerne eine formelle Beschwerde beim Email-Dienst einzureichen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Konto nicht verifizieren.",
+    "output": "Das verstehe ich — lassen Sie mich das gemeinsam mit Ihnen klären!\n\nBitte teilen Sie mir Ihre E-Mail-Adresse mit, die ich in meinem System suchen werde. Währenddessen hier einige häufige Gründe, warum Konten nicht verifiziert werden können:\n\n1. Sperrungs-E-Mail nicht erhalten: Manchmal wird unsere E-Mail fälschlicherweise als Spam markiert und landet im Papierkorb.\n2. Falsche E-Mail-Adresse eingegeben: Wenn Sie sich unsicher sind, ob Sie die richtige Adresse verwendet haben, haben Sie vielleicht eine falsche Adresse eingegeben.\n3. Technische Störungen: Manchmal ist die Website wegen Wartungsarbeiten oder technischer Störungen nicht verfügbar.\n\nBitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde falsch gepackt.",
+    "output": "Das tut mir leid. So gehen wir vor:\n\n1. Kontaktieren Sie uns mit Ihrer Bestellnummer\n2. Wir entschuldigen uns fuer die Unannehmlichkeiten\n3. Wir organisieren die Ruecksendung an Sie\n4. Nach Eingang der Ware erstatten wir den Betrag innerhalb von 3-5 Werktagen\n\nVielen Dank fuer Ihre Anfrage. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert mein Rabatt nicht?",
+    "output": "Das tut mir leid! Einige Rabatte sind möglicherweise nicht fuer alle Produkte gültig. Hier sind die Schritte zur Lösung des Problems:\n\n1. Pruefen Sie, ob der Rabatt für alle Artikel gültig ist\n2. Überpruefen Sie, ob Sie den Rabattcode korrekt eingegeben haben\n3. Versuchen Sie einen anderen Rabattcode (falls anwendbar)\n\nFalls Sie weiterhin Schwierigkeiten haben, helfe ich Ihnen gerne eine geeignete Lösung zu finden. Bitte teilen Sie mir die Details Ihres Einkaufswagens mit (z.B. Artikel im Warenkorb, verwendeter Rabattcode, etc.). \n"
+  },
+  {
+    "instruction": "Ich sehe eine unbekannte Zahlung.",
+    "output": "Das tut mir leid — eine unbekannte Zahlung.\n\nBitte kontaktieren Sie uns so schnell wie moeglich mit:\n\n1. Der Zahlungsreferenznummer\n2. Einer Beschreibung der Zahlung\n3. Ihrer Bestellnummer (falls vorhanden)\n\nWir pruefen den Vorgang umgehend und gutschreiben den Betrag innerhalb von 3-5 Werktagen. Entschuldigung fuer die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Lieferung fehlt komplett.",
+    "output": "Das tut mir leid! Hier sind die Schritte zur Lösung:\n\n1. Kontaktieren Sie uns mit Ihrer Sendungsnummer\n2. Wir kontaktieren den Kurier und fragen nach dem Standort Ihres Pakets\n3. Wenn es verloren gegangen sein sollte, erstatten wir den Wert des Inhalts\n\nBitte entschuldigen Sie die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Warum wurde mein Konto deaktiviert?",
+    "output": "Das tut mir leid. Ich pruefe den Grund fuer die Deaktivierung Ihres Kontos und melde mich so bald wie moeglich mit einer Antwort zurück. Vielen Dank fuer Ihre Geduld. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht abschliessen.",
+    "output": "Das verstehe ich — das ist frustrierend!\n\nBitte teilen Sie mir mit:\n1. Was ist das Problem?\n2. Haben Sie Fehlermeldungen erhalten?\n3. Haben Sie versucht, den Browser-Cache zu leeren?\n4. Haben Sie versucht, den Kundenservice zu kontaktieren?\n\nWir helfen Ihnen gerne weiter! Bitte senden Sie uns Screenshots, wenn relevant. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Rueckerstattung ist zu niedrig.",
+    "output": "Das tut mir leid — ich verstehe Ihre Empfindung!\n\nBitte handeln Sie wie folgt:\n1. Pruefen Sie den Rueckerstattungsbetrag genau\n2. Kontaktieren Sie den Verkaeufer mit Ihren Ergebnissen\n3. Versuchen Sie einen weiteren Rueckerstattungsanspruch\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert mein Gutschein nicht mehr?",
+    "output": "Das tut mir leid. Bitte teilen Sie mir mit:\n1. Wann haben Sie den Gutschein gekauft?\n2. Ist der Gutschein noch gültig?\n3. Werden bei der Einlösung des Gutscheins Fehlermeldungen angezeigt?\n\nFalls der Gutschein abgelaufen ist, sende ich Ihnen gerne einen neuen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Ich sehe eine falsche Lieferadresse.",
+    "output": "Das tut mir leid, das sehe ich auch. Laut meinen Instruktionen ist die richtige Adresse:\n\n1. Kundenadresse auf Korrektheit überprüfen\n2. Adresse mit Auftrags-/Kontoinformationen abgleichen\n3. Falls nötig, Adresse korrigieren\n4. Versandstatus pruefen\n5. Empfaenger telefonisch kontaktieren, falls Sendung nicht zustellbar ist\n\nFalls es weiter Fragen gibt, stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung ist verschwunden.",
+    "output": "Das tut mir leid! Eine verschwundene Bestellung ist natuerlich nicht akzeptabel — wir klaeren das sofort!\n\n1. Bitte teilen Sie uns Ihre Bestellnummer mit\n2. Wir pruefen den aktuellen Status Ihrer Bestellung\n3. Wenn es verloren gegangen ist, erstatten wir Ihnen den Betrag innerhalb von 3-5 Werktagen\n4. Entschuldigung fuer die Unannehmlichkeiten! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum kann ich keine Zahlung abschliessen?",
+    "output": "Das tut mir leid — ich helfe Ihnen gerne weiter!\n\n1. Bitte überpruefen Sie, ob alle Informationen korrekt eingegeben wurden\n2. Versuchen Sie eine andere Zahlungsmethode (Kreditkarte, Lastschrift)\n3. Möglicherweise ist Ihre Karte aus Sicherheitsgründen abgelehnt worden\n4. Kontaktieren Sie Ihre Bank — oft kann eine Zahlung abgelehnt werden, wenn sie als verdaechtig markiert ist\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich habe eine falsche Rechnung bekommen.",
+    "output": "Das tut mir leid. Bitte handeln Sie wie folgt:\n\n1. Machen Sie Screenshots von der Rechnung und der Website\n2. Kontaktieren Sie den Support mit Ihrer echten Rechnungsnummer\n3. Entschuldigen Sie sich für die Unannehmlichkeiten\n4. Bieten Sie eine Lösung an: Rückerstattung oder korrekte Rechnung\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. \n"
+  },
+  {
+    "instruction": "Meine Lieferung ist unvollstaendig.",
+    "output": "Das tut mir leid. Bitte kontaktieren Sie uns in diesem Fall mit Ihrer Bestellnummer, damit wir das Problem pruefen und Ihnen gegebenenfalls eine fehlende Sendung ersetzen koennen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Login nicht mehr?",
+    "output": "Bitte versuchen Sie folgendes:\n\n1. Pruefen Sie, ob die Webseite die Cookies akzeptiert (meistens akzeptiert sie alle)\n2. Versuchen Sie den Incognito-Modus (Strg + Shift + 'i')\n3. Leeren und speichern Sie die Cookies und den Cache (Strg + Shift + 'Del')\n4. Pruefen Sie, ob ein Sicherheitsprogramm oder eine Browser-Erweiterung den Zugriff blockiert (z.B. Adblock)\n5. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge, Safari usw.)\n\nWenn das Problem weiterhin besteht, teilen Sie uns bitte mit, welchen Browser und welches Betriebssystem Sie verwenden — dann koennen wir gezielter helfen! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Passwort nicht aendern.",
+    "output": "Das verstehe ich — ich helfe Ihnen gerne dabei!\n\n1. Oeffnen Sie Ihr Konto auf der Website\n2. Klicken Sie auf 'Einstellungen'\n3. Waehlen Sie 'Sicherheit'\n4. Klicken Sie auf 'Passwort aendern'\n5. Geben Sie Ihr neues Passwort ein\n6. Bestaetigen Sie das Passwort\n7. Klicken Sie auf 'Aendern'\n\nBitte beachten Sie: Die Aenderung des Passworts kann bis zu 24 Stunden dauern. Wenn es weiterhin nicht moeglich ist, das Passwort zu aendern, kontaktieren Sie uns bitte direkt mit Ihrer E-Mail-Adresse. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde storniert ohne Info.",
+    "output": "Das tut mir leid! Eine Stornierung ohne Info ist nicht akzeptabel.\n\nBitte kontaktieren Sie den Verkaeufer direkt und freundlich — halten Sie die Bestellnummer bereit.\n\nFragen Sie nach:\n1. Warum wurde die Bestellung storniert\n2. Wie wird das Geld erstattet\n3. Gibt es eine Option fuer eine schnelle Lieferung\n\nNotieren Sie sich die Antwort und handeln Sie weiterhin professionell und höflich.\n\nVielen Dank fuer Ihre Anfrage! Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum sehe ich falsche Preise?",
+    "output": "Bitte senden Sie uns Screenshots der falschen Preise. Unser Team wird das Problem pruefen und eine Loesung finden. In der Zwischenzeit moechten wir Ihnen empfehlen:\n\n1. Leeren Sie Ihren Browser-Cache (Strg + Shift + Delete)\n2. Versuchen Sie einen anderen Browser (Chrome, Firefox, Edge)\n3. Pruefen Sie den Preis auf der Produktseite\n4. Nutzen Sie den Artikel als 'Ausgewaehltes Produkt' (oben auf der Seite)\n\nFalls das Problem weiterhin besteht, teilen Sie uns bitte die URL der Seite mit. Wir helfen sofort weiter! Bitte entschuldigen Sie die Unannehmlichkeiten — bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann meine Bestellung nicht verfolgen.",
+    "output": "Das verstehe ich — ich helfe Ihnen gerne weiter!\n\n1. Bitte teilen Sie mir Ihre Bestellnummer mit\n2. Wir pruefen den aktuellen Status Ihrer Bestellung\n3. Sie erhalten ein aktualisiertes ETA\n\nIch stehe Ihnen gerne zur weiteren Hilfe zur Verfuegung. Bitte kontaktieren Sie mich, wenn Sie weitere Fragen haben. \n"
+  },
+  {
+    "instruction": "Meine Ruecksendung wurde nicht bestaetigt.",
+    "output": "Das tut mir leid. Eine Ruecksendung kann nur bestaetigt werden, wenn sie als 'versandt' markiert ist. Bitte teilen Sie mir Ihre Sendungsverfolgungsnummer mit. Wir kontaktieren Sie mit weiteren Anweisungen. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Warum funktioniert der Gutschein nicht?",
+    "output": "Das tut mir leid — das ist frustrierend! Hier sind die Schritte zur Loesung des Problems:\n\n1. Pruefen Sie, ob die Gültigkeitsdauer des Gutscheins abgelaufen ist\n2. Kontaktieren Sie den Händler direkt und fragen Sie nach einem neuen Gutschein\n3. Pruefen Sie, ob die Bedingungen fuer den Gutschein erfüllt sind\n4. Versuchen Sie, den Gutscheincode neu zu bewerten\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Ich kann mein Konto nicht finden.",
+    "output": "Das tut mir leid! Bitte versuchen Sie folgendes:\n\n1. Pruefen Sie, ob Ihre E-Mail-Adresse korrekt eingegeben ist\n2. Suchen Sie in Ihrem Spam- oder Junk-Ordner nach der E-Mail\n3. Kontaktieren Sie den Kundenservice mit Ihrer E-Mail-Adresse und Ihrer Konto-ID (falls vorhanden)\n\nBei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  },
+  {
+    "instruction": "Meine Bestellung wurde doppelt berechnet.",
+    "output": "Das tut mir leid. Bitte senden Sie uns:\n1. Ihre Bestellnummer\n2. Einen Screenshot oder Kontoauszug der beiden Berechnungen\nWir pruefen das und erstatten den doppelt abgebuchten Betrag innerhalb von 3-5 Werktagen zurueck. Bei weiteren Fragen stehe ich Ihnen gerne zur Verfuegung. \n"
+  }
+]

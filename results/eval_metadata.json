@@ -1,7 +1,7 @@
 {
   "judge_model": "claude-haiku-4-5-20251001",
   "judge_temperature": 0,
-  "evaluation_date": "2026-05-21",
+  "evaluation_date": "2026-05-25",
   "torch_seed_base": 42,
   "generation_params": {
     "temperature": 0.7,
