@@ -72,7 +72,7 @@ Student base: `meta-llama/Llama-3.2-1B-Instruct` (Meta, Llama 3.2 Community Lice
 - The student (68.3%) shows a clear gain over the base (55.0%), but falls furthest from the teacher (90.0%) on this criterion.
 - Tone is a subtle, distributed property — harder to absorb from 232 training examples than structural features like closing sentences or numbered steps.
 
-**Speed and VRAM match the base model**
+**Speed and VRAM**
 - The student runs at 43.2 tok/s on 1.14 GB VRAM — 2.7× faster and 75% lighter than the 7B teacher — while remaining within 0.17 format points of the teacher.
 
 ---

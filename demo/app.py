@@ -5,7 +5,7 @@ from threading import Thread
 from transformers import AutoTokenizer, AutoModelForCausalLM, TextIteratorStreamer
 
 # ── Constants ─────────────────────────────────────────────────────────────────
-MODEL_ID = "Feyerade/german-support-student-1.5b-distilled"
+MODEL_ID = "Feyerade/german-support-llama-1b-distilled"
 
 # Exact system prompt used during training and inference (nb02 / nb04)
 SYSTEM_PROMPT = (
