@@ -38,24 +38,42 @@ Student base: `meta-llama/Llama-3.2-1B-Instruct` (Meta, Llama 3.2 Community Lice
 
 ## Results
 
-Evaluation runs all three models on 60 German customer-support queries and scores each response with Claude Haiku as a blind LLM judge (4 binary criteria). Full methodology in `notebooks/05-evaluation.ipynb`.
+- Evaluation runs all three models on 60 German customer-support queries and scores each response with Claude Haiku as a blind LLM judge (4 binary criteria).
+- The queries were scored on the the presence of: The presence of a leading sentence (acknowledgement), the presence of clear, numbered list of steps, the presence of a closing sentence, and overall professional tone.
+- Full methodology in `notebooks/05-evaluation.ipynb`.
 
-| Metric              | Base (1B) | Teacher (7B + LoRA) | Student (1B distilled) |
-|---------------------|---|---|---|
-| Format Score (0–4)  | 2.57 | 3.47 | 3.30 |
-| Acknowledgement     | 88.3% | 71.7% | 93.3% |
-| Structured Steps    | 60.0% | 88.3% | 73.3% |
-| Closing Sentence    | 53.3% | 96.7% | 95.0% |
-| Professional Tone   | 55.0% | 90.0% | 68.3% |
-| Avg Word Count      | 99.9 | 68.5 | 69.0 |
-| Avg Tokens/sec (T4) | 43.2 | 16.0 | 43.2 |
-| Peak VRAM (4-bit)   | 1.14 GB | 4.67 GB | 1.14 GB |
+| Metric                 | Base (1B) | Teacher (7B + LoRA) | Student (1B distilled) |
+|------------------------|---|---|---|
+| Avg Format Score (0–4) | 2.57 | 3.47 | 3.30 |
+| Acknowledgement        | 88.3% | 71.7% | 93.3% |
+| Structured Steps       | 60.0% | 88.3% | 73.3% |
+| Closing Sentence       | 53.3% | 96.7% | 95.0% |
+| Professional Tone      | 55.0% | 90.0% | 68.3% |
+| Avg Word Count         | 99.9 | 68.5 | 69.0 |
+| Avg Tokens/sec (T4)    | 43.2 | 16.0 | 43.2 |
+| Peak VRAM (4-bit)      | 1.14 GB | 4.67 GB | 1.14 GB |
 
-**Key findings:**
-- **Closing sentence** transfers almost completely: 95.0% (student) vs 96.7% (teacher) vs 53.3% (base). The highest-value behavior from fine-tuning is reliably absorbed.
-- **Structured steps** transfer partially: 73.3% (student) vs 88.3% (teacher) — the expected compression trade-off at a 7:1 parameter ratio, but a clear gain over the 60.0% base.
-- **Speed and VRAM match the base model**: the student runs at 43.2 tok/s on 1.14 GB VRAM — 2.7× faster and 75% lighter than the 7B teacher — while scoring 0.95 format points above it overall.
-- **Acknowledgement** is highest in the student (93.3%), even above the teacher (71.7%). The base Llama 3.2 1B already opens empathetically by default (88.3%); the teacher's stricter format prompt slightly suppresses this, while the student retains it through distillation.
+### **Key findings**
+**Overall Scores**
+- The student (3.30) and teacher (3.47) both score substantially above the untrained base (2.57) on the 0–4 format scale.
+
+**Acknowledgement** 
+- The score is highest in the student (93.3%), even above the teacher (71.7%). 
+- The base Llama 3.2 1B already opens empathetically by default (88.3%) — the teacher's stricter format prompt appears to suppress this (71.7%), as the model prioritises jumping into the numbered steps. The student retains the base's natural opener while also absorbing the teacher's structure, combining the best of both (93.3%).
+
+**Closing sentence** 
+- A closing sentence was included very reliably in student responses (95.0%) and teacher responses (96.7%), while being far less common in base responses (only present in 53.3%). 
+- This is the largest single gain across all criteria from base to student (+41.7 percentage points).
+
+**Structured steps** 
+- Transfer is partial (73.3% vs 88.3% teacher) — the expected trade-off at a 7:1 parameter ratio. Still a meaningful gain over the 60.0% base.
+
+**Professional Tone**
+- The student (68.3%) shows a clear gain over the base (55.0%), but falls furthest from the teacher (90.0%) on this criterion.
+- Tone is a subtle, distributed property — harder to absorb from 232 training examples than structural features like closing sentences or numbered steps.
+
+**Speed and VRAM match the base model**
+- The student runs at 43.2 tok/s on 1.14 GB VRAM — 2.7× faster and 75% lighter than the 7B teacher — while remaining within 0.17 format points of the teacher.
 
 ---
 
@@ -116,7 +134,7 @@ On Windows (PowerShell): `$env:HF_TOKEN = "your_token"` / `$env:ANTHROPIC_API_KE
 
 ## Notebooks
 
-Each notebook is self-contained and runs sequentially. Notebooks 1–3 require a GPU; Notebook 4 can run on CPU.
+Each notebook is self-contained and runs sequentially. Notebooks 1–4 require a GPU; Notebook 5 can run on CPU.
 
 | Notebook | Description | GPU required |
 |---|---|---|
@@ -161,7 +179,6 @@ All training notebooks were developed and run on **Kaggle** (T4 GPU, 16 GB VRAM)
 - Kim & Rush (2016) — [Sequence-Level Knowledge Distillation](https://arxiv.org/abs/1606.07947)
 - Hinton et al. (2015) — [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 - [Unsloth](https://github.com/unslothai/unsloth)
-- [Qwen2.5 on Hugging Face](https://huggingface.co/Qwen)
 
 ---
 
