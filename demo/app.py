@@ -42,31 +42,37 @@ print("Model ready.")
 
 # ── Streaming chat function ───────────────────────────────────────────────────
 def predict(message, history):
-    # Build the full conversation: system prompt + past turns + new message
+    '''
+        Generator function for the Gradio ChatInterface.
+        Builds the full conversation, runs model.generate() in a background thread,
+        and yields the accumulated response string token by token for streaming output.
+
+        Args:
+            message (str): the current user input.
+            history (list): list of [user_msg, assistant_msg] pairs from previous turns,
+                            supplied automatically by Gradio.
+
+        Returns:
+            str: accumulated response so far, updated on each new token.
+    '''
+
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
     for user_msg, assistant_msg in history:
         messages.append({"role": "user",      "content": user_msg})
         messages.append({"role": "assistant", "content": assistant_msg})
     messages.append({"role": "user", "content": message})
 
-    # Tokenize using ChatML format — same as nb02 / nb04
-    input_ids = tokenizer.apply_chat_template(
-        messages,
-        return_tensors="pt",
-        add_generation_prompt=True,
-    ).to(model.device)
+    # ChatML format, consistent with nb02 / nb04
+    text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    input_ids = tokenizer(text, return_tensors="pt")["input_ids"].to(model.device)
 
-    # Streamer acts as a queue: generate() writes decoded tokens in,
-    # we read them out one by one in the loop below
     streamer = TextIteratorStreamer(
         tokenizer,
-        skip_prompt=True,         # don't echo the input tokens back
-        skip_special_tokens=True, # strip <|im_end|> and similar
+        skip_prompt=True,           # suppress prompt echo
+        skip_special_tokens=True,   # strip EOS/pad tokens
     )
 
-    # model.generate() is blocking — it runs until all tokens are done.
-    # We put it in a background thread so the main thread is free to
-    # iterate over the streamer at the same time.
+    # generate() is blocking; thread allows concurrent iteration over the streamer
     thread = Thread(
         target=model.generate,
         kwargs=dict(
@@ -80,10 +86,27 @@ def predict(message, history):
     )
     thread.start()
 
-    # Yield the accumulated response so far on every new token.
-    # Gradio re-renders the chat bubble on each yield.
+    # Gradio expects cumulative text, not individual tokens
     partial = ""
     for token in streamer:
         partial += token
         yield partial
 
+demo = gr.ChatInterface(
+    fn=predict,
+    title="German Customer Support · Student Model Demo",
+    description=(
+        "Chat with a 1B German customer-support model distilled from a "
+        "QLoRA fine-tuned from a 7B teacher model. Pick an example query or type your own."
+    ),
+    examples=EXAMPLE_QUERIES,
+    cache_examples=False,
+    textbox=gr.Textbox(
+        placeholder="Schreiben Sie Ihre Anfrage auf Deutsch ...",
+        container=False,
+        scale=7,
+    ),
+)
+
+if __name__ == "__main__":
+    demo.launch()

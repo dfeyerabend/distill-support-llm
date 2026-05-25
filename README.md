@@ -4,11 +4,13 @@
 [![HuggingFace – Teacher](https://img.shields.io/badge/HuggingFace-Teacher%20Adapter-orange)](https://huggingface.co/Feyerade/german-support-leollm-lora-adapter)
 [![HuggingFace – Student](https://img.shields.io/badge/HuggingFace-Student%20Model-orange)](https://huggingface.co/Feyerade/german-support-llama-1b-distilled)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Open in HF Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm-dark.svg)](https://huggingface.co/spaces/Feyerade/german-support-llm-demo)
 
 > **Showcase project.** Built as a portfolio piece demonstrating QLoRA fine-tuning and knowledge distillation on a domain-specific task. The pipeline is end-to-end reproducible via the notebooks and pre-trained models on Hugging Face.
 
----
+**[▶ Try the live demo](https://huggingface.co/spaces/Feyerade/german-support-llm-demo)**
 
+---
 ## Overview
 
 This project fine-tunes a 7B-parameter LLM on a minimal synthetic dataset of 28 German customer support examples using **QLoRA** — intentionally scoped for style and format adaptation rather than factual knowledge transfer. 
