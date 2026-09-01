@@ -40,42 +40,72 @@ Student base: `meta-llama/Llama-3.2-1B-Instruct` (Meta, Llama 3.2 Community Lice
 
 ## Results
 
-- Evaluation runs all three models on 60 German customer-support queries and scores each response with Claude Haiku as a blind LLM judge (4 binary criteria).
-- The queries were scored on the the presence of: The presence of a leading sentence (acknowledgement), the presence of clear, numbered list of steps, the presence of a closing sentence, and overall professional tone.
-- Full methodology in `notebooks/05-evaluation.ipynb`.
+- Evaluation runs all three models on 120 German customer-support queries and scores each response with Claude Haiku as a blind LLM judge (4 binary criteria).
+- Scored criteria: an opening acknowledgement, a clearly numbered list of steps, a closing sentence, and overall professional tone.
+- Three queries are excluded because the teacher response degenerated into a runaway enumeration, leaving 117 queries in the analysis.
+- Judging is in `notebooks/05-evaluation.ipynb`, all analysis in `notebooks/06-statistical-analysis.ipynb`.
+
+**Table 1: Overview over general score distributions**
 
 | Metric                 | Base (1B) | Teacher (7B + LoRA) | Student (1B distilled) |
 |------------------------|---|---|---|
-| Avg Format Score (0–4) | 2.57 | 3.47 | 3.30 |
-| Acknowledgement        | 88.3% | 71.7% | 93.3% |
-| Structured Steps       | 60.0% | 88.3% | 73.3% |
-| Closing Sentence       | 53.3% | 96.7% | 95.0% |
-| Professional Tone      | 55.0% | 90.0% | 68.3% |
-| Avg Word Count         | 99.9 | 68.5 | 69.0 |
-| Avg Tokens/sec (T4)    | 43.2 | 16.0 | 43.2 |
-| Peak VRAM (4-bit)      | 1.14 GB | 4.67 GB | 1.14 GB |
+| Avg Format Score (0–4) | 2.09 | 3.50 | 3.27 |
+| Acknowledgement        | 70.1% | 75.2% | 89.7% |
+| Structured Steps       | 54.7% | 85.5% | 71.8% |
+| Closing Sentence       | 31.6% | 95.7% | 94.0% |
+| Professional Tone      | 53.0% | 94.0% | 71.8% |
+| Avg Word Count         | 79.0 | 63.7 | 58.0 |
+| Avg Tokens/sec (T4)    | 45.3 | 15.8 | 45.3 |
+| Peak VRAM (4-bit)      | 1.15 GB | 4.68 GB | 1.15 GB |
+
+### Agreement with the teacher
+
+Compliance rates alone are hard to read: not every query warrants a numbered list, so the ideal rate is unknown.   
+The analysis therefore takes the teacher as the reference and measures, query by query, whether a model makes the same call. This method has a known maximum of 100% (completely agree with teacher) and is comparable across criteria.  Paired over 117 queries.
+
+**Table 2: How close is the student to the teacher?**
+
+| Criterion | Student agrees | 95% CI | Student only applied rule | Teacher only applied rule |
+|---|---|---|---|---|
+| Acknowledgement  | 73.5% | [64.9%, 80.7%] | 24 | 7 |
+| Structured Steps | 69.2% | [60.4%, 76.9%] | 10 | 26 |
+| Closing Sentence | 91.5% | [85.0%, 95.3%] | 4 | 6 |
+| Professional Tone| 69.2% | [60.4%, 76.9%] | 5 | 31 |
+
+The last two columns count the queries where the two disagree, split by direction.
+
+**Table 3: Is the student closer to the teacher than the untrained base model?**
+
+| Criterion | Base agrees | Student agrees | Difference | 95% CI | Informative | p (Holm) |
+|---|---|---|---|---|---|---|
+| Acknowledgement  | 59.0% | 73.5% | +14.5 pp | [+6.0, +23.1] | 31 | 0.010 |
+| Structured Steps | 59.0% | 69.2% | +10.3 pp | [−1.7, +22.2] | 52 | 0.126 |
+| Closing Sentence | 30.8% | 91.5% | +60.7 pp | [+50.4, +70.1] | 77 | <0.001 |
+| Professional Tone| 55.6% | 69.2% | +13.7 pp | [+3.4, +23.9] | 38 | 0.028 |
+
+"Informative" counts the queries where exactly one of the two models matched the teacher. Only those carry information about a difference, and the test uses only those. Intervals are bootstrap intervals over queries, tests are exact McNemar with Holm correction across the four criteria.
 
 ### **Key findings**
-**Overall Scores**
-- The student (3.30) and teacher (3.47) both score substantially above the untrained base (2.57) on the 0–4 format scale.
 
-**Acknowledgement** 
-- The score is highest in the student (93.3%), even above the teacher (71.7%). 
-- The base Llama 3.2 1B already opens empathetically by default (88.3%) — the teacher's stricter format prompt appears to suppress this (71.7%), as the model prioritises jumping into the numbered steps. The student retains the base's natural opener while also absorbing the teacher's structure, combining the best of both (93.3%).
+**Format transfer works at a fraction of the cost**
+- The student reaches 3.27 of the teacher's 3.50 format score, at 45.3 tokens/sec on 1.15 GB against 15.8 tokens/sec on 4.68 GB.
 
-**Closing sentence** 
-- A closing sentence was included very reliably in student responses (95.0%) and teacher responses (96.7%), while being far less common in base responses (only present in 53.3%). 
-- This is the largest single gain across all criteria from base to student (+41.7 percentage points).
+**Closing sentences transfer almost completely**
+- 91.5% agreement with the teacher, 60.7 percentage points above the base model.
+- The largest and most reliable effect in the evaluation, resting on 77 informative queries.
 
-**Structured steps** 
-- Transfer is partial (73.3% vs 88.3% teacher) — the expected trade-off at a 7:1 parameter ratio. Still a meaningful gain over the 60.0% base.
+**Professional tone and structured steps transfer only partially**
+- Both sit at 69.2% agreement with the teacher (table 2).
+- Both deviate in one direction: the student omits the behaviour where the teacher applies it, 31 times for tone and 26 times for structured steps, rather than over-applying it (table 2).
+- These two failures are what a further training round would need to target.
 
-**Professional Tone**
-- The student (68.3%) shows a clear gain over the base (55.0%), but falls furthest from the teacher (90.0%) on this criterion.
-- Tone is a subtle, distributed property — harder to absorb from 232 training examples than structural features like closing sentences or numbered steps.
+**Acknowledgement goes the other way**
+- The student opens empathetically more often than the teacher (table 1: 89.7% against 75.2%).
+- With the same system prompt, the base model already produces an opener in 70.1% of responses, close to the teacher's own 75.2% (table 1). The student keeps that habit and adds the teacher's structure on top.
 
-**Speed and VRAM**
-- The student runs at 43.2 tok/s on 1.14 GB VRAM — 2.7× faster and 75% lighter than the 7B teacher — while remaining within 0.17 format points of the teacher.
+**Structured steps are not statistically established**
+- The improvement over the base model is +10.3 percentage points, but the interval runs from −1.7 to +22.2 (table 3).
+- The data cannot separate a real gain from none. Reported as inconclusive rather than smoothed over.
 
 ---
 
@@ -84,21 +114,22 @@ Student base: `meta-llama/Llama-3.2-1B-Instruct` (Meta, Llama 3.2 Community Lice
 ```
 distil-support-llm/
 ├── notebooks/
-│   ├── 01-teacher-finetuning.ipynb     # QLoRA fine-tuning of the teacher model
-│   ├── 02-data-generation.ipynb        # Teacher generates the distillation dataset
-│   ├── 03-student-distillation.ipynb   # Student training on teacher outputs
-│   ├── 04-inference.ipynb              # Runs all three models on 60 evaluation queries
-│   ├── 05-evaluation.ipynb             # LLM judge + analysis + summary table (local)
-│   └── 05-evaluation-kaggle.ipynb      # Kaggle version — loads data from HuggingFace Hub
+│   ├── 01-teacher-finetuning.ipynb      # QLoRA fine-tuning of the teacher model
+│   ├── 02-data-generation.ipynb         # Teacher generates the distillation dataset
+│   ├── 03-student-distillation.ipynb    # Student training on teacher outputs
+│   ├── 04-inference.ipynb               # Runs all three models on 120 evaluation queries
+│   ├── 05-evaluation.ipynb              # LLM judge scoring only
+│   └── 06-statistical-analysis.ipynb    # All analysis: overview, agreement, tests
 ├── results/
-│   ├── raw_generations_base.json       # 60 base model responses with token/timing metadata
-│   ├── raw_generations_teacher.json    # 60 teacher responses with token/timing metadata
-│   ├── raw_generations_student.json    # 60 student responses with token/timing metadata
-│   ├── vram_measurements.json          # Peak VRAM per model recorded during nb04
-│   ├── judge_scores.json               # 180 LLM judge scores (4 binary criteria × 60 queries × 3 models)
-│   ├── eval_summary.json               # Aggregated metrics per model (feeds the README table)
-│   ├── eval_metadata.json              # Evaluation config: judge model, date, generation params
-│   └── teacher_generated_data.json     # 232 teacher-generated distillation examples from nb02
+│   ├── raw_generations_base.json        # 120 base model responses with token/timing metadata
+│   ├── raw_generations_teacher.json     # 120 teacher responses with token/timing metadata
+│   ├── raw_generations_student.json     # 120 student responses with token/timing metadata
+│   ├── vram_measurements.json           # Peak VRAM per model recorded during nb04
+│   ├── judge_scores.json                # 360 LLM judge scores (4 binary criteria × 120 queries × 3 models)
+│   ├── eval_summary.json                # Aggregated metrics per model (feeds the README table)
+│   ├── agreement_summary.json           # Agreement analysis with intervals, tests and settings
+│   ├── eval_metadata.json               # Evaluation config: judge model, date, generation params
+│   └── teacher_generated_data.json      # 232 teacher-generated distillation examples from nb02
 └── requirements.txt
 ```
 
@@ -136,15 +167,18 @@ On Windows (PowerShell): `$env:HF_TOKEN = "your_token"` / `$env:ANTHROPIC_API_KE
 
 ## Notebooks
 
-Each notebook is self-contained and runs sequentially. Notebooks 1–4 require a GPU; Notebook 5 can run on CPU.
+Each notebook is self-contained and runs sequentially. Notebooks 1 to 4 require a GPU, Notebooks 5 and 6 run on CPU.
 
 | Notebook | Description | GPU required |
 |---|---|---|
 | `01-teacher-finetuning` | Fine-tunes the teacher model with QLoRA | Yes |
 | `02-data-generation` | Generates distillation dataset via teacher inference | Yes |
 | `03-student-distillation` | Trains the student on teacher-generated data | Yes |
-| `04-inference` | Runs all three models on 60 evaluation queries | Yes |
-| `05-evaluation` | LLM judge scoring, analysis, and summary table | No |
+| `04-inference` | Runs all three models on 120 evaluation queries | Yes |
+| `05-evaluation` | LLM judge scoring, writes `judge_scores.json` | No |
+| `06-statistical-analysis` | Overview table, agreement analysis, tests | No |
+
+Scoring and analysis are separate so that adding an analysis never requires paying for a new judge run.
 
 All training notebooks were developed and run on **Kaggle** (T4 GPU, 16 GB VRAM).  
 [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/work/collections/18299508)
@@ -172,6 +206,10 @@ All training notebooks were developed and run on **Kaggle** (T4 GPU, 16 GB VRAM)
 - **Synthetic data only:** All training data is synthetically generated. No real customer interactions were used.
 - **Distillation method:** Sequence-level KD does not transfer the teacher's uncertainty or soft label information. Quality ceiling is the teacher's generation quality.
 - **Hardware dependency:** Training requires a CUDA GPU; not reproducible on CPU.
+- **Excluded queries:** Three of 120 queries were dropped because the teacher response collapsed into a repeating enumeration, which makes it useless as a reference. The exclusion was decided from the teacher responses alone, before any comparison was run.
+- **Agreement is not quality:** The analysis measures whether the student makes the same formatting decision as the teacher, not whether that decision was correct. A student copying a weak teacher habit counts as success here. The judge scores form, not factual accuracy.
+- **What the agreement rates support:** The student's agreement sits close to what its overall application rates alone would produce. The evidence supports "the student adopted the teacher's formatting behaviour", not "the student reproduces the teacher's decisions query by query".
+- **Single judge:** One scoring pass by one model at temperature 0. Reproducible, but not validated against a second rater.
 
 ---
 

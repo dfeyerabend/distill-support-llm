@@ -1,35 +1,35 @@
 [
   {
     "model_label": "base",
-    "format_score_mean": 2.57,
-    "acknowledgement_pct": 88.3,
-    "structured_steps_pct": 60.0,
-    "closing_pct": 53.3,
-    "tone_pct": 55.0,
-    "word_count_mean": 99.9,
-    "tokens_per_sec_mean": 43.2,
-    "vram_peak_gb": 1.14
+    "format_score_mean": 2.09,
+    "acknowledgement_pct": 70.1,
+    "structured_steps_pct": 54.7,
+    "closing_pct": 31.6,
+    "tone_pct": 53.0,
+    "word_count_mean": 79.0,
+    "tokens_per_sec_mean": 45.3,
+    "vram_peak_gb": 1.15
   },
   {
     "model_label": "teacher",
-    "format_score_mean": 3.47,
-    "acknowledgement_pct": 71.7,
-    "structured_steps_pct": 88.3,
-    "closing_pct": 96.7,
-    "tone_pct": 90.0,
-    "word_count_mean": 68.5,
-    "tokens_per_sec_mean": 16.0,
-    "vram_peak_gb": 4.67
+    "format_score_mean": 3.5,
+    "acknowledgement_pct": 75.2,
+    "structured_steps_pct": 85.5,
+    "closing_pct": 95.7,
+    "tone_pct": 94.0,
+    "word_count_mean": 63.7,
+    "tokens_per_sec_mean": 15.8,
+    "vram_peak_gb": 4.68
   },
   {
     "model_label": "student",
-    "format_score_mean": 3.3,
-    "acknowledgement_pct": 93.3,
-    "structured_steps_pct": 73.3,
-    "closing_pct": 95.0,
-    "tone_pct": 68.3,
-    "word_count_mean": 69.0,
-    "tokens_per_sec_mean": 43.2,
-    "vram_peak_gb": 1.14
+    "format_score_mean": 3.27,
+    "acknowledgement_pct": 89.7,
+    "structured_steps_pct": 71.8,
+    "closing_pct": 94.0,
+    "tone_pct": 71.8,
+    "word_count_mean": 58.0,
+    "tokens_per_sec_mean": 45.3,
+    "vram_peak_gb": 1.15
   }
 ]
